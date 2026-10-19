@@ -1,16 +1,1 @@
-{
-  "id": "./",
-  "name": "Langkah English",
-  "short_name": "Langkah",
-  "description": "Belajar bahasa Inggris dari dasar, dengan penjelasan Indonesia.",
-  "lang": "id",
-  "start_url": "./index.html#home",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f6f5ef",
-  "theme_color": "#123f3c",
-  "icons": [
-    {"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
-    {"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
-  ]
-}
+{"name":"Langkah English","short_name":"Langkah","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f5f4ee","theme_color":"#203e38","lang":"id","icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml"}]}

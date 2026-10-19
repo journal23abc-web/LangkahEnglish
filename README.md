@@ -1,107 +1,88 @@
 # Langkah English
 
-Website belajar bahasa Inggris untuk orang Indonesia yang memulai dari nol. Paket ini berisi seluruh kode dan materi; tidak membutuhkan akun, API key, backend, atau proses build.
+Satu aplikasi dengan satu `index.html` dan dua modul:
 
-## Mulai memakai
+- **Grammar:** 123 pelajaran, 615 latihan inti, kosakata, dan percakapan awal. Memakai pembaruan bahasa sederhana.
+- **IELTS Writing:** Academic Task 1 dan Task 2, 20 pelajaran, 16 tugas menulis, draf, revisi, catatan salah, dan simulasi. Menggunakan IELTS 19 Academic sebagai buku utama.
 
-Ekstrak ZIP, masuk ke folder `langkah-english`, lalu buka `index.html` di browser. Untuk penggunaan rutin dan dukungan cache offline, gunakan GitHub Pages atau server lokal.
+## Buka aplikasi
 
-Opsional, dari folder website:
+Ekstrak ZIP seluruhnya, lalu buka `index.html` pada folder paling luar. Modul dibuka di dalam aplikasi yang sama. Pilihan di kanan atas memindahkan modul; **Semua modul** membuka beranda bersama.
+
+Paket tidak memerlukan npm, API key, akun, atau proses build. Materi disimpan terpisah sebagai JavaScript, CSS, dan gambar agar mudah dikembangkan. Satu HTML di sini berarti satu pintu masuk aplikasi, bukan menumpuk seluruh materi dan gambar ke dalam satu berkas raksasa.
+
+Untuk penggunaan rutin, pakai alamat tetap seperti GitHub Pages. Dari folder ini, server lokal juga dapat dipakai:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Lalu buka `http://localhost:8080/`. Website tidak memakai layanan Python; perintah ini hanya menyajikan file statis.
+Lalu buka `http://localhost:8080/`. Aplikasi tidak memerlukan layanan Python untuk menjalankan latihan; server ini hanya menyajikan file.
 
-## Hosting di GitHub Pages
+## Perpindahan dan penyimpanan
 
-1. Buat repositori di GitHub.
-2. Upload **isi** folder `langkah-english` ke akar repositori. Pastikan `index.html`, `js`, `css`, `assets`, `sw.js`, dan `.nojekyll` berada di akar, bukan di folder tambahan.
-3. Buka **Settings → Pages → Build and deployment**.
-4. Pilih **Deploy from a branch**, cabang **main**, folder **/(root)**, lalu **Save**.
-5. Tunggu proses penerbitan dan buka alamat yang ditampilkan GitHub.
+Alamat aplikasi menyertakan nama modul, misalnya:
 
-Semua aset memakai alamat relatif; rute memakai hash (`#lesson/g001`), sehingga mendukung repositori dengan subfolder tanpa konfigurasi rute server.
+- `index.html#grammar/lesson/f01`
+- `index.html#writing/writer/b11`
 
-[Panduan resmi GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Satu router mengelola riwayat halaman. Tampilan dan kode kedua modul diisolasi dalam frame internal yang kerangkanya berasal dari `entry.js`, sehingga nama elemen, gaya, dan fungsi modul tidak saling menimpa. Tidak ada HTML tambahan yang harus dibuka pengguna.
 
-## Isi aplikasi
+Kunci data Grammar memakai `langkah-english-v1:` ditambah folder aplikasi utama, sama dengan versi Grammar lama jika alamat situsnya dipertahankan. Writing memakai `langkah-writing-v1:` ditambah folder utama yang sama. Keduanya berbeda, sehingga draf Writing tidak menimpa progres Grammar.
 
-- 8 pelajaran Titik nol + 115 pelajaran tata bahasa dalam 9 tahap.
-- 615 soal inti: makna, pilihan pola, isian, susun kata, dan tulisan dengan bank kata.
-- Umpan balik Indonesia, penjelasan kesalahan, petunjuk, dan kesempatan memperbaiki jawaban.
-- 161 kosakata dengan audio perangkat dan kartu ingatan.
-- 8 misi percakapan, 9 latihan Campur pola, diagnostik 12 soal, dan sesi mendengar 5 frasa.
-- Ringkasan asli untuk 7 kelompok lampiran, termasuk 40 kata kerja tidak beraturan.
-- Pengulangan berjarak, target harian, streak, XP, dan cadangan JSON.
-- Semua pelajaran terbuka; pengguna tidak perlu membeli atau menunggu untuk membuka materi.
+Data Writing dari folder `langkah-writing/` di dalam atau di samping folder aplikasi akan disalin jika satu sumber lama ditemukan pada browser dan asal situs yang sama. Sumber lama tidak dihapus. Jika ada beberapa sumber, atau browser memisahkan penyimpanan file lokal, gunakan cadangan secara manual. Pemindahan antarperangkat atau antarasal situs juga memerlukan file cadangan.
 
-## Audio dan offline
+Timer Writing menggunakan waktu berakhir yang tersimpan. Berpindah ke Grammar tidak otomatis menjeda waktu. Saat kembali ke Writing, sisa waktu dihitung dari jam perangkat.
 
-Audio menggunakan Speech Synthesis di browser. Suara Inggris lokal diutamakan. Suara daring hanya dipakai jika pengguna mengizinkannya di Progres; penyedia suara browser dapat menerima teks. Kualitas, suara, dan dukungan berbeda antargawai. Tidak ada rekaman audio manusia dalam paket.
+## Satu cadangan untuk seluruh aplikasi
 
-Jika suara Inggris tidak ada, contoh tetap dapat dibaca dan sesi mendengar bisa memakai teks bantuan. Aplikasi tidak menggunakan mikrofon dan tidak menilai pengucapan otomatis.
+Di **Cadangan & hasil**, kamu dapat:
 
-Service worker menyimpan 10 aset aplikasi setelah instalasi berhasil melalui HTTPS/localhost. Materi tidak membutuhkan internet setelah cache tersedia. Suara daring dan tautan sumber dapat memerlukan internet. Mode `file://` tidak memasang service worker.
+- Mengunduh satu cadangan semua modul.
+- Mengunduh cadangan modul tertentu yang kompatibel dengan format modulnya.
+- Memulihkan cadangan gabungan atau cadangan Grammar/Writing dari paket lama.
 
-## Progres dan penilaian
+Data yang dipulihkan diperiksa dengan validator masing-masing modul sebelum penyimpanan dimulai. Nama modul yang akan diganti ditampilkan dalam konfirmasi. Modul lain tetap tersimpan. Jika penulisan gagal, aplikasi mencoba mengembalikan data sebelumnya dan melaporkan apabila pemulihan itu gagal.
 
-Progres tersimpan dalam `localStorage`, terpisah berdasarkan folder situs. Browser/perangkat lain tidak otomatis memiliki progres yang sama. Gunakan **Progres → Unduh cadangan / Impor JSON** untuk memindahkannya. Membersihkan data browser atau mode privat bisa menghilangkan progres.
+Pemulihan Writing mengembalikan timer dalam keadaan jeda. Setelah memulihkan, muat ulang modul pada tab lain jika ada. File cadangan memuat tulisan dan catatan pribadi; simpan atau bagikan sesuai kebutuhanmu.
 
-Nilai pelajaran memakai jawaban pertama dari lima soal. Bantuan atau jawaban salah mendapat nilai awal nol untuk soal itu; pengguna tetap memperbaikinya untuk lanjut. Nilai terbaik disimpan tanpa mengganti nilai sesi pertama. Mengulang pelajaran tidak memberikan XP pelajaran baru atau menunda jadwal pengulangan.
+## Menambah modul
 
-Pelajaran awal di bawah 80% masuk antrean hari ini; nilai 80–100% mulai besok. Pada pengulangan, jawaban pertama yang tepat memberi jeda 1, 3, 7, 14, dan 30 hari. Bantuan/kesalahan kembali besok. Ini heuristik sederhana, bukan klaim interval optimal bagi setiap orang.
+Daftar modul berada di `modules/registry.js`. Sediakan folder modul baru, `entry.js`, materi/fungsi modul, validator cadangan, dan satu objek pendaftaran. Modul mengikuti kontrak navigasi dan penyimpanan yang sama. Kode router tidak perlu ditambah dengan kasus khusus untuk setiap modul baru.
 
-“Mantap di pengulangan” berarti minimal tiga jawaban ulang pertama tepat berturut-turut. XP adalah apresiasi aktivitas, bukan ukuran kefasihan: 30 per pelajaran baru, 8 per topik ulang per hari, 10 per misi baru, dan 2 per kartu kosakata yang mulai dipelajari. Riwayat menyimpan 5.000 aktivitas terakhir; poin pengulangan tetap disimpan ketika riwayat lama dipangkas.
+Petunjuk rinci: `docs/MENAMBAH-MODUL.md`.
 
-Aktivitas pelajaran dan Campur pola dicatat setelah sesi selesai; soal pengulangan dan kartu dicatat saat dilanjutkan, misi saat respons tepat, serta mendengar setelah sesi selesai. Cek mandiri berbicara tidak menghasilkan nilai otomatis. Diagnostik tidak menetapkan tingkat CEFR.
-
-## Berkas utama
-
-| Berkas | Fungsi |
-| --- | --- |
-| `index.html` | Kerangka website dan navigasi |
-| `css/style.css` | Tampilan responsif, fokus keyboard, reduced motion, dan print |
-| `js/content.js` | Materi asli, 123 pelajaran, kosakata, misi, dan rujukan |
-| `js/core.js` | Penilaian, jadwal, validasi cadangan, tanggal lokal, dan poin |
-| `js/app.js` | Tampilan dan interaksi aplikasi |
-| `sw.js` | Cache offline yang dibatasi folder situs |
-| `manifest.webmanifest` | Metadata pemasangan aplikasi |
-| `docs/SUMBER-DAN-CAKUPAN.md` | Catatan membaca, sumber, dan peta 115 unit |
-| `docs/PENGUJIAN.md` | Hasil uji dan batas verifikasi |
-| `tests/` | Pemeriksaan mesin, aset/cache simulasi, dan alur DOM |
-
-## Mengubah materi
-
-Ubah `js/content.js`. Setiap pelajaran memiliki tiga contoh, satu soal pola, satu isian, penjelasan, dan petunjuk. Mesin menghasilkan lima soal dari data itu. Isian bisa mempunyai beberapa jawaban yang sah. Untuk mengubah jumlah soal, sesuaikan mesin dan validator yang saat ini mengharapkan lima soal.
-
-Pertahankan ID pelajaran agar cadangan lama tetap cocok. Perubahan struktur progres memerlukan versi baru dan migrasi yang diuji. Materi buku sumber tidak disertakan; gunakan contoh dan latihan baru saat menambah isi.
-
-Setelah mengubah aset, naikkan `VERSION` di `sw.js`. Versi baru akan aktif ketika tab lama tidak lagi memakai service worker sebelumnya; tutup tab lama, lalu buka lagi. Jangan menambahkan PDF sumber atau cadangan progres pribadi ke repositori publik.
-
-## Pemeriksaan pengembang (opsional)
-
-Website produksi tidak membutuhkan npm. Tes mesin dan aset hanya memakai Node.js:
+Setelah menambah atau mengubah aset, jalankan:
 
 ```bash
-node tests/check.cjs
-node tests/static.cjs
+python3 tools/build_cache.py
 ```
 
-Tes DOM membutuhkan dependensi pengujian `jsdom`, tidak disertakan dan tidak dipakai oleh website:
+Skrip membuat ulang daftar cache dan versi berdasarkan isi aset. Hanya satu service worker di akar aplikasi yang menyimpan aset seluruh modul. Paket yang dikirim sudah memiliki daftar cache terbaru, sehingga pengguna tidak perlu menjalankan perintah ini untuk mulai belajar.
+
+## GitHub Pages
+
+Upload **isi** folder paket ini ke akar repositori atau ke satu subfolder pilihan. Pertahankan susunan `index.html`, `modules`, `js`, `css`, `assets`, `manifest.webmanifest`, dan `sw.js`. Aktifkan GitHub Pages dari cabang dan folder yang dipilih.
+
+Untuk mempertahankan progres Grammar di alamat lama, ganti isi paket pada folder situs yang sama. Unduh cadangan sebelum mengganti versi. Tutup tab versi lama lalu buka lagi agar service worker dan cache yang baru aktif. Progres berada dalam penyimpanan browser dan tidak ikut dihapus ketika cache aset versi lama dibersihkan.
+
+Saat dibuka melalui HTTPS atau localhost, aset disimpan untuk pemakaian tanpa internet setelah pemasangan cache berhasil. Pembukaan `file://` memakai file yang sudah diekstrak dan tidak memasang service worker. Perilaku penyimpanan file lokal serta frame perlu diperiksa pada browser yang dipakai.
+
+## Pengujian
+
+Jalankan dari folder proyek:
 
 ```bash
-npm install --no-save jsdom
-node tests/dom-flow.cjs
+node tests/hub.cjs
+node tests/modules.cjs
+node tests/host-flow.cjs
+node modules/grammar/tests/check.cjs
+node modules/writing/tests/check.cjs
+node modules/writing/tests/flow.cjs
 ```
 
-Gunakan Node.js yang memenuhi persyaratan versi jsdom yang dipasang. Tes DOM memakai simulasi audio/dialog/WebMCP; tes ini bukan pemeriksaan visual browser. Lihat `docs/PENGUJIAN.md` untuk hal yang masih perlu diperiksa pada perangkat nyata.
+Tes tidak membutuhkan npm. Hasil dan batas verifikasi ada di `docs/PENGUJIAN.md`. Lingkungan pengerjaan tidak memiliki browser grafis; pengujian interaksi menggunakan fixture. Tampilan dan perilaku pada browser/perangkat nyata perlu diperiksa saat digunakan.
 
-## Sumber dan batas
+## Isi dan sumber pembelajaran
 
-Topik dipetakan ke *Essential Grammar in Use with Answers*, Raymond Murphy, edisi keempat, Cambridge University Press, 2015. Penjelasan, contoh, dan soal aplikasi ditulis baru. Website independen dan tidak berafiliasi dengan penulis/penerbit. Buku sumber tidak disalin ke paket.
-
-Seluruh 318 halaman PDF yang tersedia ditelaah. Halaman PDF 241 kosong; halaman cetak 278 pada Study Guide tidak tersedia. Detailnya ada di catatan cakupan.
-
-Website membantu dasar tata bahasa, kosakata, dan praktik awal. Website tidak menggantikan semua latihan mendengarkan, interaksi manusia, tulisan bebas, atau kursus lengkap empat keterampilan; tidak memberikan sertifikat atau janji “langsung lancar”.
+Sumber dan batas tiap modul ada pada folder `docs` di dalam modul, serta menu Panduan dalam modulnya. Aplikasi tidak memberikan band IELTS otomatis atau jaminan tingkat kemampuan. Dokumen pengujian versi dasar tetap disertakan sebagai catatan; status integrasi terbaru berada di `docs/PENGUJIAN.md` pada akar paket.

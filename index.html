@@ -1,39 +1,24 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#123f3c">
-  <meta name="description" content="Belajar bahasa Inggris pelan-pelan, dengan penjelasan Indonesia, latihan pendek, dan latihan mengingat kembali.">
-  <title>Langkah English — Mulai dari satu kalimat</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/icon-192.png">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
-  <script defer src="js/content.js"></script>
-  <script defer src="js/core.js"></script>
-  <script defer src="js/app.js"></script>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#203e38">
+ <meta name="description" content="Satu tempat untuk belajar bahasa Inggris. Pilih Grammar atau IELTS Writing, lalu lanjutkan hasil belajarmu.">
+ <title>Langkah English · Pilih modul belajarmu</title>
+ <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+ <link rel="manifest" href="manifest.webmanifest">
+ <link rel="stylesheet" href="css/hub.css">
+ <script defer src="modules/registry.js"></script>
+ <script defer src="js/hub-core.js"></script>
+ <script defer src="js/hub.js"></script>
 </head>
 <body>
-  <a href="#main" class="skip">Langsung ke materi</a>
-  <div class="app-shell">
-    <aside class="sidebar" aria-label="Menu utama">
-      <a href="#home" class="brand" aria-label="Langkah English, beranda"><span class="brand-mark">L<span>↗</span></span><span>langkah<span class="brand-sub">ENGLISH</span></span></a>
-      <p class="sidebar-caption">SEDIKIT, SETIAP HARI.</p>
-      <nav id="desktop-nav"></nav>
-      <div class="sidebar-bottom"><div class="mini-label">KAMU BOLEH PELAN.</div><p>Satu kalimat hari ini,<br>lebih percaya diri besok.</p><a href="#about">Tentang materi & bantuan <span aria-hidden="true">↗</span></a></div>
-    </aside>
-    <div class="workspace">
-      <header class="topbar"><a href="#home" class="mobile-brand">langkah<span>↗</span></a><div class="topbar-note">Mulai dari satu kalimat.</div><div class="topbar-stats" id="topbar-stats"></div><a class="settings-link" href="#progress" aria-label="Buka hasil belajar dan pengaturan">Pengaturan</a></header>
-      <div id="storage-notice" class="notice" hidden></div>
-      <main id="main" tabindex="-1"></main>
-      <footer class="page-footer">Dibuat untuk belajar, bukan untuk buru-buru. <a href="#about">Panduan & sumber</a><span id="offline-status"></span></footer>
-    </div>
-  </div>
-  <nav id="mobile-nav" class="mobile-nav" aria-label="Menu ponsel"></nav>
-  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
-  <dialog id="confirm-dialog"><form method="dialog"><div class="eyebrow">KONFIRMASI</div><h2 id="dialog-title"></h2><p id="dialog-body"></p><div class="button-row"><button class="btn secondary" value="cancel">Batal</button><button class="btn danger" id="dialog-confirm" value="confirm">Lanjutkan</button></div></form></dialog>
-  <noscript><p class="notice">Aktifkan JavaScript di browser agar materi dan latihan dapat ditampilkan.</p></noscript>
+ <a class="skip" href="#main">Langsung ke isi</a>
+ <header class="header"><a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">L<span>↗</span></span><span>langkah<span class="brand-sub">ENGLISH</span></span></a><nav class="top-nav" aria-label="Menu aplikasi"><a href="#home" id="all-modules">Semua modul</a><a href="#settings">Cadangan & hasil</a><a href="#help">Panduan</a></nav><label class="module-select" for="module-switch"><span class="sr-only">Pindah modul</span><select id="module-switch"><option value="">Pilih modul</option></select></label></header>
+ <div id="storage-notice" class="notice storage" hidden role="status"></div>
+ <main id="main" tabindex="-1"></main>
+ <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
+ <noscript><p class="notice">Aktifkan JavaScript untuk memilih modul dan mengerjakan latihan.</p></noscript>
 </body>
 </html>
-
