@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='1.0.0';
+const VERSION='1.0.1';
 const PREFIX='langkah-static:'+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=['./','./index.html','./css/style.css','./js/content.js','./js/core.js','./js/app.js','./manifest.webmanifest','./assets/favicon.svg','./assets/icon-192.png','./assets/icon-512.png'];
@@ -10,3 +10,4 @@ self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET'||url.origin!==self.location.origin||!url.href.startsWith(self.registration.scope))return;
   event.respondWith(caches.match(event.request).then(hit=>hit||fetch(event.request)));
 });
+

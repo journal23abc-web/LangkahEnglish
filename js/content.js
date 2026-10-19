@@ -6,8 +6,8 @@ window.LANGKAH_CONTENT = {
       "id": "g001",
       "unit": 1,
       "title": "Aku, kamu, dan keadaan",
-      "rule": "Bahasa Inggris memakai am, is, atau are untuk menyebut identitas, keadaan, dan tempat. I memakai am; he, she, it memakai is; you, we, they memakai are.",
-      "pattern": "Subjek + am/is/are + pelengkap",
+      "rule": "Pakai am, is, atau are untuk menyebut siapa seseorang, bagaimana keadaannya, atau di mana ia berada. I memakai am; he, she, it memakai is; you, we, they memakai are.",
+      "pattern": "I am ready • Sari is a nurse • We are at home",
       "tip": "Jangan menyalin “Saya lapar” menjadi “I hungry”. Tambahkan am. I’m berarti I am.",
       "examples": [
         {
@@ -45,10 +45,10 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g002",
       "unit": 2,
-      "title": "Bertanya dengan be",
-      "rule": "Untuk bertanya dengan be, pindahkan am/is/are ke depan subjek. Jawaban singkat mengulang be. Negatif memakai not.",
-      "pattern": "Am/Is/Are + subjek + pelengkap?",
-      "tip": "Jawaban positif singkat: Yes, I am, bukan Yes, I’m. Kontraksi boleh dalam jawaban negatif: No, I’m not.",
+      "title": "Bertanya dengan am, is, atau are",
+      "rule": "Untuk bertanya, taruh am/is/are sebelum orang atau benda yang dibicarakan: You are ready menjadi Are you ready? Untuk mengatakan tidak, tambahkan not: You are not ready.",
+      "pattern": "Are you ready? • Is she busy?",
+      "tip": "Untuk menjawab ya secara singkat, tulis Yes, I am secara lengkap. Untuk menjawab tidak, boleh memakai bentuk singkat: No, I’m not.",
       "examples": [
         {
           "en": "Are you from Bali?",
@@ -64,14 +64,14 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih pertanyaan netral dengan be di depan.",
+        "prompt": "Pilih pertanyaan dengan am/is/are di depan.",
         "options": [
           "Is he a student?",
           "He is a student?",
           "Does he a student?"
         ],
         "answer": 0,
-        "why": "Dalam latihan pertanyaan netral ini, is mendahului he. Tidak perlu does."
+        "why": "Dalam latihan pertanyaan biasa ini, is mendahului he. Tidak perlu does."
       },
       "gap": {
         "prompt": "Are you ready? Yes, I ___.",
@@ -86,8 +86,8 @@ window.LANGKAH_CONTENT = {
       "id": "g003",
       "unit": 3,
       "title": "Sedang terjadi sekarang",
-      "rule": "Present continuous menyatakan kegiatan yang sedang berlangsung. Am/is/are diikuti kata kerja dengan -ing.",
-      "pattern": "Subjek + am/is/are + verb-ing",
+      "rule": "Untuk kegiatan yang sedang terjadi, pakai am/is/are lalu kata kerja berakhiran -ing. Contohnya, I am eating berarti saya sedang makan. Pola ini disebut present continuous.",
+      "pattern": "I am making tea. • Dita is reading.",
       "tip": "Sedang makan: I am eating. Keadaan seperti I know biasanya tidak memakai bentuk sedang.",
       "examples": [
         {
@@ -126,8 +126,8 @@ window.LANGKAH_CONTENT = {
       "id": "g004",
       "unit": 4,
       "title": "Pertanyaan tentang kegiatan sekarang",
-      "rule": "Dalam pertanyaan present continuous, pindahkan be ke depan. Tambahkan not setelah be untuk menyangkal.",
-      "pattern": "Is/Are + subjek + verb-ing?",
+      "rule": "Untuk bertanya tentang kegiatan yang sedang terjadi, taruh am/is/are di depan: Is he working? Untuk mengatakan tidak, tambahkan not: He is not working.",
+      "pattern": "Are you studying? • She is not sleeping.",
       "tip": "Tidak memakai do/does bersama is/are dalam pola ini. What are you doing? berarti sedang melakukan apa.",
       "examples": [
         {
@@ -166,9 +166,9 @@ window.LANGKAH_CONTENT = {
       "id": "g005",
       "unit": 5,
       "title": "Kebiasaan sehari-hari",
-      "rule": "Present simple dipakai untuk rutinitas dan fakta. Tambahkan -s atau -es pada kata kerja dengan he/she/it. I/you/we/they memakai bentuk dasar.",
+      "rule": "Untuk kebiasaan dan fakta, gunakan kata kerja seperti work atau eat. Dengan he/she/it, tambahkan -s atau -es: She works. Dengan I/you/we/they, gunakan bentuk dasar: I work. Pola ini disebut present simple.",
       "pattern": "I work • She works",
-      "tip": "Tidak perlu am/is/are sebelum kata kerja rutinitas: She works, bukan She is works.",
+      "tip": "Tidak perlu am/is/are sebelum kata kerja kebiasaan: She works, bukan She is works.",
       "examples": [
         {
           "en": "I walk to work.",
@@ -207,8 +207,8 @@ window.LANGKAH_CONTENT = {
       "unit": 6,
       "title": "Tidak melakukan suatu kebiasaan",
       "rule": "Gunakan do not/don’t dengan I/you/we/they dan does not/doesn’t dengan he/she/it. Kata kerja sesudahnya kembali ke bentuk dasar.",
-      "pattern": "Subjek + don’t/doesn’t + verb",
-      "tip": "Doesn’t sudah membawa penanda orang ketiga. Jangan menambahkan -s lagi pada kata kerjanya.",
+      "pattern": "I do not drink coffee. • Ayu does not drive.",
+      "tip": "Sesudah doesn’t, gunakan kata kerja tanpa -s: She doesn’t eat, bukan She doesn’t eats.",
       "examples": [
         {
           "en": "I do not drink coffee.",
@@ -224,7 +224,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih bentuk negatif yang benar.",
+        "prompt": "Pilih kalimat yang menyatakan tidak.",
         "options": [
           "He does not eat meat.",
           "He does not eats meat.",
@@ -248,9 +248,9 @@ window.LANGKAH_CONTENT = {
       "id": "g007",
       "unit": 7,
       "title": "Bertanya tentang kebiasaan",
-      "rule": "Pertanyaan rutinitas memakai do/does di depan subjek. Sesudahnya kata kerja berbentuk dasar. Jawaban singkat mengulang do/does.",
-      "pattern": "Do/Does + subjek + verb?",
-      "tip": "Are you work? salah untuk pola rutinitas. Gunakan Do you work? Tetapi Are you tired? memakai be.",
+      "rule": "Pertanyaan kebiasaan memakai do/does di depan subjek. Sesudahnya kata kerja berbentuk dasar. Jawaban singkat mengulang do/does.",
+      "pattern": "Do you speak English? • Does Lina work here?",
+      "tip": "Are you work? salah untuk pola kebiasaan. Gunakan Do you work? Tetapi Are you tired? memakai be.",
       "examples": [
         {
           "en": "Do you speak English?",
@@ -288,9 +288,9 @@ window.LANGKAH_CONTENT = {
       "id": "g008",
       "unit": 8,
       "title": "Kebiasaan atau sedang?",
-      "rule": "Present simple menjelaskan kebiasaan. Present continuous menjelaskan kegiatan yang berlangsung sekarang atau sementara. Makna konteks menentukan pilihan.",
+      "rule": "Untuk kebiasaan, gunakan pola seperti I cook (present simple). Untuk kegiatan yang sedang terjadi atau berlangsung sementara, gunakan I am cooking (present continuous). Pilih sesuai maksud kalimat.",
       "pattern": "Every day: I cook • Now: I am cooking",
-      "tip": "Know, like, want, dan need biasanya memakai simple, bahkan ketika berlaku sekarang.",
+      "tip": "Know, like, want, dan need biasanya tidak memakai bentuk sedang. Contohnya, I know, bukan I am knowing.",
       "examples": [
         {
           "en": "I usually ride a bike.",
@@ -328,7 +328,7 @@ window.LANGKAH_CONTENT = {
       "id": "g009",
       "unit": 9,
       "title": "Punya: have atau have got",
-      "rule": "I/you/we/they have; he/she/it has. Untuk kepemilikan, have got juga bisa dipakai. Pilih satu sistem pertanyaan dan negatif secara konsisten.",
+      "rule": "Untuk mengatakan punya, pakai have dengan I/you/we/they dan has dengan he/she/it. Have got juga berarti punya. Saat bertanya atau mengatakan tidak, ikuti salah satu pola pada contoh tanpa mencampurnya.",
       "pattern": "Do you have…? • Have you got…?",
       "tip": "Does she have a bike? dan Has she got a bike? benar. Jangan mencampurnya menjadi Does she have got…?",
       "examples": [
@@ -346,7 +346,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih pertanyaan kepemilikan yang benar.",
+        "prompt": "Pilih pertanyaan untuk menanyakan apa yang dimiliki.",
         "options": [
           "Does he have a phone?",
           "Does he has a phone?",
@@ -408,8 +408,8 @@ window.LANGKAH_CONTENT = {
       "id": "g011",
       "unit": 11,
       "title": "Kegiatan yang sudah selesai",
-      "rule": "Past simple menyebut kejadian yang selesai di masa lalu. Banyak kata kerja memakai -ed; sebagian tidak beraturan, seperti go menjadi went.",
-      "pattern": "Subjek + verb bentuk lampau",
+      "rule": "Untuk kejadian yang sudah selesai di masa lalu, gunakan kata kerja bentuk lampau. Banyak kata mendapat -ed, seperti clean menjadi cleaned. Sebagian berubah dengan cara lain, seperti go menjadi went. Pola ini disebut past simple.",
+      "pattern": "I visited my aunt yesterday. • Bima went to Bandung.",
       "tip": "Penanda waktu yang sudah selesai, seperti yesterday, cocok dengan past simple. Pelajari bentuk tidak beraturan sedikit demi sedikit.",
       "examples": [
         {
@@ -447,9 +447,9 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g012",
       "unit": 12,
-      "title": "Pertanyaan dan negatif masa lalu",
-      "rule": "Gunakan did untuk pertanyaan kegiatan lampau dan did not/didn’t untuk negatif. Kata kerja utama kembali ke bentuk dasar.",
-      "pattern": "Did + subjek + verb? • didn’t + verb",
+      "title": "Bertanya dan mengatakan tidak di masa lalu",
+      "rule": "Untuk bertanya tentang kegiatan di masa lalu, gunakan did. Untuk mengatakan tidak, gunakan did not atau didn’t. Setelah itu, pakai kata kerja bentuk dasar: Did you go? dan I didn’t go.",
+      "pattern": "Did you call Rani? • I did not see him.",
       "tip": "Did you go? benar. Did you went? memakai penanda lampau dua kali. Was/were tidak memakai did.",
       "examples": [
         {
@@ -466,7 +466,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih bentuk negatif lampau.",
+        "prompt": "Pilih kalimat yang menyatakan tidak melakukan sesuatu di masa lalu.",
         "options": [
           "He did not buy it.",
           "He did not bought it.",
@@ -488,8 +488,8 @@ window.LANGKAH_CONTENT = {
       "id": "g013",
       "unit": 13,
       "title": "Sedang, pada waktu lampau",
-      "rule": "Past continuous menggambarkan kegiatan yang sedang berlangsung pada suatu waktu di masa lalu.",
-      "pattern": "Subjek + was/were + verb-ing",
+      "rule": "Untuk kegiatan yang sedang berlangsung pada suatu waktu di masa lalu, pakai was/were lalu kata kerja berakhiran -ing. I was eating berarti saya sedang makan saat itu. Pola ini disebut past continuous.",
+      "pattern": "I was studying at eight. • They were playing outside.",
       "tip": "Pukul tertentu memberi titik acuan, tetapi pilih bentuk ini jika kegiatan memang sedang berlangsung pada titik itu.",
       "examples": [
         {
@@ -528,9 +528,9 @@ window.LANGKAH_CONTENT = {
       "id": "g014",
       "unit": 14,
       "title": "Kejadian menyela kegiatan",
-      "rule": "Gabungkan past continuous untuk latar kegiatan dan past simple untuk kejadian yang terjadi di tengahnya. Dua past simple bisa menyatakan urutan kejadian.",
+      "rule": "Untuk kegiatan yang sedang berlangsung di masa lalu, pakai was/were + -ing. Untuk kejadian yang menyelanya, pakai kata kerja bentuk lampau: I was cooking when the phone rang. Dua kata kerja bentuk lampau juga bisa menceritakan kejadian yang berurutan.",
       "pattern": "I was cooking when the phone rang",
-      "tip": "When tidak selalu otomatis berarti satu jenis tense. Perhatikan mana kegiatan yang berlangsung dan mana kejadian singkat.",
+      "tip": "When tidak selalu otomatis berarti satu jenis bentuk kata kerja sesuai waktu. Perhatikan mana kegiatan yang berlangsung dan mana kejadian singkat.",
       "examples": [
         {
           "en": "I was walking when it rained.",
@@ -568,8 +568,8 @@ window.LANGKAH_CONTENT = {
       "id": "g015",
       "unit": 15,
       "title": "Sudah, dan hasilnya terasa sekarang",
-      "rule": "Present perfect memakai have/has + bentuk ketiga. Fokusnya sering hasil yang masih relevan sekarang, tanpa menyebut waktu lampau yang sudah selesai.",
-      "pattern": "have/has + past participle",
+      "rule": "Pakai have/has + kata kerja bentuk ketiga untuk menghubungkan kejadian dahulu dengan keadaan sekarang. Contohnya, I have lost my key bisa berarti kuncinya masih hilang sekarang. Pola ini disebut present perfect.",
+      "pattern": "I have lost my key • She has finished",
       "tip": "I have lost my key menghubungkan kehilangan dengan keadaan sekarang. Jika menyebut yesterday, gunakan I lost my key yesterday.",
       "examples": [
         {
@@ -609,7 +609,7 @@ window.LANGKAH_CONTENT = {
       "unit": 16,
       "title": "Baru saja, sudah, belum",
       "rule": "Just berarti baru saja; already berarti sudah; yet dalam pertanyaan/negatif berarti sudah/belum sampai sekarang. Dalam present perfect, just/already biasanya di tengah dan yet di akhir.",
-      "pattern": "have just/already + V3 • haven’t + V3 + yet",
+      "pattern": "have just/already + bentuk ketiga • haven’t + bentuk ketiga + yet",
       "tip": "Yet bukan pengganti not. “Belum selesai” memakai haven’t finished yet.",
       "examples": [
         {
@@ -649,7 +649,7 @@ window.LANGKAH_CONTENT = {
       "unit": 17,
       "title": "Pernah, selama hidupmu",
       "rule": "Present perfect menyatakan pengalaman sampai sekarang tanpa waktu lampau tertentu. Ever berarti pernah; never berarti tidak pernah. Been to berarti pernah pergi dan kembali, gone to berarti pergi dan belum kembali.",
-      "pattern": "Have you ever + V3…?",
+      "pattern": "Have you ever + bentuk ketiga…?",
       "tip": "Jangan menambahkan not ke never dalam pola dasar ini. I have never tried it sudah negatif.",
       "examples": [
         {
@@ -688,9 +688,9 @@ window.LANGKAH_CONTENT = {
       "id": "g018",
       "unit": 18,
       "title": "Mulai dulu, masih berlangsung",
-      "rule": "Present perfect menghubungkan keadaan yang dimulai dahulu dengan sekarang. Untuk kegiatan yang terus berlangsung, have/has been + -ing juga sering dipakai.",
+      "rule": "Untuk keadaan yang dimulai dahulu dan masih berlangsung, pakai have/has + kata kerja bentuk ketiga: I have lived here for two years. Untuk kegiatan yang terus berlangsung, have/has been + -ing juga sering dipakai: I have been working.",
       "pattern": "have lived • have been working",
-      "tip": "I am here for two hours bukan pola untuk durasi hingga sekarang. Gunakan I have been here for two hours.",
+      "tip": "I am here for two hours bukan pola untuk lama waktu hingga sekarang. Gunakan I have been here for two hours.",
       "examples": [
         {
           "en": "I have lived here for a year.",
@@ -728,7 +728,7 @@ window.LANGKAH_CONTENT = {
       "id": "g019",
       "unit": 19,
       "title": "For, since, atau ago",
-      "rule": "For menyebut durasi; since menyebut titik mulai untuk keadaan sampai sekarang. Ago menunjukkan berapa lama sebelum sekarang dan biasanya dipakai dengan past simple.",
+      "rule": "For menyebut lama waktu; since menyebut titik mulai untuk keadaan sampai sekarang. Ago menunjukkan berapa lama sebelum sekarang dan biasanya dipakai dengan past simple.",
       "pattern": "for two days • since Monday • two days ago",
       "tip": "Sejak Senin = since Monday. Selama dua hari = for two days. Dua hari lalu = two days ago.",
       "examples": [
@@ -770,7 +770,7 @@ window.LANGKAH_CONTENT = {
       "title": "Pengalaman atau waktu yang selesai?",
       "rule": "Present perfect melihat hubungan dengan sekarang tanpa waktu lampau tertentu. Past simple cocok untuk kejadian pada waktu yang sudah selesai, seperti last night atau in 2021.",
       "pattern": "Have you seen it? • Did you see it yesterday?",
-      "tip": "Kata already tidak sendirian menentukan tense. Konteks waktu dan pilihan ragam bahasa juga penting.",
+      "tip": "Already berarti sudah, tetapi kata itu saja tidak menentukan bentuk kata kerja. Perhatikan waktu kejadian dan apakah kamu memakai bahasa Inggris Britania atau Amerika.",
       "examples": [
         {
           "en": "I have read this book.",
@@ -809,7 +809,7 @@ window.LANGKAH_CONTENT = {
       "unit": 21,
       "title": "Fokus pada yang dikenai tindakan",
       "rule": "Kalimat pasif berfokus pada benda/orang yang dikenai tindakan. Gunakan be + bentuk ketiga; be menentukan waktu dan jumlah. Pelaku bisa ditambahkan dengan by.",
-      "pattern": "is/are/was/were + V3",
+      "pattern": "is/are/was/were + bentuk ketiga",
       "tip": "The shop is opened at seven membahas tindakan membuka secara rutin; The shop is open menyatakan keadaan terbuka.",
       "examples": [
         {
@@ -848,7 +848,7 @@ window.LANGKAH_CONTENT = {
       "id": "g022",
       "unit": 22,
       "title": "Pasif: sedang dan sudah",
-      "rule": "Pasif sedang berlangsung memakai is/are being + V3. Pasif yang telah terjadi dan relevan sekarang memakai has/have been + V3.",
+      "rule": "Pasif sedang berlangsung memakai is/are being + bentuk ketiga. Pasif yang telah terjadi dan berhubungan dengan keadaan sekarang memakai has/have been + bentuk ketiga.",
       "pattern": "is being repaired • has been repaired",
       "tip": "Being dan been berbeda: being untuk proses sedang; been sesudah has/have untuk perfect.",
       "examples": [
@@ -887,9 +887,9 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g023",
       "unit": 23,
-      "title": "Be, have, dan do sebagai pembantu",
-      "rule": "Be membantu bentuk -ing dan pasif; have membantu perfect; do membantu pertanyaan/negatif present dan past simple. Perhatikan kata kerja sesudah pembantunya.",
-      "pattern": "be + -ing/V3 • have + V3 • do + verb",
+      "title": "Memakai be, have, dan do",
+      "rule": "Be (misalnya am/is/are) dipakai dalam pola seperti is working dan is cleaned. Have/has dipakai dalam pola seperti has worked. Do/does/did membantu membuat pertanyaan atau kalimat dengan not, seperti Does she work? Perhatikan pasangan katanya.",
+      "pattern": "is working • is cleaned • has worked • does work",
       "tip": "Is she working?, Has she worked?, dan Does she work? berbeda makna dan pola. Jangan saling menukar pembantu.",
       "examples": [
         {
@@ -906,7 +906,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih pembantu untuk pertanyaan pengalaman.",
+        "prompt": "Pilih kata bantu untuk bertanya apakah pernah mencoba.",
         "options": [
           "Have you tried it?",
           "Do you tried it?",
@@ -968,7 +968,7 @@ window.LANGKAH_CONTENT = {
       "id": "g025",
       "unit": 25,
       "title": "Rencana yang sudah diatur",
-      "rule": "Present continuous bisa menyatakan pengaturan masa depan yang sudah konkret, misalnya janji bertemu. Present simple juga dipakai untuk jadwal resmi.",
+      "rule": "Present continuous bisa menyatakan pengaturan masa depan yang sudah jelas, misalnya janji bertemu. Present simple juga dipakai untuk jadwal resmi.",
       "pattern": "I am meeting her tomorrow • The train leaves at six",
       "tip": "Keterangan tomorrow tidak mengubah rumus am/is/are + -ing. Konteksnya yang memberi makna masa depan.",
       "examples": [
@@ -993,7 +993,7 @@ window.LANGKAH_CONTENT = {
           "I am see the dentist tomorrow."
         ],
         "answer": 0,
-        "why": "Pengaturan konkret bisa memakai am seeing + waktu masa depan."
+        "why": "Pengaturan jelas bisa memakai am seeing + waktu masa depan."
       },
       "gap": {
         "prompt": "She is ___ us tonight. (visit)",
@@ -1008,8 +1008,8 @@ window.LANGKAH_CONTENT = {
       "id": "g026",
       "unit": 26,
       "title": "Niat dan perkiraan dari bukti",
-      "rule": "Be going to + bentuk dasar menyatakan niat/rencana, atau prediksi berdasarkan bukti sekarang.",
-      "pattern": "am/is/are going to + verb",
+      "rule": "Be going to + bentuk dasar menyatakan niat/rencana, atau perkiraan berdasarkan bukti sekarang.",
+      "pattern": "am/is/are going to + kata kerja",
       "tip": "Sesudah to gunakan bentuk dasar. Bentuk negatif menaruh not setelah be.",
       "examples": [
         {
@@ -1047,9 +1047,9 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g027",
       "unit": 27,
-      "title": "Will: prediksi masa depan",
-      "rule": "Will + bentuk dasar bisa menyatakan prediksi dan fakta tentang masa depan. Bentuk negatifnya will not/won’t; pertanyaan memindahkan will ke depan.",
-      "pattern": "will + verb • won’t + verb",
+      "title": "Will: perkiraan masa depan",
+      "rule": "Will + bentuk dasar bisa menyatakan perkiraan dan fakta tentang masa depan. Bentuk negatifnya will not/won’t; pertanyaan memindahkan will ke depan.",
+      "pattern": "will + kata kerja • won’t + kata kerja",
       "tip": "He will goes salah. Will sama untuk semua subjek dan diikuti bentuk dasar.",
       "examples": [
         {
@@ -1066,7 +1066,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih bentuk negatif will.",
+        "prompt": "Pilih kalimat dengan will not.",
         "options": [
           "He will not come.",
           "He will not comes.",
@@ -1129,7 +1129,7 @@ window.LANGKAH_CONTENT = {
       "unit": 29,
       "title": "Mungkin terjadi",
       "rule": "Might dan may + bentuk dasar menyatakan kemungkinan. May juga dipakai untuk izin formal. Negatif kemungkinan memakai might not/may not.",
-      "pattern": "might/may + verb",
+      "pattern": "might/may + kata kerja",
       "tip": "Might bukan kepastian. I might come berarti mungkin datang, sehingga tidak sama dengan I will come.",
       "examples": [
         {
@@ -1169,7 +1169,7 @@ window.LANGKAH_CONTENT = {
       "unit": 30,
       "title": "Bisa dan permintaan sopan",
       "rule": "Can menyatakan kemampuan atau izin. Could menyatakan kemampuan umum di masa lalu dan membuat permintaan lebih sopan. Keduanya diikuti bentuk dasar.",
-      "pattern": "can/could + verb",
+      "pattern": "can/could + kata kerja",
       "tip": "Tidak memakai to sesudah can/could. Untuk bertanya, pindahkan modal: Can you help?",
       "examples": [
         {
@@ -1226,7 +1226,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Tugasnya opsional. Pilih maknanya.",
+        "prompt": "Tugasnya boleh dikerjakan, tetapi tidak wajib. Pilih kalimatnya.",
         "options": [
           "You do not need to do it.",
           "You must not do it.",
@@ -1249,7 +1249,7 @@ window.LANGKAH_CONTENT = {
       "unit": 32,
       "title": "Memberi saran",
       "rule": "Should + bentuk dasar dipakai untuk saran atau sesuatu yang dianggap sebaiknya dilakukan. Should not/shouldn’t menyatakan sebaiknya tidak. Ought to punya makna serupa.",
-      "pattern": "should + verb",
+      "pattern": "should + kata kerja",
       "tip": "Should biasanya lebih lunak daripada must. Jangan menambahkan -s atau to setelah should.",
       "examples": [
         {
@@ -1289,7 +1289,7 @@ window.LANGKAH_CONTENT = {
       "unit": 33,
       "title": "Harus karena kebutuhan atau aturan",
       "rule": "Have to menyatakan keharusan. He/she/it memakai has to. Pertanyaan memakai do/does/did dan negatif don’t have to berarti tidak wajib.",
-      "pattern": "have/has to + verb • had to + verb",
+      "pattern": "have/has to + kata kerja • had to + kata kerja",
       "tip": "Does he have to…? memakai have, bukan has, sesudah does. Don’t have to berbeda dari mustn’t.",
       "examples": [
         {
@@ -1360,7 +1360,7 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "to"
         ],
-        "why": "Kegiatan setelah would like memakai to + verb."
+        "why": "Kegiatan setelah would like memakai to + kata kerja."
       },
       "stage": 7
     },
@@ -1401,7 +1401,7 @@ window.LANGKAH_CONTENT = {
           "Let’s",
           "Let's"
         ],
-        "why": "Let’s not + verb membuat ajakan negatif."
+        "why": "Let’s not + kata kerja membuat ajakan negatif."
       },
       "stage": 7
     },
@@ -1569,7 +1569,7 @@ window.LANGKAH_CONTENT = {
       "id": "g040",
       "unit": 40,
       "title": "Jawaban singkat tanpa mengulang",
-      "rule": "Ulangi kata kerja pembantu yang sesuai untuk jawaban singkat. Jika kalimat memakai kegiatan simple, gunakan do/does/did; jika memakai be, have perfect, atau modal, ulangi pembantu itu.",
+      "rule": "Untuk menjawab singkat, ulangi kata yang membantu membentuk pertanyaannya: Do you work? dijawab Yes, I do. Is she ready? dijawab No, she isn’t. Have you finished? dijawab Yes, I have. Can you swim? dijawab Yes, I can.",
       "pattern": "Yes, I do • No, she isn’t • Yes, we can",
       "tip": "Jawaban positif singkat tidak memendekkan pembantu: Yes, I have, bukan Yes, I’ve.",
       "examples": [
@@ -1587,7 +1587,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Jawab “Does he drive?” dengan positif.",
+        "prompt": "Jawab “Does he drive?” dengan ya.",
         "options": [
           "Yes, he does.",
           "Yes, he is.",
@@ -1609,7 +1609,7 @@ window.LANGKAH_CONTENT = {
       "id": "g041",
       "unit": 41,
       "title": "Menanggapi dan memastikan",
-      "rule": "Pertanyaan balasan singkat mengulang pembantu untuk menunjukkan perhatian. Question tag biasanya memakai pembantu dengan polaritas berlawanan untuk memastikan.",
+      "rule": "Pertanyaan balasan pendek menunjukkan perhatian: I am tired. Oh, are you? Untuk memastikan sesuatu, tambahkan pertanyaan pendek di akhir: You’re tired, aren’t you? Kalimat tanpa not biasanya diikuti pertanyaan dengan not, atau sebaliknya. Tambahan ini disebut question tag.",
       "pattern": "You’re tired, aren’t you? • I am. Are you?",
       "tip": "Kalimat positif biasanya memakai tag negatif, dan kalimat negatif memakai tag positif. Nada suara bisa mengubah maksud.",
       "examples": [
@@ -1627,7 +1627,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih tag untuk “He works here”.",
+        "prompt": "Pilih pertanyaan pendek di akhir “He works here”.",
         "options": [
           "doesn’t he?",
           "isn’t he?",
@@ -1642,7 +1642,7 @@ window.LANGKAH_CONTENT = {
           "aren’t",
           "aren't"
         ],
-        "why": "Kalimat positif dengan are memakai tag negatif aren’t."
+        "why": "They are ready tidak memakai not. Pertanyaan pendek di akhirnya memakai aren’t: aren’t they?"
       },
       "stage": 3
     },
@@ -1689,8 +1689,8 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g043",
       "unit": 43,
-      "title": "Membuat kalimat negatif",
-      "rule": "Tambahkan not pada be, have perfect, atau modal. Untuk present/past simple kegiatan, gunakan do/does/did + not lalu bentuk dasar.",
+      "title": "Membuat kalimat dengan tidak",
+      "rule": "Untuk mengatakan tidak, tambahkan not seperti pada is not, have not, atau cannot. Untuk kegiatan dengan kata kerja dasar atau bentuk lampau, pakai do/does/did + not lalu kata kerja dasar: She does not work. I did not go.",
       "pattern": "isn’t • haven’t • can’t • don’t • didn’t",
       "tip": "Not tidak langsung ditempel ke kegiatan biasa: I not work salah; gunakan I do not work. Hindari dua negatif seperti don’t know nothing dalam ragam standar ini.",
       "examples": [
@@ -1708,7 +1708,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih negatif present simple.",
+        "prompt": "Pilih kalimat untuk kebiasaan yang tidak dilakukan.",
         "options": [
           "They do not know.",
           "They not know.",
@@ -1748,7 +1748,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih urutan pertanyaan simple.",
+        "prompt": "Pilih susunan pertanyaan tentang kebiasaan.",
         "options": [
           "What does he want?",
           "What he does want?",
@@ -1769,8 +1769,8 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g045",
       "unit": 45,
-      "title": "Siapa pelaku, siapa objek?",
-      "rule": "Jika who/what menjadi subjek pertanyaan positif, tidak perlu do/does/did. Jika yang ditanyakan objek, tetap gunakan pembantu.",
+      "title": "Bertanya siapa yang melakukan atau menerima tindakan",
+      "rule": "Untuk bertanya siapa yang melakukan, who bisa langsung diikuti kata kerja: Who called you? Untuk bertanya siapa yang menerima tindakan, gunakan do/does/did sesuai waktunya: Who did you call? Artinya, siapa yang kamu telepon?",
       "pattern": "Who called you? • Who did you call?",
       "tip": "Who called you? bertanya pelaku. Who did you call? bertanya orang yang kamu telepon.",
       "examples": [
@@ -1890,7 +1890,7 @@ window.LANGKAH_CONTENT = {
       "id": "g048",
       "unit": 48,
       "title": "Berapa lama dibutuhkan?",
-      "rule": "It takes + durasi menyatakan waktu yang diperlukan. Tambahkan orang sebagai objek: It takes me…. Untuk bertanya gunakan How long does it take…?",
+      "rule": "It takes + lama waktu menyatakan waktu yang diperlukan. Tambahkan orang sebagai objek: It takes me…. Untuk bertanya gunakan How long does it take…?",
       "pattern": "It takes me ten minutes to walk",
       "tip": "It adalah subjek, bukan I. Orang yang membutuhkan waktu diletakkan sebagai me/him/us.",
       "examples": [
@@ -1908,7 +1908,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih kalimat durasi yang benar.",
+        "prompt": "Pilih kalimat lama waktu yang benar.",
         "options": [
           "It takes me five minutes.",
           "I takes five minutes.",
@@ -1948,7 +1948,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih pertanyaan tertanam yang benar.",
+        "prompt": "Pilih susunan yang benar setelah Do you know.",
         "options": [
           "Do you know where he works?",
           "Do you know where does he work?",
@@ -1972,7 +1972,7 @@ window.LANGKAH_CONTENT = {
       "title": "Menceritakan ucapan orang",
       "rule": "Saat melaporkan ucapan dari masa lalu, bentuk waktu sering mundur dan kata ganti berubah sesuai sudut pandang. Said tidak langsung diikuti penerima; told perlu penerima.",
       "pattern": "She said she was tired • She told me…",
-      "tip": "Said to me boleh, tetapi said me tidak. Perubahan tense tidak selalu wajib jika informasi masih berlaku; latihan ini memberi konteks pelaporan lampau.",
+      "tip": "Said to me boleh, tetapi said me tidak. Perubahan bentuk kata kerja sesuai waktu tidak selalu wajib jika informasi masih berlaku; latihan ini memberi konteks pelaporan lampau.",
       "examples": [
         {
           "en": "Rani said she was tired.",
@@ -2250,7 +2250,7 @@ window.LANGKAH_CONTENT = {
       "id": "g057",
       "unit": 57,
       "title": "Do atau make?",
-      "rule": "Do sering dipakai untuk tugas/kegiatan; make sering untuk membuat hasil. Banyak pasangan bersifat tetap sehingga perlu dipelajari sebagai frasa.",
+      "rule": "Do sering dipakai untuk tugas/kegiatan; make sering untuk membuat hasil. Banyak pasangan bersifat tetap sehingga perlu dipelajari sebagai ungkapan.",
       "pattern": "do homework • make tea",
       "tip": "Do homework, bukan make homework. Make a mistake, bukan do a mistake. Makna umum saja tidak menjelaskan semua pasangan.",
       "examples": [
@@ -2282,7 +2282,7 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "do"
         ],
-        "why": "Pasangan frasanya do your best."
+        "why": "Pasangan ungkapannya do your best."
       },
       "stage": 2
     },
@@ -2322,7 +2322,7 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "has"
         ],
-        "why": "He dalam rutinitas memakai has lunch."
+        "why": "He dalam kebiasaan memakai has lunch."
       },
       "stage": 2
     },
@@ -2330,7 +2330,7 @@ window.LANGKAH_CONTENT = {
       "id": "g059",
       "unit": 59,
       "title": "I atau me?",
-      "rule": "I/you/he/she/it/we/they menjadi subjek. Me/you/him/her/it/us/them menjadi objek, termasuk setelah kata depan.",
+      "rule": "I/you/he/she/it/we/they dipakai untuk orang atau benda yang dibicarakan (subjek): She likes him. Me/you/him/her/it/us/them dipakai untuk yang menerima tindakan (objek), atau setelah kata seperti to dan for: He talks to me.",
       "pattern": "She likes him • He talks to me",
       "tip": "Bahasa Indonesia sering memakai kata sama sebagai pelaku dan objek. Bahasa Inggris membedakan I dan me.",
       "examples": [
@@ -2348,7 +2348,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih objek untuk he.",
+        "prompt": "Pilih bentuk he saat menerima tindakan.",
         "options": [
           "him",
           "his",
@@ -2410,7 +2410,7 @@ window.LANGKAH_CONTENT = {
       "id": "g061",
       "unit": 61,
       "title": "Mine: milikku, tanpa mengulang benda",
-      "rule": "Mine/yours/his/hers/ours/theirs berdiri sendiri menggantikan frasa benda milik. Whose bertanya pemilik. A friend of mine berarti salah satu teman saya.",
+      "rule": "Mine/yours/his/hers/ours/theirs berdiri sendiri menggantikan ungkapan benda milik. Whose bertanya pemilik. A friend of mine berarti salah satu teman saya.",
       "pattern": "my bag → mine • Whose bag is this?",
       "tip": "Tidak ada apostrof pada yours atau hers. My perlu diikuti benda; mine tidak.",
       "examples": [
@@ -2450,7 +2450,7 @@ window.LANGKAH_CONTENT = {
       "id": "g062",
       "unit": 62,
       "title": "Empat peran kata ganti",
-      "rule": "Bedakan subjek, objek, kepemilikan sebelum benda, dan kepemilikan yang berdiri sendiri. Untuk I: I, me, my, mine; untuk she: she, her, her, hers.",
+      "rule": "Satu kata ganti punya beberapa bentuk sesuai pemakaiannya. I berarti saya sebagai pelaku; me untuk saya yang menerima tindakan; my dipakai sebelum benda milik saya; mine berarti milik saya tanpa mengulang bendanya. Untuk she, bentuknya she, her, her, hers.",
       "pattern": "I like it • help me • my bag • it is mine",
       "tip": "Jangan memilih berdasarkan terjemahan “saya” saja. Lihat posisi dan fungsi kata dalam kalimat.",
       "examples": [
@@ -2529,10 +2529,10 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g064",
       "unit": 64,
-      "title": "Apostrof untuk kepemilikan",
-      "rule": "Nama atau benda tunggal biasanya memakai ’s. Bentuk jamak berakhiran s memakai apostrof setelah s. Jamak tidak beraturan seperti children memakai ’s.",
+      "title": "Tanda ’ untuk menunjukkan milik siapa",
+      "rule": "Untuk menunjukkan milik siapa, biasanya tambahkan ’s setelah nama atau satu benda: Rina’s bag. Untuk bentuk lebih dari satu yang berakhiran s, tambahkan tanda ’ saja: my parents’ house. Untuk children, tetap gunakan ’s: children’s books.",
       "pattern": "Rina’s bag • my parents’ house • children’s books",
-      "tip": "It’s bukan bentuk kepemilikan it; gunakan its. Untuk hubungan benda, frasa of juga sering dipakai.",
+      "tip": "It’s bukan bentuk kepemilikan it; gunakan its. Untuk hubungan benda, ungkapan of juga sering dipakai.",
       "examples": [
         {
           "en": "This is Rina’s bag.",
@@ -2571,7 +2571,7 @@ window.LANGKAH_CONTENT = {
       "id": "g065",
       "unit": 65,
       "title": "A atau an berdasarkan bunyi",
-      "rule": "A/an berarti satu benda yang belum spesifik. Pilih berdasarkan bunyi awal, bukan huruf: a university tetapi an hour. Pekerjaan tunggal juga memakai a/an.",
+      "rule": "A/an berarti satu benda yang belum tertentu. Pilih berdasarkan bunyi awal, bukan huruf: a university tetapi an hour. Pekerjaan tunggal juga memakai a/an.",
       "pattern": "a book • an apple • a teacher",
       "tip": "A university diawali bunyi /y/. An hour diawali bunyi vokal karena h tidak dibaca.",
       "examples": [
@@ -2589,7 +2589,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih artikel untuk hour.",
+        "prompt": "Pilih a atau an sebelum hour.",
         "options": [
           "an hour",
           "a hour",
@@ -2629,7 +2629,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih jamak child.",
+        "prompt": "Pilih bentuk child untuk lebih dari satu anak.",
         "options": [
           "children",
           "childs",
@@ -2709,7 +2709,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih bentuk baku untuk saran.",
+        "prompt": "Pilih cara yang benar untuk menyebut saran.",
         "options": [
           "some advice",
           "an advice",
@@ -2731,7 +2731,7 @@ window.LANGKAH_CONTENT = {
       "id": "g069",
       "unit": 69,
       "title": "Pertama dikenalkan, lalu sudah dikenal",
-      "rule": "A/an memperkenalkan benda tunggal yang belum spesifik. The menunjuk benda yang sudah jelas bagi pendengar, misalnya sudah disebut atau dijelaskan.",
+      "rule": "A/an memperkenalkan benda tunggal yang belum tertentu. The menunjuk benda yang sudah jelas bagi pendengar, misalnya sudah disebut atau dijelaskan.",
       "pattern": "I saw a cat. The cat was white",
       "tip": "The tidak selalu berarti “itu” secara harfiah; yang penting pendengar dapat mengenali benda yang dimaksud.",
       "examples": [
@@ -2771,7 +2771,7 @@ window.LANGKAH_CONTENT = {
       "id": "g070",
       "unit": 70,
       "title": "The dalam pola yang umum",
-      "rule": "The dipakai untuk benda yang unik atau jelas dalam konteks, superlatif, dan beberapa frasa tetap. Ada pola khusus seperti listen to the radio tetapi watch TV.",
+      "rule": "The dipakai untuk sesuatu yang hanya satu atau sudah jelas dari pembicaraan, untuk bentuk paling seperti the best, dan dalam beberapa pasangan kata tetap. Contohnya, listen to the radio memakai the, sedangkan watch TV tidak.",
       "pattern": "the sun • the best • the same",
       "tip": "Jangan menambahkan the ke semua kata benda. Pelajari penggunaan umum bersama konteksnya.",
       "examples": [
@@ -2789,7 +2789,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih frasa yang benar.",
+        "prompt": "Pilih ungkapan yang benar.",
         "options": [
           "the best answer",
           "a best answer",
@@ -2811,7 +2811,7 @@ window.LANGKAH_CONTENT = {
       "id": "g071",
       "unit": 71,
       "title": "Work, home, dan tempat kegiatan",
-      "rule": "Go to work dan go home tidak memakai the; home juga tanpa to. School/hospital/prison dapat tanpa the ketika menyebut fungsi institusi dalam ragam Britania, tetapi memakai the untuk bangunannya.",
+      "rule": "Go to work dan go home tidak memakai the; go home juga tidak memakai to. Dalam bahasa Inggris Britania, school/hospital/prison bisa tanpa the saat membahas kegunaannya, misalnya sebagai murid atau pasien. Pakai the jika membahas gedungnya.",
       "pattern": "go to work • go home • go to the cinema",
       "tip": "Ragam Amerika sering memakai in the hospital untuk pasien. Itu juga benar. Jangan memaksakan satu ragam sebagai satu-satunya pilihan.",
       "examples": [
@@ -2839,7 +2839,7 @@ window.LANGKAH_CONTENT = {
         "why": "Home dalam pola go home tidak memakai to atau the."
       },
       "gap": {
-        "prompt": "She is going to ___ now. (tempat bekerja, tanpa artikel)",
+        "prompt": "She is going to ___ now. (tempat bekerja, tanpa a/an/the)",
         "answers": [
           "work"
         ],
@@ -2891,7 +2891,7 @@ window.LANGKAH_CONTENT = {
       "id": "g073",
       "unit": 73,
       "title": "Nama tempat dan the",
-      "rule": "Nama kota, negara tunggal, dan banyak gunung tidak memakai the. Sungai, laut, serta negara dengan bentuk plural atau istilah negara tertentu sering memakai the.",
+      "rule": "Nama kota, negara tunggal, dan banyak gunung tidak memakai the. Sungai, laut, serta negara dengan bentuk jamak atau istilah negara tertentu sering memakai the.",
       "pattern": "Jakarta • Japan • the Nile • the United States",
       "tip": "Jangan menebak hanya dari “nama tempat”. Gunakan pola kelompok nama dan cek nama yang tidak dikenal.",
       "examples": [
@@ -2930,7 +2930,7 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g074",
       "unit": 74,
-      "title": "Ini, itu, ini jamak, itu jamak",
+      "title": "Ini dan itu: satu atau lebih dari satu",
       "rule": "This/that untuk tunggal; these/those untuk jamak. This/these biasanya dekat dan that/those lebih jauh atau merujuk sesuatu yang sudah disebut.",
       "pattern": "this book • that book • these books • those books",
       "tip": "This is Rani bisa dipakai memperkenalkan orang atau diri di telepon. Pastikan be mengikuti jumlah.",
@@ -2989,7 +2989,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pengganti bags yang jamak adalah…",
+        "prompt": "Kata pengganti bags (lebih dari satu tas) adalah…",
         "options": [
           "ones",
           "one",
@@ -3011,7 +3011,7 @@ window.LANGKAH_CONTENT = {
       "id": "g076",
       "unit": 76,
       "title": "Some dan any",
-      "rule": "Some umum dalam kalimat positif, tawaran, dan permintaan. Any umum dalam pertanyaan netral dan negatif. Dalam arti “mana pun”, any juga bisa muncul dalam positif.",
+      "rule": "Some umum dalam kalimat positif, tawaran, dan permintaan. Any umum dalam pertanyaan biasa dan negatif. Dalam arti “mana pun”, any juga bisa muncul dalam positif.",
       "pattern": "some rice • any rice • Would you like some tea?",
       "tip": "Aturan “semua pertanyaan harus any” terlalu kaku. Tawaran teh biasanya Would you like some tea?",
       "examples": [
@@ -3029,7 +3029,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih bentuk tawaran minuman yang lazim.",
+        "prompt": "Pilih kalimat yang biasa dipakai untuk menawarkan minuman.",
         "options": [
           "Would you like some tea?",
           "Would you like no tea?",
@@ -3109,7 +3109,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih negatif standar.",
+        "prompt": "Pilih kalimat yang benar untuk mengatakan tidak melihat siapa pun.",
         "options": [
           "I did not see anyone.",
           "I did not see nobody.",
@@ -3163,7 +3163,7 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "anywhere"
         ],
-        "why": "Untuk tempat dalam pertanyaan netral, gunakan anywhere."
+        "why": "Untuk tempat dalam pertanyaan biasa, gunakan anywhere."
       },
       "stage": 2
     },
@@ -3251,7 +3251,7 @@ window.LANGKAH_CONTENT = {
       "id": "g082",
       "unit": 82,
       "title": "Dua-duanya, salah satu, tidak keduanya",
-      "rule": "Both berarti dua-duanya. Either berarti salah satu dari dua; neither berarti tidak satu pun dari dua. Both memakai plural; either/neither + benda tunggal dalam pola ini.",
+      "rule": "Both berarti dua-duanya. Either berarti salah satu dari dua; neither berarti tidak satu pun dari dua. Both memakai jamak; either/neither + benda tunggal dalam pola ini.",
       "pattern": "both bags • either bag • neither bag",
       "tip": "Neither sudah negatif. Both of us, either of them, dan neither of them memakai of sebelum kata ganti.",
       "examples": [
@@ -3389,7 +3389,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih frasa yang benar.",
+        "prompt": "Pilih ungkapan yang benar.",
         "options": [
           "two red bags",
           "two reds bags",
@@ -3411,7 +3411,7 @@ window.LANGKAH_CONTENT = {
       "id": "g086",
       "unit": 86,
       "title": "Menjelaskan cara melakukan",
-      "rule": "Adverb menjelaskan cara kegiatan dilakukan. Banyak bentuk berasal dari sifat + -ly. Good menjadi well; fast dan hard biasanya tetap. Setelah linking verb, gunakan sifat untuk keadaan.",
+      "rule": "Untuk menjelaskan cara melakukan sesuatu, sering tambahkan -ly pada kata sifat: slow menjadi slowly (pelan-pelan). Kata seperti ini disebut adverb. Good berubah menjadi well; fast dan hard biasanya tetap. Setelah kata yang menjelaskan keadaan seperti feel atau look, pakai kata sifat: I feel good.",
       "pattern": "speak slowly • work hard • feel good",
       "tip": "Hard = dengan giat; hardly = hampir tidak. He looks tired menjelaskan keadaan, sehingga tired tetap sifat.",
       "examples": [
@@ -3436,14 +3436,14 @@ window.LANGKAH_CONTENT = {
           "She drives care."
         ],
         "answer": 0,
-        "why": "Cara drives dijelaskan oleh adverb carefully."
+        "why": "Cara drives dijelaskan oleh adkata kerja carefully."
       },
       "gap": {
-        "prompt": "He speaks English ___. (good → adverb)",
+        "prompt": "He speaks English ___. (ubah good menjadi kata yang menjelaskan cara berbicara)",
         "answers": [
           "well"
         ],
-        "why": "Bentuk adverb dari good adalah well."
+        "why": "Bentuk adkata kerja dari good adalah well."
       },
       "stage": 2
     },
@@ -3479,7 +3479,7 @@ window.LANGKAH_CONTENT = {
         "why": "Good punya bentuk tidak beraturan better."
       },
       "gap": {
-        "prompt": "This room is ___. (big, comparative)",
+        "prompt": "This room is ___. (big, buat menjadi lebih besar)",
         "answers": [
           "bigger"
         ],
@@ -3491,7 +3491,7 @@ window.LANGKAH_CONTENT = {
       "id": "g088",
       "unit": 88,
       "title": "Lebih daripada…",
-      "rule": "Gunakan than untuk membandingkan dua hal. Much/a lot/a bit dapat memperkuat atau melunakkan perbedaan sebelum bentuk comparative.",
+      "rule": "Pakai than untuk mengatakan lebih daripada: bigger than berarti lebih besar daripada. Tambahkan much atau a lot untuk perbedaan yang besar, atau a bit untuk perbedaan kecil: much cheaper berarti jauh lebih murah.",
       "pattern": "bigger than • much cheaper than",
       "tip": "Bukan more cheap than atau bigger from. Setelah than, me dan I am bisa sama-sama benar sesuai struktur.",
       "examples": [
@@ -3530,8 +3530,8 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g089",
       "unit": 89,
-      "title": "Sama…dengan atau tidak sesama itu",
-      "rule": "As + sifat dasar + as menyatakan kesetaraan. Not as…as menyatakan tidak mencapai tingkat yang sama. The same as menyatakan sama dengan.",
+      "title": "Sama tinggi, tidak secepat, sama dengan",
+      "rule": "Pakai as + kata sifat + as untuk mengatakan sama, misalnya as tall as (sama tinggi dengan). Not as fast as berarti tidak secepat. The same as berarti sama dengan.",
       "pattern": "as tall as • not as fast as • the same as",
       "tip": "Di tengah as…as gunakan tall, bukan taller. Untuk jumlah: as much/as many as.",
       "examples": [
@@ -3549,7 +3549,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih bentuk kesetaraan.",
+        "prompt": "Pilih kalimat untuk mengatakan sama baiknya.",
         "options": [
           "as good as",
           "as better as",
@@ -3571,7 +3571,7 @@ window.LANGKAH_CONTENT = {
       "id": "g090",
       "unit": 90,
       "title": "Paling di antara kelompok",
-      "rule": "Superlatif membandingkan satu dengan seluruh kelompok: the + -est atau the most + sifat. Good menjadi the best dan bad menjadi the worst.",
+      "rule": "Untuk mengatakan paling dalam suatu kelompok, pakai the + kata sifat berakhiran -est atau the most + kata sifat. Contohnya, the tallest berarti paling tinggi. Good menjadi the best dan bad menjadi the worst. Bentuk paling ini disebut superlative.",
       "pattern": "the tallest • the most useful • the best",
       "tip": "Gunakan in untuk kelompok/tempat seperti in my class; of untuk rentang seperti of the three.",
       "examples": [
@@ -3589,14 +3589,14 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih superlatif bad.",
+        "prompt": "Pilih bentuk bad yang berarti paling buruk.",
         "options": [
           "the worst",
           "the worse",
           "the baddest"
         ],
         "answer": 0,
-        "why": "Worst adalah superlatif bad; worse adalah comparative."
+        "why": "Bad berarti buruk, worse berarti lebih buruk, dan worst berarti paling buruk."
       },
       "gap": {
         "prompt": "This is the ___ room. (small)",
@@ -3611,7 +3611,7 @@ window.LANGKAH_CONTENT = {
       "id": "g091",
       "unit": 91,
       "title": "Cukup: posisi enough",
-      "rule": "Enough berada sebelum kata benda, tetapi setelah kata sifat/adverb. To + kata kerja menjelaskan kegiatan yang bisa dilakukan dengan kecukupan itu.",
+      "rule": "Enough berada sebelum kata benda, tetapi setelah kata sifat/adkata kerja. To + kata kerja menjelaskan kegiatan yang bisa dilakukan dengan kecukupan itu.",
       "pattern": "enough money • old enough • quickly enough",
       "tip": "Enough old salah. Gunakan old enough. Enough for me diikuti orang; enough to buy diikuti kegiatan.",
       "examples": [
@@ -3651,7 +3651,7 @@ window.LANGKAH_CONTENT = {
       "id": "g092",
       "unit": 92,
       "title": "Terlalu, sehingga jadi masalah",
-      "rule": "Too + sifat berarti melebihi tingkat yang cocok. Too much untuk jumlah tak terhitung, too many untuk jamak dapat dihitung. Very hanya menambah intensitas tanpa makna masalah.",
+      "rule": "Too + sifat berarti melebihi tingkat yang cocok. Too much untuk jumlah tak terhitung, too many untuk jamak dapat dihitung. Very hanya menambah tingkat sifat tanpa makna masalah.",
       "pattern": "too hot • too much sugar • too many bags",
       "tip": "Too bukan sekadar “sangat”. Too hot to drink berarti terlalu panas untuk diminum.",
       "examples": [
@@ -3693,7 +3693,7 @@ window.LANGKAH_CONTENT = {
       "title": "Urutan benda, tempat, waktu",
       "rule": "Kata kerja dan objek biasanya berdekatan. Keterangan cara/tempat/waktu umumnya datang setelahnya; tempat sering sebelum waktu.",
       "pattern": "She reads books at home every night",
-      "tip": "Jangan menyela verb dan objek dengan keterangan: I like very much music bukan urutan netral; gunakan I like music very much.",
+      "tip": "Jangan menyela kata kerja dan objek dengan keterangan: I like very much music bukan urutan yang umum; gunakan I like music very much.",
       "examples": [
         {
           "en": "I like this song very much.",
@@ -3709,7 +3709,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih urutan netral yang benar.",
+        "prompt": "Pilih susunan kata yang benar.",
         "options": [
           "I like coffee very much.",
           "I like very much coffee.",
@@ -3733,7 +3733,7 @@ window.LANGKAH_CONTENT = {
       "title": "Selalu, biasanya, sering",
       "rule": "Always/usually/often/sometimes/never biasanya sebelum kata kerja utama, setelah be, atau di antara pembantu dan kata kerja utama. Never sudah bermakna negatif.",
       "pattern": "I usually walk • She is always early",
-      "tip": "Sometimes juga bisa di awal/akhir kalimat. Pelajaran ini melatih posisi netral, bukan melarang semua posisi lain.",
+      "tip": "Sometimes juga bisa di awal/akhir kalimat. Pelajaran ini melatih posisi yang umum, bukan melarang semua posisi lain.",
       "examples": [
         {
           "en": "I usually walk to work.",
@@ -3749,14 +3749,14 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih posisi netral dengan be.",
+        "prompt": "Pilih posisi usually yang benar dengan is.",
         "options": [
           "She is usually busy.",
           "She usually busy is.",
           "She is busy usually always."
         ],
         "answer": 0,
-        "why": "Usually berada setelah is dalam pola netral ini."
+        "why": "Usually berada setelah is dalam pola yang umum ini."
       },
       "gap": {
         "prompt": "I ___ drink coffee. (tidak pernah: never)",
@@ -3813,7 +3813,7 @@ window.LANGKAH_CONTENT = {
       "title": "Memberi benda kepada seseorang",
       "rule": "Give/send/show dapat memakai orang lalu benda, atau benda lalu to + orang. Jika bendanya kata ganti seperti it, pola it to me adalah pilihan standar.",
       "pattern": "give me the book • give the book to me • give it to me",
-      "tip": "Bukan give me it dalam pola netral yang diajarkan. Buy menggunakan for pada alternatif buy it for me.",
+      "tip": "Bukan give me it dalam pola yang umum yang diajarkan. Buy menggunakan for pada pilihan lain buy it for me.",
       "examples": [
         {
           "en": "Please give me the book.",
@@ -3851,9 +3851,9 @@ window.LANGKAH_CONTENT = {
       "id": "g097",
       "unit": 97,
       "title": "Menghubungkan ide",
-      "rule": "And menambah, but membedakan, or memilih, because memberi alasan, dan so memberi akibat. Hubungkan klausa sesuai hubungan maknanya.",
+      "rule": "And berarti dan; but berarti tetapi; or berarti atau; because berarti karena; so berarti jadi. Pilih kata penghubung sesuai hubungan dua bagian kalimat.",
       "pattern": "I stayed home because I was tired",
-      "tip": "Hindari menyalin “karena…, maka…” menjadi because…so… untuk hubungan dua klausa sederhana. Pilih salah satu penghubung utama.",
+      "tip": "Untuk dua bagian kalimat sederhana, pilih because atau so. Contohnya, I stayed home because I was tired. Jangan menggabungkannya menjadi because…so….",
       "examples": [
         {
           "en": "I am tired but happy.",
@@ -3891,7 +3891,7 @@ window.LANGKAH_CONTENT = {
       "id": "g098",
       "unit": 98,
       "title": "When untuk waktu masa depan",
-      "rule": "Dalam klausa waktu masa depan setelah when/before/after/until, biasanya gunakan present simple. Klausa utama dapat memakai will.",
+      "rule": "Untuk membicarakan masa depan setelah when/before/after/until, biasanya gunakan kata kerja seperti dalam kebiasaan (present simple). Bagian lainnya boleh memakai will: I will call when I arrive. Artinya, saya akan menelepon saat tiba.",
       "pattern": "I will call when I arrive",
       "tip": "Jangan memakai will dalam kedua bagian pola ini. When I arrive sudah merujuk masa depan dari konteks.",
       "examples": [
@@ -3916,14 +3916,14 @@ window.LANGKAH_CONTENT = {
           "I call when I will got home."
         ],
         "answer": 0,
-        "why": "Klausa waktu memakai present get; klausa utama memakai will call."
+        "why": "Bagian kalimat waktu memakai present get; bagian utama kalimat memakai will call."
       },
       "gap": {
         "prompt": "We will leave when she ___. (arrive)",
         "answers": [
           "arrives"
         ],
-        "why": "Klausa when untuk masa depan memakai present: she arrives."
+        "why": "Bagian kalimat when untuk masa depan memakai present: she arrives."
       },
       "stage": 8
     },
@@ -3931,9 +3931,9 @@ window.LANGKAH_CONTENT = {
       "id": "g099",
       "unit": 99,
       "title": "Jika kemungkinan nyata terjadi",
-      "rule": "Untuk kondisi masa depan yang nyata/mungkin, gunakan if + present simple dan klausa hasil seperti will + kata kerja. If berarti jika; when mengandaikan kejadian itu terjadi.",
+      "rule": "Untuk kemungkinan di masa depan, gunakan if lalu kata kerja seperti dalam kebiasaan (present simple). Bagian hasilnya bisa memakai will: If it rains, I will stay home. If berarti jika; when berarti saat, dengan anggapan kejadiannya akan terjadi.",
       "pattern": "If it rains, I will stay home",
-      "tip": "Jika klausa if di depan, koma membantu memisahkan bagian. Will tidak biasa dipakai dalam klausa if untuk kondisi netral ini.",
+      "tip": "Jika bagian kalimat dengan if di depan, koma membantu memisahkan bagian. Will tidak biasa dipakai dalam bagian kalimat dengan if untuk kondisi netral ini.",
       "examples": [
         {
           "en": "If it rains, I will stay home.",
@@ -3949,7 +3949,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih kondisi masa depan netral.",
+        "prompt": "Pilih kalimat untuk kemungkinan di masa depan.",
         "options": [
           "If I have time, I will come.",
           "If I will have time, I will come.",
@@ -3963,7 +3963,7 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "comes"
         ],
-        "why": "She memakai comes dalam klausa if present."
+        "why": "She memakai comes dalam bagian kalimat dengan if present."
       },
       "stage": 8
     },
@@ -4011,7 +4011,7 @@ window.LANGKAH_CONTENT = {
       "id": "g101",
       "unit": 101,
       "title": "Menjelaskan orang dan benda",
-      "rule": "Who menjelaskan orang; which menjelaskan benda. That dapat menggantikan keduanya dalam relative clause pembatas. Klausa ini menunjukkan orang/benda mana yang dimaksud.",
+      "rule": "Who menjelaskan orang dan which menjelaskan benda. That bisa menggantikan keduanya jika penjelasannya diperlukan untuk menunjukkan orang atau benda mana yang dimaksud. Contohnya, the person who called berarti orang yang menelepon.",
       "pattern": "the person who called • the book that helps",
       "tip": "Jangan menambahkan he/it setelah who/that yang sudah menjadi subjek: a person who he works… berulang.",
       "examples": [
@@ -4029,21 +4029,21 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih penjelasan orang tanpa subjek ganda.",
+        "prompt": "Pilih kalimat yang menjelaskan orang tanpa mengulang he.",
         "options": [
           "a man who works here",
           "a man who he works here",
           "a man which he works here"
         ],
         "answer": 0,
-        "why": "Who sudah menjadi subjek klausa works here."
+        "why": "Who sudah menjadi subjek bagian kalimat works here."
       },
       "gap": {
         "prompt": "The woman ___ called is my aunt. (gunakan who)",
         "answers": [
           "who"
         ],
-        "why": "Untuk orang gunakan who; dalam klausa pembatas that juga mungkin, tetapi petunjuk meminta who."
+        "why": "Untuk orang gunakan who; dalam bagian penjelas yang menunjukkan orang atau benda mana yang dimaksud that juga mungkin, tetapi petunjuk meminta who."
       },
       "stage": 8
     },
@@ -4051,7 +4051,7 @@ window.LANGKAH_CONTENT = {
       "id": "g102",
       "unit": 102,
       "title": "Kapan who/that boleh dihilangkan?",
-      "rule": "Relative pronoun dapat dihilangkan jika menjadi objek dalam klausa pembatas. Jika menjadi subjek, tetap diperlukan. Kata depan sering berada di akhir.",
+      "rule": "Who/which/that boleh dihilangkan jika orang atau bendanya menerima tindakan: the book that I bought bisa menjadi the book I bought. Jika orangnya melakukan tindakan, kata itu tetap perlu: the person who called. Kata seperti on atau to sering berada di akhir.",
       "pattern": "the book I bought • the person who called",
       "tip": "The book I bought sudah lengkap; jangan menambahkan it di akhir. Dalam the person who called, who adalah pelaku dan tidak dihapus.",
       "examples": [
@@ -4069,7 +4069,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih klausa objek tanpa pengulangan.",
+        "prompt": "Pilih penjelasan tentang tas tanpa mengulang it.",
         "options": [
           "the bag I bought",
           "the bag I bought it",
@@ -4083,7 +4083,7 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "on"
         ],
-        "why": "Sit on a chair: kata depan on tetap di akhir klausa."
+        "why": "Sit on a chair: kata depan on tetap di akhir bagian kalimat."
       },
       "stage": 8
     },
@@ -4130,10 +4130,10 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g104",
       "unit": 104,
-      "title": "Batas waktu dan durasi",
-      "rule": "From…to menyebut rentang; until menyebut batas akhir; since titik mulai; for durasi. Since dengan keadaan hingga kini biasanya memakai perfect.",
+      "title": "Batas waktu dan lama waktu",
+      "rule": "From…to menyebut rentang; until menyebut batas akhir; since titik mulai; for lama waktu. Since dengan keadaan hingga kini biasanya memakai perfect.",
       "pattern": "from nine to five • until Friday • for two days",
-      "tip": "Until bukan ukuran durasi. “Selama dua jam” adalah for two hours, bukan until two hours.",
+      "tip": "Until bukan ukuran lama waktu. “Selama dua jam” adalah for two hours, bukan until two hours.",
       "examples": [
         {
           "en": "The shop opens from nine to five.",
@@ -4149,14 +4149,14 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih untuk durasi tiga hari.",
+        "prompt": "Pilih untuk lama waktu tiga hari.",
         "options": [
           "for three days",
           "until three days",
           "since three days"
         ],
         "answer": 0,
-        "why": "Three days adalah durasi, jadi gunakan for."
+        "why": "Three days adalah lama waktu, jadi gunakan for."
       },
       "gap": {
         "prompt": "The office is open from eight ___ four.",
@@ -4171,9 +4171,9 @@ window.LANGKAH_CONTENT = {
       "id": "g105",
       "unit": 105,
       "title": "Before, after, during, while",
-      "rule": "During diikuti kata benda; while diikuti klausa dengan subjek dan kata kerja. Before/after dapat diikuti kata benda, klausa, atau bentuk -ing.",
+      "rule": "Setelah during, pakai kata benda: during lunch (saat makan siang). Setelah while, pakai bagian kalimat yang menyebut siapa dan kegiatannya: while we were eating. Before/after bisa diikuti kata benda, bagian kalimat lengkap, atau kata kerja berakhiran -ing.",
       "pattern": "during lunch • while we were eating • after eating",
-      "tip": "During we ate salah karena we ate adalah klausa. Gunakan while we ate/were eating sesuai makna.",
+      "tip": "During we ate salah karena we ate adalah bagian kalimat. Gunakan while we ate/were eating sesuai makna.",
       "examples": [
         {
           "en": "We talked during lunch.",
@@ -4189,14 +4189,14 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih penghubung sebelum klausa.",
+        "prompt": "Pilih penghubung sebelum kalimat tentang kegiatan.",
         "options": [
           "while I was studying",
           "during I was studying",
           "for I was studying"
         ],
         "answer": 0,
-        "why": "While diikuti klausa I was studying."
+        "why": "While diikuti bagian kalimat I was studying."
       },
       "gap": {
         "prompt": "We met ___ the concert. (selama berlangsungnya)",
@@ -4251,9 +4251,9 @@ window.LANGKAH_CONTENT = {
       "id": "g107",
       "unit": 107,
       "title": "Tempat, kendaraan, dan media",
-      "rule": "Banyak pasangan tempat perlu dipelajari sebagai frasa: at home/work, on a bus/train, in a car/taxi, in a picture, on a page.",
+      "rule": "Banyak pasangan tempat perlu dipelajari sebagai ungkapan: at home/work, on a bus/train, in a car/taxi, in a picture, on a page.",
       "pattern": "at work • on the bus • in a taxi",
-      "tip": "On the bus berarti berada di bus, bukan berdiri di atap bus. Makna preposisi mengikuti frasa.",
+      "tip": "On the bus berarti berada di bus, bukan berdiri di atap bus. Makna kata depan mengikuti ungkapan.",
       "examples": [
         {
           "en": "She is at work.",
@@ -4330,7 +4330,7 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g109",
       "unit": 109,
-      "title": "Posisi relatif benda",
+      "title": "Letak benda dibanding benda lain",
       "rule": "Under di bawah; behind di belakang; in front of di depan; opposite di seberang; between di antara dua acuan; next to di sebelah.",
       "pattern": "next to the bank • between A and B",
       "tip": "In front of dan opposite berbeda: berada di depan sesuatu tidak selalu berarti di seberangnya.",
@@ -4410,8 +4410,8 @@ window.LANGKAH_CONTENT = {
     {
       "id": "g111",
       "unit": 111,
-      "title": "On, by, with, about dalam frasa",
-      "rule": "On holiday/on TV adalah frasa tetap. By bus/car menyatakan cara bepergian; on foot berjalan kaki. With menyatakan bersama atau alat; about menyatakan topik.",
+      "title": "On, by, with, about dalam ungkapan",
+      "rule": "On holiday/on TV adalah ungkapan tetap. By bus/car menyatakan cara bepergian; on foot berjalan kaki. With menyatakan bersama atau alat; about menyatakan topik.",
       "pattern": "by bus • on foot • with a pen • about work",
       "tip": "By bus tidak memakai a/the untuk cara bepergian. In the bus/on the bus membahas posisi, bukan rumus cara bepergian.",
       "examples": [
@@ -4436,7 +4436,7 @@ window.LANGKAH_CONTENT = {
           "with foot"
         ],
         "answer": 0,
-        "why": "Frasa bakunya on foot."
+        "why": "Ungkapan bakunya on foot."
       },
       "gap": {
         "prompt": "This programme is ___ TV.",
@@ -4451,7 +4451,7 @@ window.LANGKAH_CONTENT = {
       "id": "g112",
       "unit": 112,
       "title": "Kata sifat punya kata depan",
-      "rule": "Pelajari frasa sifat bersama kata depannya: afraid of, good at, interested in, proud of, sorry for/about. Setelah kata depan, kata kerja memakai -ing.",
+      "rule": "Pelajari ungkapan sifat bersama kata depannya: afraid of, good at, interested in, proud of, sorry for/about. Setelah kata depan, kata kerja memakai -ing.",
       "pattern": "good at cooking • interested in learning",
       "tip": "Bukan interested to learning dalam pola ini. Kata depan in diikuti learning.",
       "examples": [
@@ -4533,7 +4533,7 @@ window.LANGKAH_CONTENT = {
       "title": "Kata kerja dua bagian",
       "rule": "Go out/come back/get up dapat berarah atau punya makna khusus. Kadang makna keseluruhan tidak bisa ditebak dari tiap kata, seperti give up berarti menyerah.",
       "pattern": "get up • come back • take off",
-      "tip": "Take off bisa berarti pesawat lepas landas atau melepas pakaian, tergantung konteks dan objek. Belajar lewat frasa lengkap.",
+      "tip": "Take off bisa berarti pesawat lepas landas atau melepas pakaian, tergantung konteks dan objek. Belajar lewat ungkapan lengkap.",
       "examples": [
         {
           "en": "I get up at six.",
@@ -4563,17 +4563,17 @@ window.LANGKAH_CONTENT = {
         "answers": [
           "down"
         ],
-        "why": "Sit down adalah frasa untuk duduk."
+        "why": "Sit down adalah ungkapan untuk duduk."
       },
       "stage": 4
     },
     {
       "id": "g115",
       "unit": 115,
-      "title": "Posisi objek dalam phrasal verb",
-      "rule": "Pada phrasal verb yang dapat dipisah, benda bisa sebelum atau sesudah partikel. Jika objeknya it/them, letakkan di tengah. Tidak semua kata kerja dua bagian dapat dipisah.",
+      "title": "Letak kata seperti it dalam turn it on",
+      "rule": "Beberapa pasangan kata kerja bisa dipisah. Turn on the light dan turn the light on sama-sama benar. Jika benda diganti it atau them, taruh di tengah: turn it on. Pasangan seperti ini disebut phrasal verb. Tidak semuanya bisa dipisah.",
       "pattern": "turn on the light • turn the light on • turn it on",
-      "tip": "Look after tidak dapat dipisah: look after him, bukan look him after. Cek kamus untuk phrasal verb baru.",
+      "tip": "Look after tidak dapat dipisah: look after him, bukan look him after. Cek kamus untuk phrasal kata kerja baru.",
       "examples": [
         {
           "en": "Please turn on the light.",
@@ -4610,8 +4610,8 @@ window.LANGKAH_CONTENT = {
     {
       "id": "f01",
       "unit": null,
-      "title": "Halo, mulai dari satu frasa",
-      "rule": "Belajar satu frasa, pahami artinya, dengarkan bila tersedia, lalu ucapkan. Kamu boleh pelan. Hello untuk menyapa; thank you untuk berterima kasih; goodbye saat berpisah.",
+      "title": "Mulai dari halo dan terima kasih",
+      "rule": "Pelajari satu ungkapan pendek, pahami artinya, dengarkan jika tersedia, lalu ucapkan. Hello untuk menyapa; thank you untuk berterima kasih; goodbye saat berpisah. Kamu boleh belajar pelan-pelan.",
       "pattern": "Hello • Thank you • Goodbye",
       "tip": "Ucapan tidak harus sempurna untuk mulai. Audio berasal dari suara perangkat, bukan rekaman penutur buku.",
       "examples": [
@@ -4629,7 +4629,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih frasa untuk berterima kasih.",
+        "prompt": "Pilih ungkapan untuk berterima kasih.",
         "options": [
           "Thank you.",
           "Goodbye.",
@@ -4691,7 +4691,7 @@ window.LANGKAH_CONTENT = {
       "id": "f03",
       "unit": null,
       "title": "Angka kecil dan umur",
-      "rule": "One sampai ten: one, two, three, four, five, six, seven, eight, nine, ten. Umur memakai be, bukan have seperti beberapa bahasa lain.",
+      "rule": "Angka satu sampai sepuluh: one, two, three, four, five, six, seven, eight, nine, ten. Untuk menyebut umur, pakai am/is/are: I am twenty years old berarti saya berumur 20 tahun.",
       "pattern": "I am twenty years old",
       "tip": "Untuk umur 20, twenty. Angka tidak perlu langsung banyak; mulai dari 1–10 lalu 11–20 di kosakata.",
       "examples": [
@@ -4733,7 +4733,7 @@ window.LANGKAH_CONTENT = {
       "title": "Benda dan jumlah",
       "rule": "Book = buku, bag = tas, pen = pena, cup = cangkir. A book berarti satu buku. Banyak benda mendapat -s jika lebih dari satu.",
       "pattern": "a book • two books",
-      "tip": "Tidak semua benda bisa diberi -s. Untuk tahap awal, latih benda konkret yang bisa dihitung.",
+      "tip": "Tidak semua benda bisa diberi -s. Untuk tahap awal, latih benda jelas yang bisa dihitung.",
       "examples": [
         {
           "en": "This is a pen.",
@@ -4759,11 +4759,11 @@ window.LANGKAH_CONTENT = {
         "why": "Lebih dari satu book menjadi books."
       },
       "gap": {
-        "prompt": "This is ___ book. (satu, belum spesifik)",
+        "prompt": "This is ___ book. (satu buku, belum disebut sebelumnya)",
         "answers": [
           "a"
         ],
-        "why": "Book tunggal yang belum spesifik memakai a."
+        "why": "Book tunggal yang belum tertentu memakai a."
       },
       "stage": 0
     },
@@ -4771,7 +4771,7 @@ window.LANGKAH_CONTENT = {
       "id": "f05",
       "unit": null,
       "title": "Kalimat tentang diri sendiri",
-      "rule": "Untuk nama, pekerjaan, keadaan, dan tempat, mulai dengan subjek lalu am/is/are. I am; you/we/they are; he/she/it is.",
+      "rule": "Untuk menyebut nama, pekerjaan, keadaan, atau tempat, tulis dulu siapa yang dibicarakan, lalu am/is/are. I memakai am; you/we/they memakai are; he/she/it memakai is.",
       "pattern": "I am… • You are… • She is…",
       "tip": "Bahasa Indonesia bisa berkata “Saya senang”. Bahasa Inggris perlu am: I am happy.",
       "examples": [
@@ -4811,7 +4811,7 @@ window.LANGKAH_CONTENT = {
       "id": "f06",
       "unit": null,
       "title": "Kegiatan: makan, minum, belajar",
-      "rule": "Eat = makan; drink = minum; study = belajar. Untuk rutinitas dengan I/you/we/they, langsung gunakan kata kerja, tanpa be.",
+      "rule": "Eat berarti makan; drink berarti minum; study berarti belajar. Untuk kebiasaan dengan I/you/we/they, langsung pakai kata kerja: I study English. Tidak perlu menambahkan am/is/are.",
       "pattern": "I eat • I drink • I study",
       "tip": "I study English, bukan I am study English. Am diperlukan jika memakai studying untuk kegiatan sedang.",
       "examples": [
@@ -4829,7 +4829,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih kalimat rutinitas yang benar.",
+        "prompt": "Pilih kalimat kebiasaan yang benar.",
         "options": [
           "I drink tea.",
           "I am drink tea.",
@@ -4851,9 +4851,9 @@ window.LANGKAH_CONTENT = {
       "id": "f07",
       "unit": null,
       "title": "Tidak dan apakah",
-      "rule": "Kalimat dengan be: tambahkan not untuk negatif dan pindahkan be ke depan untuk bertanya. Kalimat kegiatan memakai do untuk pertanyaan/negatif dengan I/you/we/they.",
+      "rule": "Jika kalimat memakai am/is/are, tambahkan not untuk mengatakan tidak: I am not ready. Untuk bertanya, taruh am/is/are di depan: Are you ready? Untuk kebiasaan dengan I/you/we/they, gunakan do: Do you study? dan I do not study.",
       "pattern": "Are you ready? • Do you study?",
-      "tip": "Pilih pola sesuai jenis kalimat. Jangan memakai Are you study? untuk rutinitas.",
+      "tip": "Pilih pola sesuai jenis kalimat. Jangan memakai Are you study? untuk kebiasaan.",
       "examples": [
         {
           "en": "I am not tired.",
@@ -4891,9 +4891,9 @@ window.LANGKAH_CONTENT = {
       "id": "f08",
       "unit": null,
       "title": "Kalimat penyelamat saat belajar",
-      "rule": "Gunakan frasa sederhana untuk meminta bantuan: Please speak slowly, Please repeat that, dan I do not understand. Tidak paham adalah bagian dari belajar.",
+      "rule": "Gunakan ungkapan sederhana untuk meminta bantuan: Please speak slowly, Please repeat that, dan I do not understand. Tidak paham adalah bagian dari belajar.",
       "pattern": "Please repeat that • I don’t understand",
-      "tip": "Untuk berbicara, dengarkan satu frasa lalu tirukan. Tidak ada penilaian pengucapan otomatis di aplikasi ini.",
+      "tip": "Untuk berbicara, dengarkan satu ungkapan lalu tirukan. Tidak ada penilaian pengucapan otomatis di aplikasi ini.",
       "examples": [
         {
           "en": "Please speak slowly.",
@@ -4909,7 +4909,7 @@ window.LANGKAH_CONTENT = {
         }
       ],
       "quiz": {
-        "prompt": "Pilih frasa untuk meminta pengulangan.",
+        "prompt": "Pilih ungkapan untuk meminta pengulangan.",
         "options": [
           "Please repeat that.",
           "Thank you very much.",
@@ -4947,7 +4947,7 @@ window.LANGKAH_CONTENT = {
     {
       "id": "p1",
       "title": "Mulai bicara",
-      "description": "Ceritakan diri, benda, dan kepemilikan.",
+      "description": "Ceritakan tentang diri sendiri, benda, dan siapa pemiliknya.",
       "lessons": [
         "g001",
         "g002",
@@ -5095,7 +5095,7 @@ window.LANGKAH_CONTENT = {
     {
       "id": "p8",
       "title": "Kalimat lebih lengkap",
-      "description": "Artikel, perbandingan, dan hubungan antaride.",
+      "description": "Pakai a/an/the, bandingkan sesuatu, dan hubungkan kalimat.",
       "lessons": [
         "g068",
         "g069",

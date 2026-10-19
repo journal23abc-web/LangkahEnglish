@@ -42,11 +42,11 @@
     const [a,b,c] = lesson.examples;
     const opts = shuffle(lesson.examples.map(e => e.id),lesson.id+'meaning');
     return [
-      {id:lesson.id+'-meaning',type:'choice',label:'Pahami makna',prompt:'Apa arti “'+a.en+'”?',options:opts,answers:[a.id],why:'“'+a.en+'” berarti “'+a.id+'”.'},
+      {id:lesson.id+'-meaning',type:'choice',label:'Pahami arti',prompt:'Apa arti “'+a.en+'”?',options:opts,answers:[a.id],why:'“'+a.en+'” berarti “'+a.id+'”.'},
       {id:lesson.id+'-form',type:'choice',label:'Pilih pola',prompt:lesson.quiz.prompt,options:shuffle(lesson.quiz.options,lesson.id+'form'),answers:[lesson.quiz.options[lesson.quiz.answer]],why:lesson.quiz.why},
       {id:lesson.id+'-gap',type:'gap',label:'Lengkapi',prompt:lesson.gap.prompt,answers:lesson.gap.answers,why:lesson.gap.why},
-      {id:lesson.id+'-order',type:'order',label:'Susun kalimat',prompt:'Susun kata untuk: “'+b.id+'”',tokens:shuffle(b.en.split(/\s+/).map((word,i)=>({word,i})),lesson.id+'order'),answers:[b.en],why:'Urutan yang dituju: '+b.en},
-      {id:lesson.id+'-write',type:'write',label:'Tulis dengan petunjuk',prompt:'Tulis dalam bahasa Inggris: “'+c.id+'”',bank:shuffle(c.en.split(/\s+/),lesson.id+'write').join(' · '),answers:[c.en],why:'Dengan semua kata dari bank kata, kalimatnya: '+c.en}
+      {id:lesson.id+'-order',type:'order',label:'Susun kalimat',prompt:'Susun kata untuk: “'+b.id+'”',tokens:shuffle(b.en.split(/\s+/).map((word,i)=>({word,i})),lesson.id+'order'),answers:[b.en],why:'Susunan kalimatnya: '+b.en},
+      {id:lesson.id+'-write',type:'write',label:'Tulis dengan petunjuk',prompt:'Tulis dalam bahasa Inggris: “'+c.id+'”',bank:shuffle(c.en.split(/\s+/),lesson.id+'write').join(' · '),answers:[c.en],why:'Jika semua kata yang tersedia dipakai, kalimatnya: '+c.en}
     ];
   }
   function initialState() {
@@ -135,3 +135,4 @@
   root.LangkahCore=api;
   if (typeof module!=='undefined' && module.exports) module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);
+
