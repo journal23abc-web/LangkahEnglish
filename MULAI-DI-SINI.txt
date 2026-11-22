@@ -1,22 +1,21 @@
 LANGKAH ENGLISH
+Belajar bahasa Inggris dari nol, gratis, tanpa daftar akun.
 
-1. Ekstrak ZIP ini terlebih dahulu.
-2. Masuk ke folder langkah-english.
-3. Klik dua kali index.html untuk mencoba aplikasinya.
-4. Klik “Mulai belajar” dan ikuti pelajaran Titik nol.
+MAU LANGSUNG BELAJAR?
+Buka alamat ini di HP atau laptop:
+https://journal23abc-web.github.io/LangkahEnglish/
 
-UNTUK GITHUB PAGES
-Upload isi folder langkah-english ke akar repositori.
-index.html harus berada langsung di akar repositori.
-Di GitHub: Settings > Pages > Deploy from a branch > main > /(root) > Save.
-Panduan lebih lengkap ada di README.md.
+Lalu:
+1. Pilih "Grammar".
+2. Tekan "Mulai belajar".
+3. Ikuti pelajaran pertama: "Mulai dari halo dan terima kasih".
 
-Tidak perlu npm, akun, API key, atau backend untuk memakai website.
-Suara Inggris bergantung pada perangkat/browser.
-Progres disimpan di browser; buat cadangan melalui menu Progres.
+Tips:
+- Cukup 5–10 menit sehari.
+- Progres tersimpan di browser. Sesekali unduh cadangan
+  lewat menu "Cadangan" biar nggak hilang kalau ganti HP.
+- Kalau suaranya nggak keluar di HP Android: buka Setelan,
+  cari "Text-to-speech", lalu pilih bahasa English.
 
-Materi: 8 dasar + 115 topik, 615 soal inti, 161 kosakata,
-8 percakapan, pengulangan, latihan mendengar, dan Campur pola.
-
-Catatan buku dan peta unit: docs/SUMBER-DAN-CAKUPAN.md
-Hasil uji dan batas pemeriksaan: docs/PENGUJIAN.md
+UNTUK YANG MAU MENGELOLA ATAU MENGEMBANGKAN WEBSITE
+Panduan teknis (GitHub Pages, tes, menambah modul) ada di README.md.

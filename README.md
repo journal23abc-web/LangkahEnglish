@@ -1,5 +1,13 @@
 # Langkah English
 
+**▶ Buka websitenya: https://journal23abc-web.github.io/LangkahEnglish/**
+
+Belajar bahasa Inggris dari nol, gratis, tanpa akun. Baru mulai? Pilih **Grammar**, lalu tekan **Mulai belajar**.
+
+---
+
+_Bagian di bawah ini untuk pengelola website._
+
 Satu aplikasi dengan satu `index.html` dan dua modul:
 
 - **Grammar:** 123 pelajaran, 615 latihan inti, kosakata, dan percakapan awal. Memakai pembaruan bahasa sederhana.

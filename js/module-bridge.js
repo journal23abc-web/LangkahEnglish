@@ -1,6 +1,7 @@
 /* Navigasi modul selalu melewati satu alamat pada jendela utama. */
 (function(){
 'use strict';const context=window.LANGKAH_MODULE_CONTEXT;if(!context||window.parent===window)return;
+document.documentElement?.classList?.add('embedded');
 const valid=r=>typeof r==='string'&&r.length<=180&&/^[a-zA-Z0-9_/-]*$/.test(r)&&!r.includes('..');
 const send=(type,extra={})=>parent.postMessage({channel:'langkah-module-v1',module:context.id,type,...extra},'*');
 context.navigate=route=>{if(valid(route))send('navigate',{route:route||'home'});};
