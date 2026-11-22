@@ -3,7 +3,7 @@ window.LANGKAH_MODULES = [
   {
     "id": "grammar",
     "title": "Grammar",
-    "eyebrow": "UNTUK PEMULA · MULAI DARI SINI",
+    "eyebrow": "Untuk pemula",
     "description": "Belajar bahasa Inggris dari nol: kata dasar, kalimat sederhana, dan latihan singkat tiap hari.",
     "path": "modules/grammar/",
     "entry": "entry.js",
@@ -21,7 +21,7 @@ window.LANGKAH_MODULES = [
   {
     "id": "writing",
     "title": "IELTS Writing",
-    "eyebrow": "TINGKAT LANJUT · PERSIAPAN TES IELTS",
+    "eyebrow": "Tingkat lanjut, persiapan tes IELTS",
     "description": "Buat yang lagi siap-siap tes IELTS: latihan menulis laporan dan esai, lalu revisi sampai makin bagus.",
     "path": "modules/writing/",
     "entry": "entry.js",

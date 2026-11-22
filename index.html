@@ -3,11 +3,15 @@
 <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width,initial-scale=1">
- <meta name="theme-color" content="#203e38">
- <meta name="description" content="Satu tempat untuk belajar bahasa Inggris. Pilih Grammar atau IELTS Writing, lalu lanjutkan hasil belajarmu.">
- <title>Langkah English · Pilih modul belajarmu</title>
+ <meta name="color-scheme" content="light dark">
+ <meta name="theme-color" content="#F2EEE4" media="(prefers-color-scheme: light)">
+ <meta name="theme-color" content="#151A18" media="(prefers-color-scheme: dark)">
+ <meta name="description" content="Belajar bahasa Inggris dari nol, gratis, tanpa akun. Ikuti urutan belajar dari kata pertama sampai siap latihan IELTS Writing.">
+ <title>Langkah English · Belajar bahasa Inggris dari nol</title>
  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
  <link rel="manifest" href="manifest.webmanifest">
+ <!-- Tema dipasang sebelum CSS dibaca, supaya halaman tidak berkedip terang saat malam. -->
+ <script>try{var t=localStorage.getItem('langkah-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
  <link rel="stylesheet" href="css/hub.css">
  <script defer src="modules/registry.js"></script>
  <script defer src="js/hub-core.js"></script>
@@ -15,7 +19,12 @@
 </head>
 <body>
  <a class="skip" href="#main">Langsung ke isi</a>
- <header class="header"><a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">L<span>↗</span></span><span>langkah<span class="brand-sub">ENGLISH</span></span></a><nav class="top-nav" aria-label="Menu aplikasi"><a href="#home" id="all-modules">Beranda</a><a href="#settings">Cadangan</a><a href="#help">Panduan</a></nav><label class="module-select" for="module-switch"><span class="sr-only">Pindah modul</span><select id="module-switch"><option value="">Pilih modul</option></select></label></header>
+ <header class="header">
+  <a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">L<span>↗</span></span><span class="brand-word">langkah<span class="brand-sub">ENGLISH</span></span></a>
+  <nav class="top-nav" aria-label="Menu aplikasi"><a href="#home" id="all-modules">Beranda</a><a href="#settings">Cadangan</a><a href="#help">Panduan</a></nav>
+  <label class="module-select" for="module-switch"><span class="sr-only">Pindah pilihan belajar</span><select id="module-switch"><option value="">Pilih modul</option></select></label>
+  <button type="button" class="theme-toggle" id="theme-toggle" data-action="theme" aria-label="Ganti tampilan. Sekarang: ikut perangkat"><svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg><span class="theme-text" id="theme-text">Otomatis</span></button>
+ </header>
  <div id="storage-notice" class="notice storage" hidden role="status"></div>
  <main id="main" tabindex="-1"></main>
  <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
