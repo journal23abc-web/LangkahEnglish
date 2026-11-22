@@ -1,6 +1,6 @@
 # Modul Grammar
 
-Dibuka dari index.html di akar aplikasi, melalui pilihan Grammar. Paket ini memakai pembaruan bahasa sederhana: 123 pelajaran, 615 latihan inti, 161 kosakata, serta percakapan awal.
+Dibuka dari index.html di akar aplikasi, melalui pilihan Grammar. Paket ini memakai pembaruan bahasa sederhana: 123 pelajaran, 615 latihan inti, 300 kosakata (3 paket, latihan kenal–ingat–pakai), serta percakapan awal.
 
 Berkas entry.js menyediakan kerangka halaman; js/core.js menangani penilaian dan jadwal; js/app.js menjalankan tampilan. Konteks host menentukan rute dan kunci progres. Tidak ada service worker khusus modul.
 

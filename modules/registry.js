@@ -9,7 +9,7 @@ window.LANGKAH_MODULES = [
     "entry": "entry.js",
     "storagePrefix": "langkah-english-v1:",
     "totalLessons": 123,
-    "facts": ["123 pelajaran", "615 latihan inti", "161 kosakata"],
+    "facts": ["123 pelajaran", "615 latihan inti", "300 kosakata"],
     "accent": "green",
     "validation": {
       "scripts": ["js/content.js", "js/core.js"],

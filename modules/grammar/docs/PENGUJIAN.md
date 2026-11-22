@@ -15,7 +15,7 @@
 | Jadwal | 1/3/7/14/30 hari; kesalahan/bantuan kembali besok; pergantian tahun | Lulus |
 | Riwayat | Streak tanggal lokal, target, hadiah sekali per topik/hari, retensi 5.000 tanpa kehilangan XP lama | Lulus |
 | Cadangan | ID, tanggal, angka, versi, sesi, dan pengaturan divalidasi | Lulus |
-| Isi lain | 161 kosakata unik, 8 misi, 40 kata kerja tidak beraturan | Lulus |
+| Isi lain | 300 kosakata unik (3 paket), 8 misi, 40 kata kerja tidak beraturan | Lulus |
 | Aset | Semua href/src lokal tersedia, alamat relatif, manifest dan ikon | Lulus |
 | Cache simulasi | 10 aset tersedia; cache hit; fallback; folder lain tidak dihapus/dicegat | Lulus |
 | Tampilan DOM | 123 halaman pelajaran dan semua menu menghasilkan elemen yang diharapkan | Lulus |

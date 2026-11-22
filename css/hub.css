@@ -5,3 +5,27 @@
 
 /* HP: teks menu atas terlalu kecil untuk dibaca. */
 @media(max-width:540px){.top-nav a,.module-open .top-nav a{font-size:12px;max-width:none}.module-open .brand>span:not(.brand-icon){display:none}.module-open .top-nav a[href="#home"]::before{content:"← "}.module-open .module-select select{font-size:12px}}
+/* Peta urutan belajar di beranda */
+.roadmap{margin:8px 0 34px}
+.road-steps{list-style:none;margin:0;padding:0;display:grid;gap:0;position:relative}
+.road-step{display:grid;grid-template-columns:52px 1fr;gap:18px;position:relative;padding-bottom:16px}
+.road-step:not(:last-child)::before{content:"";position:absolute;left:25px;top:52px;bottom:0;width:2px;background:var(--line)}
+.road-step.done:not(:last-child)::before{background:#8fb39a}
+.road-num{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font:500 22px Georgia,serif;background:var(--paper);border:1px solid var(--line);color:var(--muted);position:relative;z-index:1}
+.road-body{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:20px 22px}
+.road-top{display:flex;justify-content:space-between;gap:12px;align-items:center}
+.road-label{font-size:10px;font-weight:700;letter-spacing:1.4px;color:var(--muted)}
+.road-time{font-size:11px;color:var(--muted)}
+.road-body h3{font-size:19px;margin:8px 0 6px;color:var(--ink)}
+.road-body p{font-size:13px;line-height:1.7;color:#55655a;margin:0}
+.road-progress{height:6px;background:#e6e9df;border-radius:9px;overflow:hidden;margin:16px 0 12px}
+.road-progress span{display:block;height:100%;background:#2f7a5c;border-radius:9px}
+.road-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.road-meta{font-size:12px;color:var(--muted)}
+.road-step.current .road-num{background:#f0c566;border-color:#f0c566;color:var(--ink);font-weight:600}
+.road-step.current .road-body{border:2px solid #f0c566;background:#fffaf0;box-shadow:0 12px 32px rgba(240,197,102,.2)}
+.road-step.current .road-label{color:#8a5a12}
+.road-step.done .road-num{background:#2f7a5c;border-color:#2f7a5c;color:#fff}
+.road-step.done .road-label{color:#2f7a5c}
+.road-step.later .road-body{opacity:.82}
+@media(max-width:540px){.road-step{grid-template-columns:38px 1fr;gap:11px}.road-num{width:38px;height:38px;font-size:17px}.road-step:not(:last-child)::before{left:18px;top:38px}.road-body{padding:17px}.road-body h3{font-size:17px}.road-body p{font-size:13px}.road-label{font-size:9px}.road-meta{font-size:11px}.road-bottom .button{font-size:12px}}

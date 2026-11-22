@@ -5121,967 +5121,4067 @@ window.LANGKAH_CONTENT = {
       "id": "w001",
       "en": "hello",
       "meaning": "halo",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w002",
-      "en": "goodbye",
-      "meaning": "sampai jumpa",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w003",
-      "en": "please",
-      "meaning": "tolong",
-      "group": "Awal belajar"
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "he-LOU",
+      "ex": "Hello, my name is Rina.",
+      "exId": "Halo, nama saya Rina.",
+      "col": [
+        "say hello"
+      ]
     },
     {
       "id": "w004",
       "en": "thank you",
       "meaning": "terima kasih",
-      "group": "Awal belajar"
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "THENG-kyu",
+      "ex": "Thank you for your help.",
+      "exId": "Terima kasih atas bantuanmu.",
+      "col": [
+        "thank you for …",
+        "thank you very much"
+      ],
+      "fam": "thanks",
+      "err": "Bukan “thanks you”. Pilih salah satu: thank you atau thanks."
+    },
+    {
+      "id": "w003",
+      "en": "please",
+      "meaning": "tolong; silakan",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "pliis",
+      "ex": "Please sit down.",
+      "exId": "Silakan duduk."
     },
     {
       "id": "w005",
       "en": "sorry",
       "meaning": "maaf",
-      "group": "Awal belajar"
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "SO-ri",
+      "ex": "Sorry, I am late.",
+      "exId": "Maaf, saya terlambat.",
+      "col": [
+        "I’m sorry",
+        "sorry for …"
+      ]
+    },
+    {
+      "id": "w002",
+      "en": "goodbye",
+      "meaning": "sampai jumpa",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "gud-BAI",
+      "ex": "Goodbye, see you tomorrow.",
+      "exId": "Sampai jumpa, ketemu besok.",
+      "col": [
+        "say goodbye"
+      ],
+      "fam": "bye"
     },
     {
       "id": "w006",
       "en": "yes",
       "meaning": "ya",
-      "group": "Awal belajar"
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "yes",
+      "ex": "Yes, I am ready.",
+      "exId": "Ya, saya siap."
     },
     {
       "id": "w007",
       "en": "no",
-      "meaning": "tidak",
-      "group": "Awal belajar"
+      "meaning": "tidak; bukan",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "nou",
+      "ex": "No, thank you.",
+      "exId": "Tidak, terima kasih."
     },
     {
       "id": "w008",
       "en": "name",
       "meaning": "nama",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w009",
-      "en": "English",
-      "meaning": "bahasa Inggris",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w010",
-      "en": "word",
-      "meaning": "kata",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w011",
-      "en": "sentence",
-      "meaning": "kalimat",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w012",
-      "en": "question",
-      "meaning": "pertanyaan",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w013",
-      "en": "answer",
-      "meaning": "jawaban",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w014",
-      "en": "repeat",
-      "meaning": "mengulangi",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w015",
-      "en": "slowly",
-      "meaning": "dengan pelan",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w016",
-      "en": "understand",
-      "meaning": "mengerti",
-      "group": "Awal belajar"
-    },
-    {
-      "id": "w017",
-      "en": "one",
-      "meaning": "satu",
-      "group": "Angka"
-    },
-    {
-      "id": "w018",
-      "en": "two",
-      "meaning": "dua",
-      "group": "Angka"
-    },
-    {
-      "id": "w019",
-      "en": "three",
-      "meaning": "tiga",
-      "group": "Angka"
-    },
-    {
-      "id": "w020",
-      "en": "four",
-      "meaning": "empat",
-      "group": "Angka"
-    },
-    {
-      "id": "w021",
-      "en": "five",
-      "meaning": "lima",
-      "group": "Angka"
-    },
-    {
-      "id": "w022",
-      "en": "six",
-      "meaning": "enam",
-      "group": "Angka"
-    },
-    {
-      "id": "w023",
-      "en": "seven",
-      "meaning": "tujuh",
-      "group": "Angka"
-    },
-    {
-      "id": "w024",
-      "en": "eight",
-      "meaning": "delapan",
-      "group": "Angka"
-    },
-    {
-      "id": "w025",
-      "en": "nine",
-      "meaning": "sembilan",
-      "group": "Angka"
-    },
-    {
-      "id": "w026",
-      "en": "ten",
-      "meaning": "sepuluh",
-      "group": "Angka"
-    },
-    {
-      "id": "w027",
-      "en": "eleven",
-      "meaning": "sebelas",
-      "group": "Angka"
-    },
-    {
-      "id": "w028",
-      "en": "twelve",
-      "meaning": "dua belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w029",
-      "en": "thirteen",
-      "meaning": "tiga belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w030",
-      "en": "fourteen",
-      "meaning": "empat belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w031",
-      "en": "fifteen",
-      "meaning": "lima belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w032",
-      "en": "sixteen",
-      "meaning": "enam belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w033",
-      "en": "seventeen",
-      "meaning": "tujuh belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w034",
-      "en": "eighteen",
-      "meaning": "delapan belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w035",
-      "en": "nineteen",
-      "meaning": "sembilan belas",
-      "group": "Angka"
-    },
-    {
-      "id": "w036",
-      "en": "twenty",
-      "meaning": "dua puluh",
-      "group": "Angka"
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "neim",
+      "ex": "What is your name?",
+      "exId": "Siapa namamu?",
+      "col": [
+        "first name",
+        "last name"
+      ]
     },
     {
       "id": "w037",
       "en": "I",
-      "meaning": "saya",
-      "group": "Orang & keluarga"
+      "meaning": "saya; aku",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "ai",
+      "ex": "I am a student.",
+      "exId": "Saya seorang murid.",
+      "fam": "me / my / mine",
+      "err": "Selalu huruf besar, di mana pun posisinya."
     },
     {
       "id": "w038",
       "en": "you",
-      "meaning": "kamu atau Anda",
-      "group": "Orang & keluarga"
+      "meaning": "kamu; Anda",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "yu",
+      "ex": "You are my friend.",
+      "exId": "Kamu temanku.",
+      "fam": "your / yours",
+      "err": "You selalu pakai are, walau cuma satu orang."
+    },
+    {
+      "id": "w041",
+      "en": "he",
+      "meaning": "dia (laki-laki)",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "hi",
+      "ex": "He is my brother.",
+      "exId": "Dia kakak laki-lakiku.",
+      "fam": "him / his",
+      "err": "Bahasa Indonesia cuma punya “dia”. Laki-laki = he, perempuan = she."
+    },
+    {
+      "id": "w042",
+      "en": "she",
+      "meaning": "dia (perempuan)",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "syi",
+      "ex": "She is a teacher.",
+      "exId": "Dia seorang guru.",
+      "fam": "her / hers",
+      "err": "Jangan tertukar dengan he."
+    },
+    {
+      "id": "w043",
+      "en": "it",
+      "meaning": "itu; dia (benda/hewan)",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "it",
+      "ex": "It is hot today.",
+      "exId": "Hari ini panas.",
+      "fam": "its",
+      "err": "Cuaca dan waktu tetap butuh it: It is raining."
     },
     {
       "id": "w039",
       "en": "we",
-      "meaning": "kami atau kita",
-      "group": "Orang & keluarga"
+      "meaning": "kami; kita",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "wi",
+      "ex": "We are at home.",
+      "exId": "Kami di rumah.",
+      "fam": "us / our",
+      "err": "We dipakai untuk “kami” maupun “kita”."
     },
     {
       "id": "w040",
       "en": "they",
       "meaning": "mereka",
-      "group": "Orang & keluarga"
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "dhei",
+      "ex": "They are students.",
+      "exId": "Mereka murid.",
+      "fam": "them / their",
+      "err": "Bunyi th di sini getar, mirip “d” dengan lidah di gigi."
     },
     {
-      "id": "w041",
-      "en": "he",
-      "meaning": "dia laki-laki",
-      "group": "Orang & keluarga"
+      "id": "w162",
+      "en": "what",
+      "meaning": "apa",
+      "group": "Kata tanya",
+      "pack": 1,
+      "pron": "wot",
+      "ex": "What is this?",
+      "exId": "Ini apa?",
+      "col": [
+        "what time",
+        "what kind of"
+      ]
     },
     {
-      "id": "w042",
-      "en": "she",
-      "meaning": "dia perempuan",
-      "group": "Orang & keluarga"
+      "id": "w163",
+      "en": "where",
+      "meaning": "di mana; ke mana",
+      "group": "Kata tanya",
+      "pack": 1,
+      "pron": "weer",
+      "ex": "Where do you live?",
+      "exId": "Kamu tinggal di mana?",
+      "err": "Jangan tertukar dengan were (bentuk lampau are)."
     },
     {
-      "id": "w043",
-      "en": "it",
-      "meaning": "itu (benda, hewan, keadaan)",
-      "group": "Orang & keluarga"
+      "id": "w164",
+      "en": "when",
+      "meaning": "kapan",
+      "group": "Kata tanya",
+      "pack": 1,
+      "pron": "wen",
+      "ex": "When is your birthday?",
+      "exId": "Kapan ulang tahunmu?"
+    },
+    {
+      "id": "w165",
+      "en": "who",
+      "meaning": "siapa",
+      "group": "Kata tanya",
+      "pack": 1,
+      "pron": "hu",
+      "ex": "Who is that man?",
+      "exId": "Siapa pria itu?",
+      "fam": "whose",
+      "err": "Huruf w-nya nggak dibaca: “hu”."
+    },
+    {
+      "id": "w166",
+      "en": "why",
+      "meaning": "kenapa; mengapa",
+      "group": "Kata tanya",
+      "pack": 1,
+      "pron": "wai",
+      "ex": "Why are you sad?",
+      "exId": "Kenapa kamu sedih?",
+      "err": "Jawabannya biasanya pakai because."
+    },
+    {
+      "id": "w167",
+      "en": "how",
+      "meaning": "bagaimana",
+      "group": "Kata tanya",
+      "pack": 1,
+      "pron": "hau",
+      "ex": "How are you?",
+      "exId": "Apa kabar?",
+      "col": [
+        "how much",
+        "how many",
+        "how old"
+      ]
+    },
+    {
+      "id": "w017",
+      "en": "one",
+      "meaning": "satu",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "wan",
+      "ex": "I have one sister.",
+      "exId": "Saya punya satu saudara perempuan.",
+      "fam": "first"
+    },
+    {
+      "id": "w018",
+      "en": "two",
+      "meaning": "dua",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "tu",
+      "ex": "I have two books.",
+      "exId": "Saya punya dua buku.",
+      "fam": "second",
+      "err": "Bendanya pakai -s: two books."
+    },
+    {
+      "id": "w019",
+      "en": "three",
+      "meaning": "tiga",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "thrii",
+      "ex": "We have three cats.",
+      "exId": "Kami punya tiga kucing.",
+      "fam": "third",
+      "err": "Th: ujung lidah di antara gigi, bukan “t”."
+    },
+    {
+      "id": "w020",
+      "en": "four",
+      "meaning": "empat",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "foor",
+      "ex": "There are four chairs.",
+      "exId": "Ada empat kursi.",
+      "fam": "fourth"
+    },
+    {
+      "id": "w021",
+      "en": "five",
+      "meaning": "lima",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "faiv",
+      "ex": "I wake up at five.",
+      "exId": "Saya bangun jam lima.",
+      "fam": "fifth"
+    },
+    {
+      "id": "w022",
+      "en": "six",
+      "meaning": "enam",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "siks",
+      "ex": "She is six years old.",
+      "exId": "Dia berumur enam tahun.",
+      "fam": "sixth"
+    },
+    {
+      "id": "w023",
+      "en": "seven",
+      "meaning": "tujuh",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "SE-ven",
+      "ex": "I eat at seven.",
+      "exId": "Saya makan jam tujuh.",
+      "fam": "seventh"
+    },
+    {
+      "id": "w024",
+      "en": "eight",
+      "meaning": "delapan",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "eit",
+      "ex": "School starts at eight.",
+      "exId": "Sekolah mulai jam delapan.",
+      "fam": "eighth",
+      "err": "Gh-nya nggak dibaca."
+    },
+    {
+      "id": "w025",
+      "en": "nine",
+      "meaning": "sembilan",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "nain",
+      "ex": "I have nine pens.",
+      "exId": "Saya punya sembilan pena.",
+      "fam": "ninth"
+    },
+    {
+      "id": "w026",
+      "en": "ten",
+      "meaning": "sepuluh",
+      "group": "Angka",
+      "pack": 1,
+      "pron": "ten",
+      "ex": "Wait ten minutes, please.",
+      "exId": "Tolong tunggu sepuluh menit.",
+      "fam": "tenth"
     },
     {
       "id": "w044",
       "en": "friend",
       "meaning": "teman",
-      "group": "Orang & keluarga"
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "frend",
+      "ex": "She is my best friend.",
+      "exId": "Dia sahabatku.",
+      "col": [
+        "best friend",
+        "make friends"
+      ],
+      "fam": "friendly / friendship",
+      "err": "Dibaca “frend”, huruf i-nya nggak dibaca."
     },
     {
       "id": "w045",
       "en": "family",
       "meaning": "keluarga",
-      "group": "Orang & keluarga"
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "FE-mi-li",
+      "ex": "My family is small.",
+      "exId": "Keluargaku kecil.",
+      "col": [
+        "big family",
+        "family member"
+      ]
     },
     {
       "id": "w046",
       "en": "mother",
       "meaning": "ibu",
-      "group": "Orang & keluarga"
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "MA-dher",
+      "ex": "My mother is a nurse.",
+      "exId": "Ibuku seorang perawat.",
+      "fam": "mom / mum"
     },
     {
       "id": "w047",
       "en": "father",
       "meaning": "ayah",
-      "group": "Orang & keluarga"
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "FAA-dher",
+      "ex": "My father works in a bank.",
+      "exId": "Ayahku bekerja di bank.",
+      "fam": "dad"
     },
     {
-      "id": "w048",
-      "en": "sister",
-      "meaning": "saudara perempuan",
-      "group": "Orang & keluarga"
+      "id": "w168",
+      "en": "people",
+      "meaning": "orang-orang",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "PII-pel",
+      "ex": "Many people live here.",
+      "exId": "Banyak orang tinggal di sini.",
+      "col": [
+        "young people",
+        "most people"
+      ],
+      "fam": "person (satu orang)",
+      "err": "People itu jamak: people are, bukan people is."
     },
     {
-      "id": "w049",
-      "en": "brother",
-      "meaning": "saudara laki-laki",
-      "group": "Orang & keluarga"
+      "id": "w169",
+      "en": "man",
+      "meaning": "pria; laki-laki",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "men",
+      "ex": "That man is my uncle.",
+      "exId": "Pria itu pamanku.",
+      "fam": "men (jamak)",
+      "err": "Jamaknya men, bukan mans."
     },
     {
-      "id": "w050",
-      "en": "child",
-      "meaning": "anak",
-      "group": "Orang & keluarga"
-    },
-    {
-      "id": "w051",
-      "en": "children",
-      "meaning": "anak-anak",
-      "group": "Orang & keluarga"
+      "id": "w170",
+      "en": "woman",
+      "meaning": "wanita; perempuan",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "WU-men",
+      "ex": "The woman is a doctor.",
+      "exId": "Wanita itu seorang dokter.",
+      "fam": "women (jamak, dibaca WI-min)",
+      "err": "Jamaknya women, bukan womans."
     },
     {
       "id": "w052",
       "en": "teacher",
       "meaning": "guru",
-      "group": "Orang & keluarga"
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "TII-cer",
+      "ex": "My teacher is very kind.",
+      "exId": "Guruku sangat baik.",
+      "col": [
+        "English teacher"
+      ],
+      "fam": "teach / teaching"
     },
     {
       "id": "w053",
       "en": "student",
-      "meaning": "murid",
-      "group": "Orang & keluarga"
+      "meaning": "murid; mahasiswa",
+      "group": "Orang & keluarga",
+      "pack": 1,
+      "pron": "STYU-dent",
+      "ex": "I am a student.",
+      "exId": "Saya seorang murid.",
+      "col": [
+        "university student"
+      ],
+      "fam": "study"
     },
     {
-      "id": "w054",
-      "en": "doctor",
-      "meaning": "dokter",
-      "group": "Orang & keluarga"
+      "id": "w171",
+      "en": "have",
+      "meaning": "punya; makan/minum",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "hev",
+      "ex": "I have a bike.",
+      "exId": "Saya punya sepeda.",
+      "col": [
+        "have breakfast",
+        "have a shower"
+      ],
+      "fam": "has (he/she/it) / had",
+      "err": "He/she/it pakai has, bukan have."
     },
     {
-      "id": "w055",
-      "en": "nurse",
-      "meaning": "perawat",
-      "group": "Orang & keluarga"
+      "id": "w172",
+      "en": "do",
+      "meaning": "melakukan; mengerjakan",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "du",
+      "ex": "I do my homework every day.",
+      "exId": "Saya mengerjakan PR setiap hari.",
+      "col": [
+        "do homework",
+        "do exercise"
+      ],
+      "fam": "does / did / done"
     },
     {
-      "id": "w056",
-      "en": "neighbour",
-      "meaning": "tetangga",
-      "group": "Orang & keluarga"
+      "id": "w173",
+      "en": "like",
+      "meaning": "suka",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "laik",
+      "ex": "I like coffee.",
+      "exId": "Saya suka kopi.",
+      "col": [
+        "like + -ing (I like reading)"
+      ],
+      "fam": "likes",
+      "err": "Jangan tulis “I am like coffee”. Langsung: I like coffee."
     },
     {
-      "id": "w057",
-      "en": "book",
-      "meaning": "buku",
-      "group": "Benda & makanan"
+      "id": "w174",
+      "en": "want",
+      "meaning": "ingin; mau",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "wont",
+      "ex": "I want to sleep.",
+      "exId": "Saya ingin tidur.",
+      "col": [
+        "want to + kata kerja"
+      ],
+      "fam": "wants",
+      "err": "Setelah want pakai to: want to go."
     },
     {
-      "id": "w058",
-      "en": "pen",
-      "meaning": "pena",
-      "group": "Benda & makanan"
+      "id": "w175",
+      "en": "need",
+      "meaning": "butuh; perlu",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "niid",
+      "ex": "I need some water.",
+      "exId": "Saya butuh air.",
+      "col": [
+        "need to + kata kerja"
+      ],
+      "fam": "needs",
+      "err": "Kalau diikuti kata kerja, pakai to: need to study."
     },
     {
-      "id": "w059",
-      "en": "bag",
-      "meaning": "tas",
-      "group": "Benda & makanan"
+      "id": "w176",
+      "en": "know",
+      "meaning": "tahu; kenal",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "nou",
+      "ex": "I know her name.",
+      "exId": "Saya tahu namanya.",
+      "fam": "knowledge",
+      "err": "K-nya nggak dibaca. Jangan pakai -ing: I know, bukan I am knowing."
     },
     {
-      "id": "w060",
-      "en": "phone",
-      "meaning": "telepon",
-      "group": "Benda & makanan"
+      "id": "w177",
+      "en": "see",
+      "meaning": "melihat",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "sii",
+      "ex": "I can see the sea.",
+      "exId": "Saya bisa melihat laut.",
+      "col": [
+        "see you later"
+      ],
+      "fam": "saw / seen"
     },
     {
-      "id": "w061",
-      "en": "key",
-      "meaning": "kunci",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w062",
-      "en": "chair",
-      "meaning": "kursi",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w063",
-      "en": "table",
-      "meaning": "meja",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w064",
-      "en": "door",
-      "meaning": "pintu",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w065",
-      "en": "window",
-      "meaning": "jendela",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w066",
-      "en": "cup",
-      "meaning": "cangkir",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w067",
-      "en": "water",
-      "meaning": "air",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w068",
-      "en": "rice",
-      "meaning": "nasi atau beras",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w069",
-      "en": "bread",
-      "meaning": "roti",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w070",
-      "en": "tea",
-      "meaning": "teh",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w071",
-      "en": "coffee",
-      "meaning": "kopi",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w072",
-      "en": "milk",
-      "meaning": "susu",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w073",
-      "en": "egg",
-      "meaning": "telur",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w074",
-      "en": "fruit",
-      "meaning": "buah",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w075",
-      "en": "apple",
-      "meaning": "apel",
-      "group": "Benda & makanan"
-    },
-    {
-      "id": "w076",
-      "en": "food",
-      "meaning": "makanan",
-      "group": "Benda & makanan"
+      "id": "w178",
+      "en": "live",
+      "meaning": "tinggal; hidup",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "liv",
+      "ex": "I live in Makassar.",
+      "exId": "Saya tinggal di Makassar.",
+      "col": [
+        "live in + kota",
+        "live with"
+      ],
+      "fam": "life",
+      "err": "Tinggal di kota pakai in: live in Bandung."
     },
     {
       "id": "w077",
       "en": "eat",
       "meaning": "makan",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "iit",
+      "ex": "We eat rice every day.",
+      "exId": "Kami makan nasi setiap hari.",
+      "col": [
+        "eat breakfast"
+      ],
+      "fam": "ate / eaten"
     },
     {
       "id": "w078",
       "en": "drink",
       "meaning": "minum",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "dringk",
+      "ex": "I drink tea in the morning.",
+      "exId": "Saya minum teh di pagi hari.",
+      "col": [
+        "drink water"
+      ],
+      "fam": "drank / drunk"
     },
     {
       "id": "w079",
       "en": "study",
       "meaning": "belajar",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "STA-di",
+      "ex": "I study English at night.",
+      "exId": "Saya belajar bahasa Inggris di malam hari.",
+      "col": [
+        "study hard",
+        "study for a test"
+      ],
+      "fam": "student / studies",
+      "err": "He/she: studies (y jadi ies)."
     },
     {
       "id": "w080",
       "en": "work",
-      "meaning": "bekerja",
-      "group": "Kegiatan"
+      "meaning": "bekerja; pekerjaan",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "werk",
+      "ex": "My father works in an office. I work too.",
+      "exId": "Ayahku bekerja di kantor. Aku juga bekerja.",
+      "col": [
+        "go to work",
+        "hard work"
+      ],
+      "fam": "worker",
+      "err": "Work (pekerjaan) nggak bisa dihitung: bukan “a work”, pakai a job."
     },
     {
       "id": "w081",
       "en": "read",
       "meaning": "membaca",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "riid",
+      "ex": "I read a book every week.",
+      "exId": "Saya membaca buku setiap minggu.",
+      "col": [
+        "read a book",
+        "read the news"
+      ],
+      "fam": "reader / reading"
     },
     {
       "id": "w082",
       "en": "write",
       "meaning": "menulis",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "rait",
+      "ex": "Please write your name here.",
+      "exId": "Tolong tulis namamu di sini.",
+      "col": [
+        "write a letter",
+        "write down"
+      ],
+      "fam": "wrote / written / writer",
+      "err": "W-nya nggak dibaca: “rait”."
     },
     {
       "id": "w083",
       "en": "speak",
       "meaning": "berbicara",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "spiik",
+      "ex": "Do you speak English?",
+      "exId": "Kamu bisa bahasa Inggris?",
+      "col": [
+        "speak English",
+        "speak to someone"
+      ],
+      "fam": "speaker / speech"
     },
     {
       "id": "w084",
       "en": "listen",
       "meaning": "mendengarkan",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "LI-sen",
+      "ex": "I listen to music every day.",
+      "exId": "Saya mendengarkan musik setiap hari.",
+      "col": [
+        "listen to …"
+      ],
+      "fam": "listener",
+      "err": "Selalu pakai to: listen to music. T-nya nggak dibaca."
     },
     {
-      "id": "w085",
-      "en": "walk",
-      "meaning": "berjalan",
-      "group": "Kegiatan"
+      "id": "w179",
+      "en": "ask",
+      "meaning": "bertanya; meminta",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "aask",
+      "ex": "Can I ask a question?",
+      "exId": "Boleh saya bertanya?",
+      "col": [
+        "ask a question",
+        "ask for help"
+      ],
+      "err": "Ask for = meminta: ask for water."
     },
     {
-      "id": "w086",
-      "en": "run",
-      "meaning": "berlari",
-      "group": "Kegiatan"
+      "id": "w180",
+      "en": "say",
+      "meaning": "berkata; bilang",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "sei",
+      "ex": "Say hello to your mother.",
+      "exId": "Sampaikan salamku ke ibumu.",
+      "col": [
+        "say hello",
+        "say sorry"
+      ],
+      "fam": "said (dibaca sed)"
     },
     {
       "id": "w087",
       "en": "go",
       "meaning": "pergi",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "gou",
+      "ex": "I go to school by bus.",
+      "exId": "Saya pergi ke sekolah naik bus.",
+      "col": [
+        "go to …",
+        "go home",
+        "go shopping"
+      ],
+      "fam": "went / gone",
+      "err": "Go home tanpa to."
     },
     {
       "id": "w088",
       "en": "come",
       "meaning": "datang",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w089",
-      "en": "wait",
-      "meaning": "menunggu",
-      "group": "Kegiatan"
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "kam",
+      "ex": "Come to my house tomorrow.",
+      "exId": "Datanglah ke rumahku besok.",
+      "col": [
+        "come back",
+        "come in"
+      ],
+      "fam": "came / come"
     },
     {
       "id": "w090",
       "en": "help",
-      "meaning": "membantu",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w091",
-      "en": "buy",
-      "meaning": "membeli",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w092",
-      "en": "sell",
-      "meaning": "menjual",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w093",
-      "en": "cook",
-      "meaning": "memasak",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w094",
-      "en": "clean",
-      "meaning": "membersihkan",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w095",
-      "en": "sleep",
-      "meaning": "tidur",
-      "group": "Kegiatan"
-    },
-    {
-      "id": "w096",
-      "en": "swim",
-      "meaning": "berenang",
-      "group": "Kegiatan"
+      "meaning": "membantu; bantuan",
+      "group": "Kegiatan",
+      "pack": 1,
+      "pron": "help",
+      "ex": "Can you help me?",
+      "exId": "Bisa bantu saya?",
+      "col": [
+        "ask for help",
+        "help someone"
+      ],
+      "fam": "helpful"
     },
     {
       "id": "w097",
       "en": "home",
-      "meaning": "rumah (sebagai tempat pulang/tinggal)",
-      "group": "Tempat & perjalanan"
+      "meaning": "rumah (tempat tinggal)",
+      "group": "Tempat & perjalanan",
+      "pack": 1,
+      "pron": "houm",
+      "ex": "I am at home now.",
+      "exId": "Saya sedang di rumah sekarang.",
+      "col": [
+        "go home",
+        "at home"
+      ],
+      "err": "Go home, bukan go to home."
     },
     {
       "id": "w098",
       "en": "house",
       "meaning": "rumah (bangunan)",
-      "group": "Tempat & perjalanan"
+      "group": "Tempat & perjalanan",
+      "pack": 1,
+      "pron": "haus",
+      "ex": "Their house is big.",
+      "exId": "Rumah mereka besar.",
+      "err": "House = bangunannya; home = tempat tinggalmu."
     },
     {
       "id": "w099",
       "en": "school",
       "meaning": "sekolah",
-      "group": "Tempat & perjalanan"
+      "group": "Tempat & perjalanan",
+      "pack": 1,
+      "pron": "skuul",
+      "ex": "My school is near my house.",
+      "exId": "Sekolahku dekat rumahku.",
+      "col": [
+        "go to school",
+        "at school"
+      ],
+      "err": "Ch dibaca “k”: skuul."
     },
     {
       "id": "w100",
       "en": "shop",
       "meaning": "toko",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w101",
-      "en": "market",
-      "meaning": "pasar",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w102",
-      "en": "bank",
-      "meaning": "bank",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w103",
-      "en": "station",
-      "meaning": "stasiun",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w104",
-      "en": "airport",
-      "meaning": "bandara",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w105",
-      "en": "library",
-      "meaning": "perpustakaan",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w106",
-      "en": "hospital",
-      "meaning": "rumah sakit",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w107",
-      "en": "room",
-      "meaning": "ruangan",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w108",
-      "en": "kitchen",
-      "meaning": "dapur",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w109",
-      "en": "road",
-      "meaning": "jalan",
-      "group": "Tempat & perjalanan"
-    },
-    {
-      "id": "w110",
-      "en": "bus",
-      "meaning": "bus",
-      "group": "Tempat & perjalanan"
+      "group": "Tempat & perjalanan",
+      "pack": 1,
+      "pron": "syop",
+      "ex": "The shop opens at nine.",
+      "exId": "Tokonya buka jam sembilan.",
+      "col": [
+        "go shopping"
+      ],
+      "fam": "shopping"
     },
     {
       "id": "w111",
       "en": "car",
       "meaning": "mobil",
-      "group": "Tempat & perjalanan"
+      "group": "Tempat & perjalanan",
+      "pack": 1,
+      "pron": "kaar",
+      "ex": "My uncle has a red car.",
+      "exId": "Pamanku punya mobil merah.",
+      "col": [
+        "by car",
+        "in a car"
+      ]
     },
     {
-      "id": "w112",
-      "en": "train",
-      "meaning": "kereta",
-      "group": "Tempat & perjalanan"
+      "id": "w057",
+      "en": "book",
+      "meaning": "buku",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "buk",
+      "ex": "This book is interesting.",
+      "exId": "Buku ini menarik.",
+      "col": [
+        "read a book"
+      ]
     },
     {
-      "id": "w113",
-      "en": "bike",
-      "meaning": "sepeda",
-      "group": "Tempat & perjalanan"
+      "id": "w060",
+      "en": "phone",
+      "meaning": "telepon; HP",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "foun",
+      "ex": "My phone is new.",
+      "exId": "HP-ku baru.",
+      "col": [
+        "phone number",
+        "on the phone"
+      ],
+      "err": "Ph dibaca “f”."
     },
     {
-      "id": "w114",
-      "en": "ticket",
-      "meaning": "tiket",
-      "group": "Tempat & perjalanan"
+      "id": "w059",
+      "en": "bag",
+      "meaning": "tas",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "beg",
+      "ex": "Her bag is black.",
+      "exId": "Tasnya hitam.",
+      "col": [
+        "school bag"
+      ]
     },
     {
-      "id": "w115",
-      "en": "left",
-      "meaning": "kiri",
-      "group": "Tempat & perjalanan"
+      "id": "w067",
+      "en": "water",
+      "meaning": "air",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "WO-ter",
+      "ex": "Can I have some water?",
+      "exId": "Boleh minta air?",
+      "col": [
+        "a glass of water",
+        "drink water"
+      ],
+      "err": "Air nggak dihitung: some water, bukan a water."
     },
     {
-      "id": "w116",
-      "en": "right",
-      "meaning": "kanan",
-      "group": "Tempat & perjalanan"
+      "id": "w068",
+      "en": "rice",
+      "meaning": "nasi; beras",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "rais",
+      "ex": "We eat rice for lunch.",
+      "exId": "Kami makan nasi untuk makan siang.",
+      "col": [
+        "fried rice"
+      ],
+      "err": "Nggak bisa dihitung: some rice, bukan rices."
+    },
+    {
+      "id": "w076",
+      "en": "food",
+      "meaning": "makanan",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "fuud",
+      "ex": "Indonesian food is delicious.",
+      "exId": "Makanan Indonesia enak.",
+      "col": [
+        "fast food",
+        "healthy food"
+      ]
+    },
+    {
+      "id": "w181",
+      "en": "money",
+      "meaning": "uang",
+      "group": "Benda & makanan",
+      "pack": 1,
+      "pron": "MA-ni",
+      "ex": "I do not have much money.",
+      "exId": "Saya nggak punya banyak uang.",
+      "col": [
+        "save money",
+        "spend money"
+      ],
+      "err": "Nggak bisa dihitung: much money, bukan many moneys."
+    },
+    {
+      "id": "w182",
+      "en": "time",
+      "meaning": "waktu",
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "taim",
+      "ex": "What time is it?",
+      "exId": "Jam berapa sekarang?",
+      "col": [
+        "free time",
+        "on time",
+        "spend time"
+      ],
+      "err": "Time (waktu) biasanya nggak dihitung: much time."
     },
     {
       "id": "w117",
       "en": "today",
       "meaning": "hari ini",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "tu-DEI",
+      "ex": "Today is Monday.",
+      "exId": "Hari ini hari Senin."
     },
     {
       "id": "w118",
       "en": "tomorrow",
       "meaning": "besok",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "tu-MO-rou",
+      "ex": "See you tomorrow.",
+      "exId": "Sampai ketemu besok.",
+      "col": [
+        "tomorrow morning"
+      ]
     },
     {
       "id": "w119",
       "en": "yesterday",
       "meaning": "kemarin",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "YES-ter-dei",
+      "ex": "I was sick yesterday.",
+      "exId": "Kemarin saya sakit.",
+      "col": [
+        "yesterday morning"
+      ],
+      "err": "Kata kerjanya pakai bentuk lampau: I went yesterday."
     },
     {
       "id": "w120",
       "en": "now",
       "meaning": "sekarang",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "nau",
+      "ex": "I am busy now.",
+      "exId": "Saya sedang sibuk sekarang.",
+      "col": [
+        "right now"
+      ]
     },
     {
       "id": "w121",
       "en": "morning",
       "meaning": "pagi",
-      "group": "Waktu"
-    },
-    {
-      "id": "w122",
-      "en": "afternoon",
-      "meaning": "siang atau sore",
-      "group": "Waktu"
-    },
-    {
-      "id": "w123",
-      "en": "evening",
-      "meaning": "petang",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "MOR-ning",
+      "ex": "I drink coffee in the morning.",
+      "exId": "Saya minum kopi di pagi hari.",
+      "col": [
+        "in the morning",
+        "good morning"
+      ]
     },
     {
       "id": "w124",
       "en": "night",
       "meaning": "malam",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "nait",
+      "ex": "I study at night.",
+      "exId": "Saya belajar di malam hari.",
+      "col": [
+        "at night",
+        "last night"
+      ],
+      "err": "At night, tapi in the morning."
     },
     {
       "id": "w125",
       "en": "day",
       "meaning": "hari",
-      "group": "Waktu"
-    },
-    {
-      "id": "w126",
-      "en": "week",
-      "meaning": "minggu",
-      "group": "Waktu"
-    },
-    {
-      "id": "w127",
-      "en": "month",
-      "meaning": "bulan",
-      "group": "Waktu"
-    },
-    {
-      "id": "w128",
-      "en": "year",
-      "meaning": "tahun",
-      "group": "Waktu"
-    },
-    {
-      "id": "w129",
-      "en": "hour",
-      "meaning": "jam",
-      "group": "Waktu"
-    },
-    {
-      "id": "w130",
-      "en": "minute",
-      "meaning": "menit",
-      "group": "Waktu"
-    },
-    {
-      "id": "w131",
-      "en": "Monday",
-      "meaning": "Senin",
-      "group": "Waktu"
-    },
-    {
-      "id": "w132",
-      "en": "Tuesday",
-      "meaning": "Selasa",
-      "group": "Waktu"
-    },
-    {
-      "id": "w133",
-      "en": "Wednesday",
-      "meaning": "Rabu",
-      "group": "Waktu"
-    },
-    {
-      "id": "w134",
-      "en": "Thursday",
-      "meaning": "Kamis",
-      "group": "Waktu"
-    },
-    {
-      "id": "w135",
-      "en": "Friday",
-      "meaning": "Jumat",
-      "group": "Waktu"
-    },
-    {
-      "id": "w136",
-      "en": "Saturday",
-      "meaning": "Sabtu",
-      "group": "Waktu"
-    },
-    {
-      "id": "w137",
-      "en": "Sunday",
-      "meaning": "Minggu",
-      "group": "Waktu"
+      "group": "Waktu",
+      "pack": 1,
+      "pron": "dei",
+      "ex": "Have a nice day!",
+      "exId": "Semoga harimu menyenangkan!",
+      "col": [
+        "every day",
+        "all day"
+      ],
+      "fam": "daily"
     },
     {
       "id": "w138",
       "en": "happy",
-      "meaning": "senang",
-      "group": "Keadaan & sifat"
+      "meaning": "senang; bahagia",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "HE-pi",
+      "ex": "I am happy today.",
+      "exId": "Saya senang hari ini.",
+      "col": [
+        "happy birthday"
+      ],
+      "fam": "happiness / happily",
+      "err": "Harus ada am/is/are: I am happy, bukan I happy."
     },
     {
       "id": "w139",
       "en": "tired",
-      "meaning": "lelah",
-      "group": "Keadaan & sifat"
+      "meaning": "lelah; capek",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "TAI-erd",
+      "ex": "She is tired after work.",
+      "exId": "Dia capek sepulang kerja.",
+      "col": [
+        "feel tired",
+        "tired of …"
+      ],
+      "err": "Pakai am/is/are: I am tired."
     },
     {
       "id": "w140",
       "en": "hungry",
       "meaning": "lapar",
-      "group": "Keadaan & sifat"
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "HANG-gri",
+      "ex": "Are you hungry?",
+      "exId": "Kamu lapar?",
+      "fam": "hunger",
+      "err": "Pakai am/is/are: I am hungry, bukan I hungry."
     },
     {
-      "id": "w141",
-      "en": "busy",
-      "meaning": "sibuk",
-      "group": "Keadaan & sifat"
+      "id": "w149",
+      "en": "good",
+      "meaning": "baik; bagus",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "gud",
+      "ex": "This is a good idea.",
+      "exId": "Ini ide yang bagus.",
+      "col": [
+        "good at …",
+        "good for …"
+      ],
+      "fam": "better / best / well",
+      "err": "Cara melakukan pakai well: She sings well."
     },
     {
-      "id": "w142",
-      "en": "ready",
-      "meaning": "siap",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w143",
-      "en": "kind",
-      "meaning": "baik hati",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w144",
-      "en": "hot",
-      "meaning": "panas",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w145",
-      "en": "cold",
-      "meaning": "dingin",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w146",
-      "en": "warm",
-      "meaning": "hangat",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w147",
-      "en": "small",
-      "meaning": "kecil",
-      "group": "Keadaan & sifat"
+      "id": "w150",
+      "en": "bad",
+      "meaning": "buruk; jelek",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "bed",
+      "ex": "The weather is bad today.",
+      "exId": "Cuacanya buruk hari ini.",
+      "col": [
+        "bad for …"
+      ],
+      "fam": "worse / worst / badly"
     },
     {
       "id": "w148",
       "en": "big",
       "meaning": "besar",
-      "group": "Keadaan & sifat"
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "big",
+      "ex": "They live in a big house.",
+      "exId": "Mereka tinggal di rumah besar.",
+      "fam": "bigger / biggest",
+      "err": "Sifat di depan benda: a big house, bukan a house big."
     },
     {
-      "id": "w149",
-      "en": "good",
-      "meaning": "baik",
-      "group": "Keadaan & sifat"
+      "id": "w147",
+      "en": "small",
+      "meaning": "kecil",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "smool",
+      "ex": "I have a small bag.",
+      "exId": "Saya punya tas kecil.",
+      "fam": "smaller / smallest"
     },
     {
-      "id": "w150",
-      "en": "bad",
-      "meaning": "buruk",
-      "group": "Keadaan & sifat"
+      "id": "w144",
+      "en": "hot",
+      "meaning": "panas",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "hot",
+      "ex": "It is very hot today.",
+      "exId": "Hari ini panas sekali.",
+      "col": [
+        "hot weather",
+        "hot water"
+      ],
+      "err": "Pakai it: It is hot."
     },
     {
-      "id": "w151",
-      "en": "new",
-      "meaning": "baru",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w152",
-      "en": "old",
-      "meaning": "lama atau tua",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w153",
-      "en": "cheap",
-      "meaning": "murah",
-      "group": "Keadaan & sifat"
-    },
-    {
-      "id": "w154",
-      "en": "expensive",
-      "meaning": "mahal",
-      "group": "Keadaan & sifat"
+      "id": "w145",
+      "en": "cold",
+      "meaning": "dingin",
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "kould",
+      "ex": "The water is cold.",
+      "exId": "Airnya dingin.",
+      "col": [
+        "catch a cold (masuk angin/pilek)"
+      ]
     },
     {
       "id": "w155",
       "en": "easy",
       "meaning": "mudah",
-      "group": "Keadaan & sifat"
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "II-zi",
+      "ex": "This test is easy.",
+      "exId": "Tes ini mudah.",
+      "col": [
+        "easy to …"
+      ],
+      "fam": "easily"
     },
     {
       "id": "w156",
       "en": "difficult",
       "meaning": "sulit",
-      "group": "Keadaan & sifat"
+      "group": "Keadaan & sifat",
+      "pack": 1,
+      "pron": "DI-fi-kelt",
+      "ex": "English is not difficult.",
+      "exId": "Bahasa Inggris nggak sulit.",
+      "col": [
+        "difficult to …"
+      ],
+      "fam": "difficulty"
+    },
+    {
+      "id": "w009",
+      "en": "English",
+      "meaning": "bahasa Inggris",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "ING-glis",
+      "ex": "I am learning English.",
+      "exId": "Saya sedang belajar bahasa Inggris.",
+      "col": [
+        "speak English",
+        "in English"
+      ],
+      "err": "Selalu huruf besar di awal: English."
+    },
+    {
+      "id": "w010",
+      "en": "word",
+      "meaning": "kata",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "werd",
+      "ex": "What does this word mean?",
+      "exId": "Apa arti kata ini?",
+      "col": [
+        "new word",
+        "in other words"
+      ]
+    },
+    {
+      "id": "w011",
+      "en": "sentence",
+      "meaning": "kalimat",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "SEN-tens",
+      "ex": "Write one sentence about your family.",
+      "exId": "Tulis satu kalimat tentang keluargamu."
+    },
+    {
+      "id": "w012",
+      "en": "question",
+      "meaning": "pertanyaan",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "KWES-cen",
+      "ex": "I have a question.",
+      "exId": "Saya punya pertanyaan.",
+      "col": [
+        "ask a question",
+        "answer a question"
+      ],
+      "err": "Bertanya = ask a question, bukan make a question."
+    },
+    {
+      "id": "w013",
+      "en": "answer",
+      "meaning": "jawaban; menjawab",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "AN-ser",
+      "ex": "What is the answer?",
+      "exId": "Apa jawabannya?",
+      "col": [
+        "the right answer",
+        "answer the phone"
+      ],
+      "err": "W-nya nggak dibaca."
+    },
+    {
+      "id": "w014",
+      "en": "repeat",
+      "meaning": "mengulangi",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "ri-PIIT",
+      "ex": "Please repeat that.",
+      "exId": "Tolong ulangi.",
+      "fam": "repetition"
+    },
+    {
+      "id": "w015",
+      "en": "slowly",
+      "meaning": "dengan pelan",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "SLOU-li",
+      "ex": "Please speak slowly.",
+      "exId": "Tolong bicara pelan-pelan.",
+      "fam": "slow",
+      "err": "Slow = sifat (a slow car); slowly = cara (drive slowly)."
+    },
+    {
+      "id": "w016",
+      "en": "understand",
+      "meaning": "mengerti; paham",
+      "group": "Awal belajar",
+      "pack": 1,
+      "pron": "an-der-STEND",
+      "ex": "I do not understand.",
+      "exId": "Saya nggak paham.",
+      "fam": "understood / understanding",
+      "err": "Jangan pakai -ing: I understand, bukan I am understanding."
+    },
+    {
+      "id": "w183",
+      "en": "make",
+      "meaning": "membuat",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "meik",
+      "ex": "I make breakfast every morning.",
+      "exId": "Saya membuat sarapan setiap pagi.",
+      "col": [
+        "make a mistake",
+        "make a decision",
+        "make friends"
+      ],
+      "fam": "made",
+      "err": "Bikin kesalahan = make a mistake, bukan do a mistake."
+    },
+    {
+      "id": "w184",
+      "en": "get",
+      "meaning": "mendapat; menjadi; sampai",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "get",
+      "ex": "I get up at five.",
+      "exId": "Saya bangun jam lima.",
+      "col": [
+        "get up",
+        "get home",
+        "get better"
+      ],
+      "fam": "got",
+      "err": "Get home tanpa to."
+    },
+    {
+      "id": "w185",
+      "en": "take",
+      "meaning": "mengambil; naik (kendaraan)",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "teik",
+      "ex": "I take the bus to work.",
+      "exId": "Saya naik bus ke tempat kerja.",
+      "col": [
+        "take a photo",
+        "take a bus",
+        "take time"
+      ],
+      "fam": "took / taken"
+    },
+    {
+      "id": "w186",
+      "en": "give",
+      "meaning": "memberi",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "giv",
+      "ex": "Please give me the book.",
+      "exId": "Tolong berikan bukunya padaku.",
+      "col": [
+        "give someone something",
+        "give up"
+      ],
+      "fam": "gave / given"
+    },
+    {
+      "id": "w187",
+      "en": "look",
+      "meaning": "melihat; terlihat",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "luk",
+      "ex": "Look at this picture.",
+      "exId": "Lihat gambar ini.",
+      "col": [
+        "look at",
+        "look for (mencari)",
+        "look like"
+      ],
+      "err": "Look at sesuatu, bukan look sesuatu."
+    },
+    {
+      "id": "w188",
+      "en": "love",
+      "meaning": "cinta; sangat suka",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "lav",
+      "ex": "I love my family.",
+      "exId": "Aku sayang keluargaku.",
+      "col": [
+        "love + -ing (I love cooking)"
+      ],
+      "fam": "lovely"
+    },
+    {
+      "id": "w189",
+      "en": "play",
+      "meaning": "bermain",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "plei",
+      "ex": "The children play football.",
+      "exId": "Anak-anak bermain sepak bola.",
+      "col": [
+        "play football",
+        "play the guitar",
+        "play games"
+      ],
+      "fam": "player"
+    },
+    {
+      "id": "w190",
+      "en": "open",
+      "meaning": "membuka; buka",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "OU-pen",
+      "ex": "Please open the window.",
+      "exId": "Tolong buka jendelanya.",
+      "err": "Toko yang sedang buka: The shop is open (bukan is opened)."
+    },
+    {
+      "id": "w191",
+      "en": "close",
+      "meaning": "menutup",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "klouz",
+      "ex": "Close the door, please.",
+      "exId": "Tolong tutup pintunya.",
+      "fam": "closed",
+      "err": "Close sebagai “dekat” dibaca “klous”."
+    },
+    {
+      "id": "w192",
+      "en": "start",
+      "meaning": "memulai; mulai",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "staart",
+      "ex": "We start class at eight.",
+      "exId": "Kami mulai kelas jam delapan.",
+      "col": [
+        "start + -ing",
+        "start to …"
+      ]
+    },
+    {
+      "id": "w193",
+      "en": "finish",
+      "meaning": "menyelesaikan; selesai",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "FI-nisy",
+      "ex": "I finish work at five.",
+      "exId": "Saya selesai kerja jam lima.",
+      "col": [
+        "finish + -ing (finish eating)"
+      ],
+      "err": "Setelah finish pakai -ing, bukan to."
+    },
+    {
+      "id": "w194",
+      "en": "call",
+      "meaning": "menelepon; memanggil",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "kool",
+      "ex": "Call me tonight.",
+      "exId": "Telepon aku nanti malam.",
+      "col": [
+        "call someone",
+        "phone call"
+      ],
+      "err": "Call me, bukan call to me."
+    },
+    {
+      "id": "w195",
+      "en": "tell",
+      "meaning": "memberi tahu; menceritakan",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "tel",
+      "ex": "Tell me your story.",
+      "exId": "Ceritakan kisahmu padaku.",
+      "col": [
+        "tell someone something",
+        "tell a story"
+      ],
+      "fam": "told",
+      "err": "Tell harus diikuti orang: tell me. Say nggak: say hello."
+    },
+    {
+      "id": "w196",
+      "en": "use",
+      "meaning": "memakai; menggunakan",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "yuuz",
+      "ex": "Can I use your pen?",
+      "exId": "Boleh pakai penamu?",
+      "fam": "useful / user"
+    },
+    {
+      "id": "w197",
+      "en": "find",
+      "meaning": "menemukan",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "faind",
+      "ex": "I cannot find my key.",
+      "exId": "Saya nggak bisa menemukan kunciku.",
+      "col": [
+        "find out (mencari tahu)"
+      ],
+      "fam": "found"
+    },
+    {
+      "id": "w198",
+      "en": "try",
+      "meaning": "mencoba",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "trai",
+      "ex": "Try this food.",
+      "exId": "Coba makanan ini.",
+      "col": [
+        "try to …",
+        "try + -ing"
+      ],
+      "fam": "tried"
+    },
+    {
+      "id": "w199",
+      "en": "pay",
+      "meaning": "membayar",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "pei",
+      "ex": "I pay for the ticket.",
+      "exId": "Saya membayar tiketnya.",
+      "col": [
+        "pay for …",
+        "pay by card"
+      ],
+      "fam": "paid / payment",
+      "err": "Bayar sesuatu = pay for: pay for lunch."
+    },
+    {
+      "id": "w200",
+      "en": "send",
+      "meaning": "mengirim",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "send",
+      "ex": "Send me a message.",
+      "exId": "Kirimi aku pesan.",
+      "col": [
+        "send a message",
+        "send an email"
+      ],
+      "fam": "sent"
+    },
+    {
+      "id": "w201",
+      "en": "bring",
+      "meaning": "membawa",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "bring",
+      "ex": "Bring your book tomorrow.",
+      "exId": "Bawa bukumu besok.",
+      "fam": "brought"
+    },
+    {
+      "id": "w202",
+      "en": "meet",
+      "meaning": "bertemu",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "miit",
+      "ex": "Nice to meet you.",
+      "exId": "Senang bertemu denganmu.",
+      "col": [
+        "meet a friend",
+        "nice to meet you"
+      ],
+      "fam": "met / meeting",
+      "err": "Meet someone, bukan meet with someone (untuk pertemuan biasa)."
+    },
+    {
+      "id": "w085",
+      "en": "walk",
+      "meaning": "berjalan",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "wook",
+      "ex": "I walk to school.",
+      "exId": "Saya jalan kaki ke sekolah.",
+      "col": [
+        "go for a walk",
+        "walk to …"
+      ],
+      "err": "L-nya nggak dibaca."
+    },
+    {
+      "id": "w086",
+      "en": "run",
+      "meaning": "berlari",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "ran",
+      "ex": "I run every morning.",
+      "exId": "Saya lari setiap pagi.",
+      "fam": "ran / runner"
+    },
+    {
+      "id": "w089",
+      "en": "wait",
+      "meaning": "menunggu",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "weit",
+      "ex": "Please wait for me.",
+      "exId": "Tolong tunggu aku.",
+      "col": [
+        "wait for …"
+      ],
+      "err": "Selalu pakai for: wait for the bus."
+    },
+    {
+      "id": "w091",
+      "en": "buy",
+      "meaning": "membeli",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "bai",
+      "ex": "I buy fruit at the market.",
+      "exId": "Saya beli buah di pasar.",
+      "col": [
+        "buy something for someone"
+      ],
+      "fam": "bought"
+    },
+    {
+      "id": "w092",
+      "en": "sell",
+      "meaning": "menjual",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "sel",
+      "ex": "They sell fresh fish.",
+      "exId": "Mereka menjual ikan segar.",
+      "fam": "sold / seller"
+    },
+    {
+      "id": "w093",
+      "en": "cook",
+      "meaning": "memasak",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "kuk",
+      "ex": "My father can cook.",
+      "exId": "Ayahku bisa masak.",
+      "fam": "cooker / cooking",
+      "err": "Cook juga berarti juru masak."
+    },
+    {
+      "id": "w094",
+      "en": "clean",
+      "meaning": "membersihkan; bersih",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "kliin",
+      "ex": "I clean my room on Sunday.",
+      "exId": "Saya membersihkan kamar hari Minggu.",
+      "col": [
+        "clean the house"
+      ],
+      "err": "Bisa jadi kata kerja (to clean) atau sifat (a clean room)."
+    },
+    {
+      "id": "w095",
+      "en": "sleep",
+      "meaning": "tidur",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "sliip",
+      "ex": "I sleep at ten.",
+      "exId": "Saya tidur jam sepuluh.",
+      "col": [
+        "go to sleep",
+        "sleep well"
+      ],
+      "fam": "slept / sleepy"
+    },
+    {
+      "id": "w096",
+      "en": "swim",
+      "meaning": "berenang",
+      "group": "Kegiatan",
+      "pack": 2,
+      "pron": "swim",
+      "ex": "Can you swim?",
+      "exId": "Kamu bisa berenang?",
+      "col": [
+        "go swimming"
+      ],
+      "fam": "swam / swimming"
+    },
+    {
+      "id": "w048",
+      "en": "sister",
+      "meaning": "saudara perempuan",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "SIS-ter",
+      "ex": "My sister is ten.",
+      "exId": "Adik perempuanku berumur sepuluh tahun.",
+      "col": [
+        "older sister",
+        "younger sister"
+      ],
+      "err": "Kakak = older, adik = younger."
+    },
+    {
+      "id": "w049",
+      "en": "brother",
+      "meaning": "saudara laki-laki",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "BRA-dher",
+      "ex": "I have one brother.",
+      "exId": "Saya punya satu saudara laki-laki.",
+      "col": [
+        "older brother",
+        "younger brother"
+      ]
+    },
+    {
+      "id": "w050",
+      "en": "child",
+      "meaning": "anak",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "caild",
+      "ex": "The child is sleeping.",
+      "exId": "Anak itu sedang tidur.",
+      "fam": "children (jamak)",
+      "err": "Jamaknya children, bukan childs."
+    },
+    {
+      "id": "w051",
+      "en": "children",
+      "meaning": "anak-anak",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "CIL-dren",
+      "ex": "The children are happy.",
+      "exId": "Anak-anak itu senang.",
+      "fam": "child (tunggal)",
+      "err": "Sudah jamak: children are."
+    },
+    {
+      "id": "w203",
+      "en": "baby",
+      "meaning": "bayi",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "BEI-bi",
+      "ex": "The baby is crying.",
+      "exId": "Bayinya menangis.",
+      "fam": "babies"
+    },
+    {
+      "id": "w054",
+      "en": "doctor",
+      "meaning": "dokter",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "DOK-ter",
+      "ex": "I need to see a doctor.",
+      "exId": "Saya perlu ke dokter.",
+      "col": [
+        "see a doctor"
+      ]
+    },
+    {
+      "id": "w055",
+      "en": "nurse",
+      "meaning": "perawat",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "ners",
+      "ex": "She is a nurse.",
+      "exId": "Dia seorang perawat.",
+      "err": "Pekerjaan pakai a/an: She is a nurse."
+    },
+    {
+      "id": "w056",
+      "en": "neighbour",
+      "meaning": "tetangga",
+      "group": "Orang & keluarga",
+      "pack": 2,
+      "pron": "NEI-ber",
+      "ex": "My neighbour is friendly.",
+      "exId": "Tetanggaku ramah.",
+      "fam": "neighbourhood",
+      "err": "Ejaan Amerika: neighbor. Gh-nya nggak dibaca."
+    },
+    {
+      "id": "w027",
+      "en": "eleven",
+      "meaning": "sebelas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "i-LE-ven",
+      "ex": "My brother is eleven.",
+      "exId": "Adikku berumur sebelas tahun."
+    },
+    {
+      "id": "w028",
+      "en": "twelve",
+      "meaning": "dua belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "twelv",
+      "ex": "There are twelve months in a year.",
+      "exId": "Ada dua belas bulan dalam setahun."
+    },
+    {
+      "id": "w029",
+      "en": "thirteen",
+      "meaning": "tiga belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "ther-TIIN",
+      "ex": "She is thirteen.",
+      "exId": "Dia berumur tiga belas tahun.",
+      "err": "Tekanan di akhir (ther-TIIN), beda dengan thirty (THER-ti)."
+    },
+    {
+      "id": "w030",
+      "en": "fourteen",
+      "meaning": "empat belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "foor-TIIN",
+      "ex": "I have fourteen days off.",
+      "exId": "Saya libur empat belas hari."
+    },
+    {
+      "id": "w031",
+      "en": "fifteen",
+      "meaning": "lima belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "fif-TIIN",
+      "ex": "Wait fifteen minutes.",
+      "exId": "Tunggu lima belas menit.",
+      "err": "Fif-, bukan five-."
+    },
+    {
+      "id": "w032",
+      "en": "sixteen",
+      "meaning": "enam belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "siks-TIIN",
+      "ex": "He is sixteen.",
+      "exId": "Dia berumur enam belas tahun."
+    },
+    {
+      "id": "w033",
+      "en": "seventeen",
+      "meaning": "tujuh belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "se-ven-TIIN",
+      "ex": "My cousin is seventeen.",
+      "exId": "Sepupuku berumur tujuh belas tahun.",
+      "fam": "seventeenth"
+    },
+    {
+      "id": "w034",
+      "en": "eighteen",
+      "meaning": "delapan belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "ei-TIIN",
+      "ex": "You must be eighteen.",
+      "exId": "Kamu harus berumur delapan belas tahun.",
+      "err": "Cuma satu t: eighteen."
+    },
+    {
+      "id": "w035",
+      "en": "nineteen",
+      "meaning": "sembilan belas",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "nain-TIIN",
+      "ex": "There are nineteen students.",
+      "exId": "Ada sembilan belas murid."
+    },
+    {
+      "id": "w036",
+      "en": "twenty",
+      "meaning": "dua puluh",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "TWEN-ti",
+      "ex": "I am twenty years old.",
+      "exId": "Umurku dua puluh tahun.",
+      "fam": "twentieth"
+    },
+    {
+      "id": "w204",
+      "en": "thirty",
+      "meaning": "tiga puluh",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "THER-ti",
+      "ex": "The bus comes in thirty minutes.",
+      "exId": "Busnya datang tiga puluh menit lagi.",
+      "err": "Tekanan di depan (THER-ti), beda dengan thirteen."
+    },
+    {
+      "id": "w205",
+      "en": "forty",
+      "meaning": "empat puluh",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "FOR-ti",
+      "ex": "My father is forty.",
+      "exId": "Ayahku berumur empat puluh tahun.",
+      "err": "Ejaannya forty, bukan fourty."
+    },
+    {
+      "id": "w206",
+      "en": "fifty",
+      "meaning": "lima puluh",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "FIF-ti",
+      "ex": "It costs fifty thousand rupiah.",
+      "exId": "Harganya lima puluh ribu rupiah."
+    },
+    {
+      "id": "w207",
+      "en": "hundred",
+      "meaning": "ratus",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "HAN-dred",
+      "ex": "There are a hundred people here.",
+      "exId": "Ada seratus orang di sini.",
+      "col": [
+        "a hundred",
+        "two hundred"
+      ],
+      "err": "Two hundred, bukan two hundreds."
+    },
+    {
+      "id": "w208",
+      "en": "thousand",
+      "meaning": "ribu",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "THAU-zend",
+      "ex": "This bag costs two hundred thousand rupiah.",
+      "exId": "Tas ini harganya dua ratus ribu rupiah.",
+      "col": [
+        "a thousand",
+        "ten thousand"
+      ],
+      "err": "Ten thousand, bukan ten thousands."
+    },
+    {
+      "id": "w209",
+      "en": "first",
+      "meaning": "pertama",
+      "group": "Angka",
+      "pack": 2,
+      "pron": "ferst",
+      "ex": "This is my first time here.",
+      "exId": "Ini pertama kalinya aku di sini.",
+      "col": [
+        "first time",
+        "at first"
+      ],
+      "fam": "firstly"
+    },
+    {
+      "id": "w058",
+      "en": "pen",
+      "meaning": "pena; pulpen",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "pen",
+      "ex": "Can I borrow your pen?",
+      "exId": "Boleh pinjam pulpenmu?"
+    },
+    {
+      "id": "w061",
+      "en": "key",
+      "meaning": "kunci",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "kii",
+      "ex": "I lost my key.",
+      "exId": "Kunciku hilang.",
+      "col": [
+        "car key",
+        "the key to …"
+      ],
+      "err": "Ey dibaca “ii”."
+    },
+    {
+      "id": "w062",
+      "en": "chair",
+      "meaning": "kursi",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "ceer",
+      "ex": "Sit on the chair.",
+      "exId": "Duduk di kursi.",
+      "col": [
+        "sit on a chair"
+      ]
+    },
+    {
+      "id": "w063",
+      "en": "table",
+      "meaning": "meja",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "TEI-bel",
+      "ex": "The food is on the table.",
+      "exId": "Makanannya di atas meja.",
+      "col": [
+        "on the table"
+      ]
+    },
+    {
+      "id": "w064",
+      "en": "door",
+      "meaning": "pintu",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "door",
+      "ex": "Open the door, please.",
+      "exId": "Tolong buka pintunya.",
+      "col": [
+        "open the door",
+        "close the door"
+      ]
+    },
+    {
+      "id": "w065",
+      "en": "window",
+      "meaning": "jendela",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "WIN-dou",
+      "ex": "Look out of the window.",
+      "exId": "Lihat ke luar jendela."
+    },
+    {
+      "id": "w066",
+      "en": "cup",
+      "meaning": "cangkir",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "kap",
+      "ex": "I want a cup of tea.",
+      "exId": "Saya mau secangkir teh.",
+      "col": [
+        "a cup of …"
+      ]
+    },
+    {
+      "id": "w069",
+      "en": "bread",
+      "meaning": "roti",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "bred",
+      "ex": "I eat bread for breakfast.",
+      "exId": "Saya makan roti untuk sarapan.",
+      "col": [
+        "a piece of bread"
+      ],
+      "err": "Nggak bisa dihitung: some bread, bukan a bread."
+    },
+    {
+      "id": "w070",
+      "en": "tea",
+      "meaning": "teh",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "tii",
+      "ex": "Would you like some tea?",
+      "exId": "Mau teh?",
+      "col": [
+        "a cup of tea",
+        "sweet tea"
+      ]
+    },
+    {
+      "id": "w071",
+      "en": "coffee",
+      "meaning": "kopi",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "KO-fi",
+      "ex": "I drink coffee every morning.",
+      "exId": "Saya minum kopi setiap pagi.",
+      "col": [
+        "black coffee",
+        "a cup of coffee"
+      ]
+    },
+    {
+      "id": "w072",
+      "en": "milk",
+      "meaning": "susu",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "milk",
+      "ex": "Children need milk.",
+      "exId": "Anak-anak butuh susu.",
+      "col": [
+        "a glass of milk"
+      ]
+    },
+    {
+      "id": "w073",
+      "en": "egg",
+      "meaning": "telur",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "eg",
+      "ex": "I eat an egg every day.",
+      "exId": "Saya makan satu telur setiap hari.",
+      "col": [
+        "fried egg",
+        "boiled egg"
+      ],
+      "err": "Pakai an: an egg."
+    },
+    {
+      "id": "w074",
+      "en": "fruit",
+      "meaning": "buah",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "fruut",
+      "ex": "I like fresh fruit.",
+      "exId": "Saya suka buah segar.",
+      "col": [
+        "fresh fruit",
+        "a piece of fruit"
+      ],
+      "err": "Biasanya nggak dihitung: some fruit."
+    },
+    {
+      "id": "w075",
+      "en": "apple",
+      "meaning": "apel",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "E-pel",
+      "ex": "She eats an apple.",
+      "exId": "Dia makan sebuah apel.",
+      "err": "Pakai an: an apple."
+    },
+    {
+      "id": "w210",
+      "en": "clothes",
+      "meaning": "pakaian; baju",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "klouz",
+      "ex": "I wash my clothes on Sunday.",
+      "exId": "Saya mencuci baju hari Minggu.",
+      "col": [
+        "wear clothes",
+        "new clothes"
+      ],
+      "err": "Selalu jamak: my clothes are, bukan a clothes."
+    },
+    {
+      "id": "w211",
+      "en": "shoes",
+      "meaning": "sepatu",
+      "group": "Benda & makanan",
+      "pack": 2,
+      "pron": "syuuz",
+      "ex": "These shoes are new.",
+      "exId": "Sepatu ini baru.",
+      "col": [
+        "a pair of shoes"
+      ],
+      "fam": "shoe (satu)",
+      "err": "Sepasang sepatu = a pair of shoes."
+    },
+    {
+      "id": "w212",
+      "en": "city",
+      "meaning": "kota",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "SI-ti",
+      "ex": "Jakarta is a big city.",
+      "exId": "Jakarta adalah kota besar.",
+      "col": [
+        "capital city",
+        "city centre"
+      ],
+      "fam": "cities"
+    },
+    {
+      "id": "w213",
+      "en": "village",
+      "meaning": "desa; kampung",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "VI-lij",
+      "ex": "My grandparents live in a village.",
+      "exId": "Kakek nenekku tinggal di desa.",
+      "fam": "villager"
+    },
+    {
+      "id": "w101",
+      "en": "market",
+      "meaning": "pasar",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "MAAR-ket",
+      "ex": "We buy vegetables at the market.",
+      "exId": "Kami beli sayur di pasar.",
+      "col": [
+        "traditional market",
+        "go to the market"
+      ]
+    },
+    {
+      "id": "w102",
+      "en": "bank",
+      "meaning": "bank",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "bengk",
+      "ex": "The bank opens at eight.",
+      "exId": "Banknya buka jam delapan."
+    },
+    {
+      "id": "w103",
+      "en": "station",
+      "meaning": "stasiun",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "STEI-syen",
+      "ex": "The station is near here.",
+      "exId": "Stasiunnya dekat sini.",
+      "col": [
+        "train station",
+        "bus station"
+      ]
+    },
+    {
+      "id": "w104",
+      "en": "airport",
+      "meaning": "bandara",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "EER-poort",
+      "ex": "I arrived at the airport.",
+      "exId": "Saya tiba di bandara.",
+      "col": [
+        "at the airport"
+      ],
+      "err": "Tiba di bandara = arrive at the airport."
+    },
+    {
+      "id": "w105",
+      "en": "library",
+      "meaning": "perpustakaan",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "LAI-bre-ri",
+      "ex": "I study in the library.",
+      "exId": "Saya belajar di perpustakaan.",
+      "fam": "librarian",
+      "err": "Library = perpustakaan, bukan toko buku (bookshop)."
+    },
+    {
+      "id": "w106",
+      "en": "hospital",
+      "meaning": "rumah sakit",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "HOS-pi-tel",
+      "ex": "She works at a hospital.",
+      "exId": "Dia bekerja di rumah sakit.",
+      "col": [
+        "in hospital",
+        "go to hospital"
+      ]
+    },
+    {
+      "id": "w107",
+      "en": "room",
+      "meaning": "ruangan; kamar",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "ruum",
+      "ex": "My room is small.",
+      "exId": "Kamarku kecil.",
+      "col": [
+        "bedroom",
+        "living room"
+      ]
+    },
+    {
+      "id": "w108",
+      "en": "kitchen",
+      "meaning": "dapur",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "KI-cen",
+      "ex": "My mother is in the kitchen.",
+      "exId": "Ibuku di dapur."
+    },
+    {
+      "id": "w109",
+      "en": "road",
+      "meaning": "jalan",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "roud",
+      "ex": "The road is busy.",
+      "exId": "Jalannya ramai.",
+      "col": [
+        "cross the road",
+        "on the road"
+      ]
+    },
+    {
+      "id": "w110",
+      "en": "bus",
+      "meaning": "bus",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "bas",
+      "ex": "I go to work by bus.",
+      "exId": "Saya kerja naik bus.",
+      "col": [
+        "by bus",
+        "take the bus"
+      ],
+      "err": "Naik bus = by bus, tanpa the."
+    },
+    {
+      "id": "w112",
+      "en": "train",
+      "meaning": "kereta",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "trein",
+      "ex": "The train is late.",
+      "exId": "Keretanya terlambat.",
+      "col": [
+        "by train",
+        "take the train"
+      ]
+    },
+    {
+      "id": "w113",
+      "en": "bike",
+      "meaning": "sepeda",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "baik",
+      "ex": "I ride my bike to school.",
+      "exId": "Saya naik sepeda ke sekolah.",
+      "col": [
+        "ride a bike",
+        "by bike"
+      ],
+      "err": "Naik sepeda = ride a bike."
+    },
+    {
+      "id": "w114",
+      "en": "ticket",
+      "meaning": "tiket",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "TI-ket",
+      "ex": "I need a ticket.",
+      "exId": "Saya butuh tiket.",
+      "col": [
+        "buy a ticket",
+        "train ticket"
+      ]
+    },
+    {
+      "id": "w115",
+      "en": "left",
+      "meaning": "kiri",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "left",
+      "ex": "Turn left at the bank.",
+      "exId": "Belok kiri di bank.",
+      "col": [
+        "turn left",
+        "on the left"
+      ]
+    },
+    {
+      "id": "w116",
+      "en": "right",
+      "meaning": "kanan; benar",
+      "group": "Tempat & perjalanan",
+      "pack": 2,
+      "pron": "rait",
+      "ex": "The shop is on the right.",
+      "exId": "Tokonya di sebelah kanan.",
+      "col": [
+        "turn right",
+        "on the right",
+        "that’s right"
+      ],
+      "err": "Gh-nya nggak dibaca."
+    },
+    {
+      "id": "w214",
+      "en": "weather",
+      "meaning": "cuaca",
+      "group": "Cuaca",
+      "pack": 2,
+      "pron": "WE-dher",
+      "ex": "The weather is nice today.",
+      "exId": "Cuacanya bagus hari ini.",
+      "col": [
+        "good weather",
+        "bad weather"
+      ],
+      "err": "Nggak pakai a: The weather is nice, bukan a nice weather."
+    },
+    {
+      "id": "w215",
+      "en": "rain",
+      "meaning": "hujan",
+      "group": "Cuaca",
+      "pack": 2,
+      "pron": "rein",
+      "ex": "It is going to rain.",
+      "exId": "Sepertinya mau hujan.",
+      "col": [
+        "heavy rain"
+      ],
+      "fam": "rainy",
+      "err": "Harus ada it: It rains / It is raining."
+    },
+    {
+      "id": "w216",
+      "en": "sun",
+      "meaning": "matahari",
+      "group": "Cuaca",
+      "pack": 2,
+      "pron": "san",
+      "ex": "The sun is very hot.",
+      "exId": "Mataharinya terik sekali.",
+      "fam": "sunny / sunshine"
+    },
+    {
+      "id": "w217",
+      "en": "red",
+      "meaning": "merah",
+      "group": "Warna",
+      "pack": 2,
+      "pron": "red",
+      "ex": "She has a red bag.",
+      "exId": "Dia punya tas merah.",
+      "err": "Warna di depan benda: a red car."
+    },
+    {
+      "id": "w218",
+      "en": "blue",
+      "meaning": "biru",
+      "group": "Warna",
+      "pack": 2,
+      "pron": "bluu",
+      "ex": "The sky is blue.",
+      "exId": "Langitnya biru."
+    },
+    {
+      "id": "w219",
+      "en": "green",
+      "meaning": "hijau",
+      "group": "Warna",
+      "pack": 2,
+      "pron": "griin",
+      "ex": "I like green tea.",
+      "exId": "Saya suka teh hijau."
+    },
+    {
+      "id": "w220",
+      "en": "white",
+      "meaning": "putih",
+      "group": "Warna",
+      "pack": 2,
+      "pron": "wait",
+      "ex": "He wears a white shirt.",
+      "exId": "Dia memakai kemeja putih."
+    },
+    {
+      "id": "w221",
+      "en": "black",
+      "meaning": "hitam",
+      "group": "Warna",
+      "pack": 2,
+      "pron": "blek",
+      "ex": "I drink black coffee.",
+      "exId": "Saya minum kopi hitam."
+    },
+    {
+      "id": "w222",
+      "en": "yellow",
+      "meaning": "kuning",
+      "group": "Warna",
+      "pack": 2,
+      "pron": "YE-lou",
+      "ex": "The flowers are yellow.",
+      "exId": "Bunga-bunganya kuning."
+    },
+    {
+      "id": "w122",
+      "en": "afternoon",
+      "meaning": "siang; sore",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "aaf-ter-NUUN",
+      "ex": "I sleep in the afternoon.",
+      "exId": "Saya tidur siang.",
+      "col": [
+        "in the afternoon",
+        "good afternoon"
+      ]
+    },
+    {
+      "id": "w123",
+      "en": "evening",
+      "meaning": "petang; malam (awal)",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "IIV-ning",
+      "ex": "We eat dinner in the evening.",
+      "exId": "Kami makan malam di waktu petang.",
+      "col": [
+        "in the evening",
+        "good evening"
+      ]
+    },
+    {
+      "id": "w126",
+      "en": "week",
+      "meaning": "minggu (7 hari)",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "wiik",
+      "ex": "I go swimming every week.",
+      "exId": "Saya berenang setiap minggu.",
+      "col": [
+        "next week",
+        "last week",
+        "every week"
+      ],
+      "fam": "weekly / weekend",
+      "err": "Next week tanpa in/on."
+    },
+    {
+      "id": "w127",
+      "en": "month",
+      "meaning": "bulan",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "manth",
+      "ex": "I visit my parents every month.",
+      "exId": "Saya mengunjungi orang tua setiap bulan.",
+      "col": [
+        "next month",
+        "last month"
+      ],
+      "fam": "monthly"
+    },
+    {
+      "id": "w128",
+      "en": "year",
+      "meaning": "tahun",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "yiir",
+      "ex": "I started work last year.",
+      "exId": "Saya mulai kerja tahun lalu.",
+      "col": [
+        "last year",
+        "next year",
+        "years old"
+      ],
+      "fam": "yearly"
+    },
+    {
+      "id": "w129",
+      "en": "hour",
+      "meaning": "jam (lamanya)",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "AU-er",
+      "ex": "The trip takes one hour.",
+      "exId": "Perjalanannya satu jam.",
+      "col": [
+        "an hour",
+        "half an hour"
+      ],
+      "err": "H-nya nggak dibaca, jadi pakai an: an hour."
+    },
+    {
+      "id": "w130",
+      "en": "minute",
+      "meaning": "menit",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "MI-nit",
+      "ex": "Wait a minute.",
+      "exId": "Tunggu sebentar.",
+      "col": [
+        "a few minutes"
+      ]
+    },
+    {
+      "id": "w131",
+      "en": "Monday",
+      "meaning": "Senin",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "MAN-dei",
+      "ex": "I have a test on Monday.",
+      "exId": "Saya ada tes hari Senin.",
+      "col": [
+        "on Monday"
+      ],
+      "err": "Hari pakai on dan huruf besar: on Monday."
+    },
+    {
+      "id": "w132",
+      "en": "Tuesday",
+      "meaning": "Selasa",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "TYUUZ-dei",
+      "ex": "The shop is closed on Tuesday.",
+      "exId": "Tokonya tutup hari Selasa.",
+      "col": [
+        "on Tuesday"
+      ]
+    },
+    {
+      "id": "w133",
+      "en": "Wednesday",
+      "meaning": "Rabu",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "WENZ-dei",
+      "ex": "We meet on Wednesday.",
+      "exId": "Kita ketemu hari Rabu.",
+      "col": [
+        "on Wednesday"
+      ],
+      "err": "Huruf d pertama nggak dibaca: WENZ-dei."
+    },
+    {
+      "id": "w134",
+      "en": "Thursday",
+      "meaning": "Kamis",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "THERZ-dei",
+      "ex": "I play football on Thursday.",
+      "exId": "Saya main bola hari Kamis.",
+      "col": [
+        "on Thursday"
+      ]
+    },
+    {
+      "id": "w135",
+      "en": "Friday",
+      "meaning": "Jumat",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "FRAI-dei",
+      "ex": "See you on Friday.",
+      "exId": "Sampai ketemu hari Jumat.",
+      "col": [
+        "on Friday"
+      ]
+    },
+    {
+      "id": "w136",
+      "en": "Saturday",
+      "meaning": "Sabtu",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "SE-ter-dei",
+      "ex": "I clean the house on Saturday.",
+      "exId": "Saya bersih-bersih rumah hari Sabtu.",
+      "col": [
+        "on Saturday"
+      ]
+    },
+    {
+      "id": "w137",
+      "en": "Sunday",
+      "meaning": "Minggu",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "SAN-dei",
+      "ex": "We go to the beach on Sunday.",
+      "exId": "Kami ke pantai hari Minggu.",
+      "col": [
+        "on Sunday"
+      ]
+    },
+    {
+      "id": "w223",
+      "en": "January",
+      "meaning": "Januari",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "JE-nyu-e-ri",
+      "ex": "School starts in January.",
+      "exId": "Sekolah mulai bulan Januari.",
+      "col": [
+        "in January"
+      ],
+      "err": "Bulan pakai in dan huruf besar: in January."
+    },
+    {
+      "id": "w224",
+      "en": "February",
+      "meaning": "Februari",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "FEB-ru-e-ri",
+      "ex": "February is a short month.",
+      "exId": "Februari bulan yang pendek.",
+      "col": [
+        "in February"
+      ]
+    },
+    {
+      "id": "w225",
+      "en": "March",
+      "meaning": "Maret",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "maarc",
+      "ex": "My birthday is in March.",
+      "exId": "Ulang tahunku di bulan Maret.",
+      "col": [
+        "in March"
+      ]
+    },
+    {
+      "id": "w226",
+      "en": "April",
+      "meaning": "April",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "EI-pril",
+      "ex": "It often rains in April.",
+      "exId": "Sering hujan di bulan April.",
+      "col": [
+        "in April"
+      ]
+    },
+    {
+      "id": "w227",
+      "en": "May",
+      "meaning": "Mei",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "mei",
+      "ex": "The holiday is in May.",
+      "exId": "Liburannya di bulan Mei.",
+      "col": [
+        "in May"
+      ]
+    },
+    {
+      "id": "w228",
+      "en": "June",
+      "meaning": "Juni",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "juun",
+      "ex": "We finish school in June.",
+      "exId": "Kami selesai sekolah bulan Juni.",
+      "col": [
+        "in June"
+      ]
+    },
+    {
+      "id": "w229",
+      "en": "July",
+      "meaning": "Juli",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "ju-LAI",
+      "ex": "It is very hot in July.",
+      "exId": "Bulan Juli panas sekali.",
+      "col": [
+        "in July"
+      ]
+    },
+    {
+      "id": "w230",
+      "en": "August",
+      "meaning": "Agustus",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "OO-gest",
+      "ex": "Indonesia celebrates Independence Day in August.",
+      "exId": "Indonesia merayakan Hari Kemerdekaan di bulan Agustus.",
+      "col": [
+        "in August"
+      ]
+    },
+    {
+      "id": "w231",
+      "en": "September",
+      "meaning": "September",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "sep-TEM-ber",
+      "ex": "I start university in September.",
+      "exId": "Saya mulai kuliah bulan September.",
+      "col": [
+        "in September"
+      ]
+    },
+    {
+      "id": "w232",
+      "en": "October",
+      "meaning": "Oktober",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "ok-TOU-ber",
+      "ex": "The test is in October.",
+      "exId": "Tesnya bulan Oktober.",
+      "col": [
+        "in October"
+      ]
+    },
+    {
+      "id": "w233",
+      "en": "November",
+      "meaning": "November",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "nou-VEM-ber",
+      "ex": "It rains a lot in November.",
+      "exId": "Banyak hujan di bulan November.",
+      "col": [
+        "in November"
+      ]
+    },
+    {
+      "id": "w234",
+      "en": "December",
+      "meaning": "Desember",
+      "group": "Waktu",
+      "pack": 2,
+      "pron": "di-SEM-ber",
+      "ex": "We travel in December.",
+      "exId": "Kami bepergian bulan Desember.",
+      "col": [
+        "in December"
+      ]
+    },
+    {
+      "id": "w235",
+      "en": "head",
+      "meaning": "kepala",
+      "group": "Kesehatan",
+      "pack": 2,
+      "pron": "hed",
+      "ex": "My head hurts.",
+      "exId": "Kepalaku sakit.",
+      "col": [
+        "headache (sakit kepala)"
+      ],
+      "err": "Ea dibaca “e”: hed."
+    },
+    {
+      "id": "w236",
+      "en": "hand",
+      "meaning": "tangan",
+      "group": "Kesehatan",
+      "pack": 2,
+      "pron": "hend",
+      "ex": "Raise your hand if you know.",
+      "exId": "Angkat tanganmu kalau tahu.",
+      "col": [
+        "wash your hands",
+        "by hand"
+      ]
+    },
+    {
+      "id": "w237",
+      "en": "sick",
+      "meaning": "sakit",
+      "group": "Kesehatan",
+      "pack": 2,
+      "pron": "sik",
+      "ex": "I feel sick today.",
+      "exId": "Saya merasa nggak enak badan hari ini.",
+      "col": [
+        "feel sick",
+        "get sick"
+      ],
+      "fam": "sickness",
+      "err": "Pakai am/is/are atau feel: I am sick."
+    },
+    {
+      "id": "w238",
+      "en": "medicine",
+      "meaning": "obat",
+      "group": "Kesehatan",
+      "pack": 2,
+      "pron": "MED-sin",
+      "ex": "Take this medicine twice a day.",
+      "exId": "Minum obat ini dua kali sehari.",
+      "col": [
+        "take medicine"
+      ],
+      "err": "Minum obat = take medicine, bukan drink medicine."
+    },
+    {
+      "id": "w239",
+      "en": "music",
+      "meaning": "musik",
+      "group": "Hobi & waktu luang",
+      "pack": 2,
+      "pron": "MYUU-zik",
+      "ex": "I listen to music every day.",
+      "exId": "Saya mendengarkan musik setiap hari.",
+      "col": [
+        "listen to music",
+        "play music"
+      ],
+      "fam": "musician",
+      "err": "Listen to music, bukan hear music."
+    },
+    {
+      "id": "w240",
+      "en": "movie",
+      "meaning": "film",
+      "group": "Hobi & waktu luang",
+      "pack": 2,
+      "pron": "MUU-vi",
+      "ex": "Let’s watch a movie.",
+      "exId": "Yuk nonton film.",
+      "col": [
+        "watch a movie",
+        "go to the movies"
+      ],
+      "err": "Inggris (UK) sering bilang film."
+    },
+    {
+      "id": "w241",
+      "en": "holiday",
+      "meaning": "liburan; hari libur",
+      "group": "Hobi & waktu luang",
+      "pack": 2,
+      "pron": "HO-li-dei",
+      "ex": "We go to Bali on holiday.",
+      "exId": "Kami liburan ke Bali.",
+      "col": [
+        "on holiday",
+        "summer holiday"
+      ],
+      "err": "Sedang liburan = on holiday."
+    },
+    {
+      "id": "w242",
+      "en": "game",
+      "meaning": "permainan; pertandingan",
+      "group": "Hobi & waktu luang",
+      "pack": 2,
+      "pron": "geim",
+      "ex": "Do you want to play a game?",
+      "exId": "Mau main game?",
+      "col": [
+        "play a game",
+        "win a game"
+      ]
+    },
+    {
+      "id": "w141",
+      "en": "busy",
+      "meaning": "sibuk; ramai",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "BI-zi",
+      "ex": "I am busy today.",
+      "exId": "Saya sibuk hari ini.",
+      "col": [
+        "busy with …",
+        "a busy road"
+      ],
+      "fam": "business",
+      "err": "Dibaca BI-zi, bukan bu-si."
+    },
+    {
+      "id": "w142",
+      "en": "ready",
+      "meaning": "siap",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "RE-di",
+      "ex": "Are you ready?",
+      "exId": "Kamu siap?",
+      "col": [
+        "ready for …",
+        "get ready"
+      ]
+    },
+    {
+      "id": "w143",
+      "en": "kind",
+      "meaning": "baik hati; jenis",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "kaind",
+      "ex": "She is very kind.",
+      "exId": "Dia baik sekali.",
+      "col": [
+        "kind to someone",
+        "what kind of …"
+      ],
+      "fam": "kindness"
+    },
+    {
+      "id": "w146",
+      "en": "warm",
+      "meaning": "hangat",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "woorm",
+      "ex": "The soup is warm.",
+      "exId": "Supnya hangat.",
+      "fam": "warmth"
+    },
+    {
+      "id": "w151",
+      "en": "new",
+      "meaning": "baru",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "nyuu",
+      "ex": "I have a new phone.",
+      "exId": "Saya punya HP baru.",
+      "fam": "news (berita)"
+    },
+    {
+      "id": "w152",
+      "en": "old",
+      "meaning": "tua; lama",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "ould",
+      "ex": "This house is old.",
+      "exId": "Rumah ini tua.",
+      "col": [
+        "years old",
+        "old friend"
+      ],
+      "fam": "older / oldest",
+      "err": "Umur: I am 20 years old."
+    },
+    {
+      "id": "w153",
+      "en": "cheap",
+      "meaning": "murah",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "ciip",
+      "ex": "The food here is cheap.",
+      "exId": "Makanan di sini murah.",
+      "fam": "cheaper / cheapest"
+    },
+    {
+      "id": "w154",
+      "en": "expensive",
+      "meaning": "mahal",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "ik-SPEN-siv",
+      "ex": "That car is expensive.",
+      "exId": "Mobil itu mahal.",
+      "fam": "more expensive",
+      "err": "Lebih mahal = more expensive, bukan expensiver."
     },
     {
       "id": "w157",
       "en": "late",
-      "meaning": "terlambat",
-      "group": "Keadaan & sifat"
+      "meaning": "terlambat; larut",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "leit",
+      "ex": "Sorry, I am late.",
+      "exId": "Maaf, saya terlambat.",
+      "col": [
+        "late for …",
+        "stay up late"
+      ],
+      "fam": "lately (akhir-akhir ini)",
+      "err": "Terlambat ke sekolah = late for school."
     },
     {
       "id": "w158",
       "en": "early",
-      "meaning": "lebih awal",
-      "group": "Keadaan & sifat"
+      "meaning": "awal; pagi-pagi",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "ER-li",
+      "ex": "I wake up early.",
+      "exId": "Saya bangun pagi-pagi.",
+      "col": [
+        "early morning"
+      ],
+      "fam": "earlier"
     },
     {
       "id": "w159",
       "en": "quiet",
-      "meaning": "tenang",
-      "group": "Keadaan & sifat"
+      "meaning": "tenang; sepi",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "KWAI-et",
+      "ex": "The library is quiet.",
+      "exId": "Perpustakaannya tenang.",
+      "fam": "quietly",
+      "err": "Jangan tertukar dengan quite (cukup)."
     },
     {
       "id": "w160",
       "en": "near",
       "meaning": "dekat",
-      "group": "Keadaan & sifat"
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "niir",
+      "ex": "My house is near the school.",
+      "exId": "Rumahku dekat sekolah.",
+      "col": [
+        "near here"
+      ],
+      "fam": "nearby",
+      "err": "Nggak pakai to: near the school, bukan near to the school."
     },
     {
       "id": "w161",
       "en": "far",
       "meaning": "jauh",
-      "group": "Keadaan & sifat"
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "faar",
+      "ex": "The airport is far from here.",
+      "exId": "Bandaranya jauh dari sini.",
+      "col": [
+        "far from …"
+      ],
+      "err": "Jauh dari = far from."
+    },
+    {
+      "id": "w243",
+      "en": "beautiful",
+      "meaning": "cantik; indah",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "BYUU-ti-ful",
+      "ex": "Bali is a beautiful island.",
+      "exId": "Bali pulau yang indah.",
+      "fam": "beauty",
+      "err": "Satu l di akhir: beautiful."
+    },
+    {
+      "id": "w244",
+      "en": "long",
+      "meaning": "panjang; lama",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "long",
+      "ex": "She has long hair.",
+      "exId": "Rambutnya panjang.",
+      "col": [
+        "a long time",
+        "how long"
+      ],
+      "fam": "length"
+    },
+    {
+      "id": "w245",
+      "en": "short",
+      "meaning": "pendek; singkat",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "syoort",
+      "ex": "This is a short story.",
+      "exId": "Ini cerita pendek.",
+      "err": "Orang pendek juga short."
+    },
+    {
+      "id": "w246",
+      "en": "young",
+      "meaning": "muda",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "yang",
+      "ex": "My sister is young.",
+      "exId": "Adikku masih muda.",
+      "col": [
+        "young people"
+      ],
+      "fam": "younger / youth"
+    },
+    {
+      "id": "w247",
+      "en": "sad",
+      "meaning": "sedih",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "sed",
+      "ex": "Why are you sad?",
+      "exId": "Kenapa kamu sedih?",
+      "fam": "sadness"
+    },
+    {
+      "id": "w248",
+      "en": "angry",
+      "meaning": "marah",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "ENG-gri",
+      "ex": "My mother is angry with me.",
+      "exId": "Ibuku marah padaku.",
+      "col": [
+        "angry with someone"
+      ],
+      "fam": "anger"
+    },
+    {
+      "id": "w249",
+      "en": "dirty",
+      "meaning": "kotor",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "DER-ti",
+      "ex": "My shoes are dirty.",
+      "exId": "Sepatuku kotor."
+    },
+    {
+      "id": "w250",
+      "en": "full",
+      "meaning": "penuh; kenyang",
+      "group": "Keadaan & sifat",
+      "pack": 2,
+      "pron": "ful",
+      "ex": "The bus is full.",
+      "exId": "Busnya penuh.",
+      "col": [
+        "full of …"
+      ],
+      "err": "Kenyang juga full: I am full."
+    },
+    {
+      "id": "w251",
+      "en": "think",
+      "meaning": "berpikir; menurut (saya)",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "thingk",
+      "ex": "I think online learning is useful.",
+      "exId": "Menurut saya belajar online itu berguna.",
+      "col": [
+        "I think that …",
+        "think about …"
+      ],
+      "fam": "thought",
+      "err": "Bukan “I am think”. Cukup: I think."
+    },
+    {
+      "id": "w252",
+      "en": "believe",
+      "meaning": "percaya; yakin",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "bi-LIIV",
+      "ex": "I believe that education is important.",
+      "exId": "Saya yakin pendidikan itu penting.",
+      "col": [
+        "I believe that …"
+      ],
+      "fam": "belief",
+      "err": "Ejaannya ie: believe."
+    },
+    {
+      "id": "w253",
+      "en": "opinion",
+      "meaning": "pendapat",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "o-PI-nyen",
+      "ex": "In my opinion, cities are too crowded.",
+      "exId": "Menurut saya, kota-kota terlalu padat.",
+      "col": [
+        "in my opinion",
+        "give an opinion"
+      ],
+      "err": "In my opinion, bukan according to my opinion."
+    },
+    {
+      "id": "w254",
+      "en": "agree",
+      "meaning": "setuju",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "e-GRII",
+      "ex": "I agree with this idea.",
+      "exId": "Saya setuju dengan ide ini.",
+      "col": [
+        "agree with someone",
+        "agree that …"
+      ],
+      "fam": "agreement",
+      "err": "Bukan “I am agree”. Cukup: I agree."
+    },
+    {
+      "id": "w255",
+      "en": "disagree",
+      "meaning": "tidak setuju",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "dis-e-GRII",
+      "ex": "I disagree with this view.",
+      "exId": "Saya tidak setuju dengan pandangan ini.",
+      "col": [
+        "disagree with …"
+      ],
+      "fam": "disagreement",
+      "err": "Bukan “I am disagree”."
+    },
+    {
+      "id": "w256",
+      "en": "idea",
+      "meaning": "ide; gagasan",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "ai-DI-e",
+      "ex": "That is a good idea.",
+      "exId": "Itu ide yang bagus.",
+      "col": [
+        "a good idea",
+        "have an idea"
+      ],
+      "err": "Pakai an kalau sebelumnya: an idea."
+    },
+    {
+      "id": "w257",
+      "en": "reason",
+      "meaning": "alasan",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "RII-zen",
+      "ex": "There are two reasons for this. The first reason is cost.",
+      "exId": "Ada dua alasan untuk ini. Alasan pertama adalah biaya.",
+      "col": [
+        "the reason for …",
+        "the main reason"
+      ],
+      "fam": "reasonable",
+      "err": "Alasan untuk = reason for, bukan reason of."
+    },
+    {
+      "id": "w258",
+      "en": "example",
+      "meaning": "contoh",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "ig-ZAAM-pel",
+      "ex": "For example, many students work part-time.",
+      "exId": "Misalnya, banyak mahasiswa bekerja paruh waktu.",
+      "col": [
+        "for example",
+        "a good example"
+      ],
+      "err": "For example selalu pakai for."
+    },
+    {
+      "id": "w259",
+      "en": "problem",
+      "meaning": "masalah",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "PROB-lem",
+      "ex": "Traffic is a big problem in Jakarta.",
+      "exId": "Kemacetan adalah masalah besar di Jakarta.",
+      "col": [
+        "solve a problem",
+        "a serious problem"
+      ],
+      "err": "Mengatasi masalah = solve a problem."
+    },
+    {
+      "id": "w260",
+      "en": "solution",
+      "meaning": "solusi; jalan keluar",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "se-LUU-syen",
+      "ex": "One solution is better public transport.",
+      "exId": "Salah satu solusinya adalah transportasi umum yang lebih baik.",
+      "col": [
+        "a solution to …",
+        "find a solution"
+      ],
+      "fam": "solve",
+      "err": "Solusi untuk = solution to, bukan solution for."
+    },
+    {
+      "id": "w261",
+      "en": "important",
+      "meaning": "penting",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "im-POOR-tent",
+      "ex": "It is important to learn English.",
+      "exId": "Penting untuk belajar bahasa Inggris.",
+      "col": [
+        "important for …",
+        "it is important to …"
+      ],
+      "fam": "importance / importantly"
+    },
+    {
+      "id": "w262",
+      "en": "result",
+      "meaning": "hasil; akibat",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "ri-ZALT",
+      "ex": "As a result, prices went up.",
+      "exId": "Akibatnya, harga-harga naik.",
+      "col": [
+        "as a result",
+        "the result of …"
+      ]
+    },
+    {
+      "id": "w263",
+      "en": "cause",
+      "meaning": "menyebabkan; penyebab",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "kooz",
+      "ex": "Pollution can cause health problems.",
+      "exId": "Polusi bisa menyebabkan masalah kesehatan.",
+      "col": [
+        "cause a problem",
+        "the main cause of …"
+      ],
+      "err": "Cause = penyebab; because = karena. Jangan tertukar."
+    },
+    {
+      "id": "w264",
+      "en": "benefit",
+      "meaning": "manfaat",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "BE-ne-fit",
+      "ex": "Exercise has many benefits. The main benefit is good health.",
+      "exId": "Olahraga punya banyak manfaat. Manfaat utamanya adalah kesehatan.",
+      "col": [
+        "benefit from …",
+        "the benefits of …"
+      ],
+      "fam": "beneficial"
+    },
+    {
+      "id": "w265",
+      "en": "advantage",
+      "meaning": "keuntungan; kelebihan",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "ed-VAAN-tij",
+      "ex": "One advantage of living in a city is convenience.",
+      "exId": "Salah satu kelebihan tinggal di kota adalah kemudahan.",
+      "col": [
+        "the advantage of …",
+        "take advantage of …"
+      ],
+      "err": "Kelebihan dari = advantage of."
+    },
+    {
+      "id": "w266",
+      "en": "disadvantage",
+      "meaning": "kerugian; kekurangan",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "dis-ed-VAAN-tij",
+      "ex": "The main disadvantage is the cost.",
+      "exId": "Kekurangan utamanya adalah biaya.",
+      "col": [
+        "the disadvantage of …"
+      ]
+    },
+    {
+      "id": "w267",
+      "en": "affect",
+      "meaning": "memengaruhi",
+      "group": "Pendapat & alasan",
+      "pack": 3,
+      "pron": "e-FEKT",
+      "ex": "Social media can affect sleep.",
+      "exId": "Media sosial bisa memengaruhi tidur.",
+      "col": [
+        "affect someone",
+        "affect health"
+      ],
+      "err": "Affect = kata kerja; effect = kata benda (pengaruh). Jangan tertukar."
+    },
+    {
+      "id": "w268",
+      "en": "increase",
+      "meaning": "naik; meningkat",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "in-KRIIS",
+      "ex": "Prices increase every year.",
+      "exId": "Harga naik setiap tahun.",
+      "col": [
+        "increase by 10%",
+        "increase to …"
+      ],
+      "fam": "increase (kata benda: IN-kriis)",
+      "err": "Naik SEBANYAK = increase by; naik MENJADI = increase to."
+    },
+    {
+      "id": "w269",
+      "en": "decrease",
+      "meaning": "turun; berkurang",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "di-KRIIS",
+      "ex": "The number of visitors began to decrease.",
+      "exId": "Jumlah pengunjung mulai turun.",
+      "col": [
+        "decrease by …",
+        "decrease to …"
+      ],
+      "fam": "decrease (kata benda)"
+    },
+    {
+      "id": "w270",
+      "en": "change",
+      "meaning": "berubah; perubahan",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "ceinj",
+      "ex": "The city will change a lot.",
+      "exId": "Kota ini akan banyak berubah.",
+      "col": [
+        "climate change",
+        "make a change"
+      ],
+      "err": "Nggak pakai to: The city will change, bukan will be change."
+    },
+    {
+      "id": "w271",
+      "en": "compare",
+      "meaning": "membandingkan",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "kem-PEER",
+      "ex": "Let’s compare prices in two shops.",
+      "exId": "Yuk bandingkan harga di dua toko.",
+      "col": [
+        "compare A with B",
+        "compared to …"
+      ],
+      "fam": "comparison"
+    },
+    {
+      "id": "w272",
+      "en": "improve",
+      "meaning": "memperbaiki; meningkatkan",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "im-PRUUV",
+      "ex": "Reading helps you improve your English.",
+      "exId": "Membaca membantumu meningkatkan bahasa Inggris.",
+      "col": [
+        "improve skills",
+        "improve the quality of …"
+      ],
+      "fam": "improvement"
+    },
+    {
+      "id": "w273",
+      "en": "reduce",
+      "meaning": "mengurangi",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "ri-DYUUS",
+      "ex": "We should reduce plastic waste.",
+      "exId": "Kita sebaiknya mengurangi sampah plastik.",
+      "col": [
+        "reduce pollution",
+        "reduce the cost"
+      ],
+      "fam": "reduction"
+    },
+    {
+      "id": "w274",
+      "en": "develop",
+      "meaning": "mengembangkan; berkembang",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "di-VE-lep",
+      "ex": "Countries develop at different speeds. Children develop fast.",
+      "exId": "Negara-negara berkembang dengan kecepatan berbeda. Anak-anak berkembang cepat.",
+      "col": [
+        "develop skills",
+        "developing countries"
+      ],
+      "fam": "development"
+    },
+    {
+      "id": "w275",
+      "en": "number",
+      "meaning": "jumlah; angka",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "NAM-ber",
+      "ex": "The number of cars is rising.",
+      "exId": "Jumlah mobil terus naik.",
+      "col": [
+        "the number of …",
+        "a number of …"
+      ],
+      "err": "The number of + benda jamak + is: The number of cars is."
+    },
+    {
+      "id": "w276",
+      "en": "amount",
+      "meaning": "jumlah (yang tak dihitung)",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "e-MAUNT",
+      "ex": "The amount of water is small.",
+      "exId": "Jumlah airnya sedikit.",
+      "col": [
+        "the amount of …"
+      ],
+      "err": "Amount untuk yang nggak dihitung (water, money); number untuk yang dihitung (cars)."
+    },
+    {
+      "id": "w277",
+      "en": "percentage",
+      "meaning": "persentase",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "per-SEN-tij",
+      "ex": "The percentage of students who work is high.",
+      "exId": "Persentase mahasiswa yang bekerja tinggi.",
+      "col": [
+        "a high percentage",
+        "the percentage of …"
+      ],
+      "fam": "percent (%)",
+      "err": "Setelah angka pakai percent: 20 percent, bukan 20 percentage."
+    },
+    {
+      "id": "w278",
+      "en": "average",
+      "meaning": "rata-rata",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "E-ve-rij",
+      "ex": "The average price is higher in the city.",
+      "exId": "Harga rata-ratanya lebih tinggi di kota.",
+      "col": [
+        "on average",
+        "the average …"
+      ]
+    },
+    {
+      "id": "w279",
+      "en": "population",
+      "meaning": "jumlah penduduk",
+      "group": "Data & perubahan",
+      "pack": 3,
+      "pron": "po-pyu-LEI-syen",
+      "ex": "The population of Indonesia is large.",
+      "exId": "Jumlah penduduk Indonesia besar.",
+      "col": [
+        "the population of …",
+        "population growth"
+      ],
+      "err": "Penduduk besar = large population, bukan many population."
+    },
+    {
+      "id": "w280",
+      "en": "government",
+      "meaning": "pemerintah",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "GA-vern-ment",
+      "ex": "The government should build more schools.",
+      "exId": "Pemerintah sebaiknya membangun lebih banyak sekolah.",
+      "col": [
+        "the government",
+        "local government"
+      ],
+      "fam": "govern",
+      "err": "Ada n sebelum m: govern-ment."
+    },
+    {
+      "id": "w281",
+      "en": "society",
+      "meaning": "masyarakat",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "se-SAI-e-ti",
+      "ex": "Technology has changed society.",
+      "exId": "Teknologi telah mengubah masyarakat.",
+      "col": [
+        "modern society",
+        "in society"
+      ],
+      "fam": "social",
+      "err": "Society umum tanpa the: in society."
+    },
+    {
+      "id": "w282",
+      "en": "environment",
+      "meaning": "lingkungan",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "in-VAI-ren-ment",
+      "ex": "We must protect the environment.",
+      "exId": "Kita harus melindungi lingkungan.",
+      "col": [
+        "protect the environment"
+      ],
+      "fam": "environmental",
+      "err": "Lingkungan alam pakai the: the environment."
+    },
+    {
+      "id": "w283",
+      "en": "education",
+      "meaning": "pendidikan",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "e-dyu-KEI-syen",
+      "ex": "Education is the key to success.",
+      "exId": "Pendidikan adalah kunci kesuksesan.",
+      "col": [
+        "higher education",
+        "free education"
+      ],
+      "fam": "educate / educational"
+    },
+    {
+      "id": "w284",
+      "en": "health",
+      "meaning": "kesehatan",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "helth",
+      "ex": "Smoking is bad for your health.",
+      "exId": "Merokok buruk untuk kesehatanmu.",
+      "col": [
+        "good health",
+        "public health"
+      ],
+      "fam": "healthy",
+      "err": "Health = kata benda; healthy = sifat. Healthy food, bukan health food (kecuali maksudnya produk kesehatan)."
+    },
+    {
+      "id": "w285",
+      "en": "technology",
+      "meaning": "teknologi",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "tek-NO-le-ji",
+      "ex": "Technology makes life easier.",
+      "exId": "Teknologi membuat hidup lebih mudah.",
+      "col": [
+        "modern technology",
+        "use technology"
+      ],
+      "fam": "technological"
+    },
+    {
+      "id": "w286",
+      "en": "economy",
+      "meaning": "ekonomi",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "i-KO-ne-mi",
+      "ex": "Tourism helps the economy.",
+      "exId": "Pariwisata membantu perekonomian.",
+      "col": [
+        "the economy",
+        "a strong economy"
+      ],
+      "fam": "economic / economical",
+      "err": "Economy = benda; economic = sifat: economic growth."
+    },
+    {
+      "id": "w287",
+      "en": "company",
+      "meaning": "perusahaan",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "KAM-pe-ni",
+      "ex": "She works for a big company.",
+      "exId": "Dia bekerja di perusahaan besar.",
+      "col": [
+        "work for a company"
+      ],
+      "fam": "companies",
+      "err": "Bekerja di perusahaan = work for a company."
+    },
+    {
+      "id": "w288",
+      "en": "provide",
+      "meaning": "menyediakan; memberikan",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "pro-VAID",
+      "ex": "Schools provide free lunch.",
+      "exId": "Sekolah menyediakan makan siang gratis.",
+      "col": [
+        "provide something for someone",
+        "provide someone with something"
+      ],
+      "fam": "provision"
+    },
+    {
+      "id": "w289",
+      "en": "job",
+      "meaning": "pekerjaan",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "job",
+      "ex": "He is looking for a job.",
+      "exId": "Dia sedang mencari pekerjaan.",
+      "col": [
+        "get a job",
+        "find a job",
+        "full-time job"
+      ],
+      "err": "Job bisa dihitung (a job); work nggak (bukan a work)."
+    },
+    {
+      "id": "w290",
+      "en": "price",
+      "meaning": "harga",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "prais",
+      "ex": "The price of rice is going up.",
+      "exId": "Harga beras sedang naik.",
+      "col": [
+        "high price",
+        "the price of …"
+      ],
+      "err": "Harga naik = the price goes up / rises."
+    },
+    {
+      "id": "w291",
+      "en": "country",
+      "meaning": "negara",
+      "group": "Masyarakat",
+      "pack": 3,
+      "pron": "KAN-tri",
+      "ex": "Indonesia is a large country.",
+      "exId": "Indonesia adalah negara yang besar.",
+      "col": [
+        "developing country"
+      ],
+      "fam": "countries",
+      "err": "Juga bisa berarti pedesaan: in the country."
+    },
+    {
+      "id": "w292",
+      "en": "healthy",
+      "meaning": "sehat",
+      "group": "Keadaan & sifat",
+      "pack": 3,
+      "pron": "HEL-thi",
+      "ex": "Vegetables are healthy.",
+      "exId": "Sayuran itu sehat.",
+      "col": [
+        "healthy food",
+        "a healthy lifestyle"
+      ],
+      "fam": "health"
+    },
+    {
+      "id": "w293",
+      "en": "different",
+      "meaning": "berbeda",
+      "group": "Keadaan & sifat",
+      "pack": 3,
+      "pron": "DI-fe-rent",
+      "ex": "Our cultures are very different.",
+      "exId": "Budaya kita sangat berbeda.",
+      "col": [
+        "different from …"
+      ],
+      "fam": "difference / differently",
+      "err": "Berbeda dari = different from."
+    },
+    {
+      "id": "w294",
+      "en": "same",
+      "meaning": "sama",
+      "group": "Keadaan & sifat",
+      "pack": 3,
+      "pron": "seim",
+      "ex": "We are in the same class.",
+      "exId": "Kami di kelas yang sama.",
+      "col": [
+        "the same as …"
+      ],
+      "err": "Selalu pakai the: the same."
+    },
+    {
+      "id": "w295",
+      "en": "safe",
+      "meaning": "aman",
+      "group": "Keadaan & sifat",
+      "pack": 3,
+      "pron": "seif",
+      "ex": "This area is safe at night.",
+      "exId": "Daerah ini aman di malam hari.",
+      "col": [
+        "safe for …",
+        "feel safe"
+      ],
+      "fam": "safety / safely"
+    },
+    {
+      "id": "w296",
+      "en": "dangerous",
+      "meaning": "berbahaya",
+      "group": "Keadaan & sifat",
+      "pack": 3,
+      "pron": "DEIN-je-res",
+      "ex": "Driving fast is dangerous.",
+      "exId": "Mengebut itu berbahaya.",
+      "col": [
+        "dangerous for …"
+      ],
+      "fam": "danger"
+    },
+    {
+      "id": "w297",
+      "en": "however",
+      "meaning": "namun; akan tetapi",
+      "group": "Penghubung",
+      "pack": 3,
+      "pron": "hau-E-ver",
+      "ex": "Cities have many jobs. However, they are expensive.",
+      "exId": "Kota punya banyak pekerjaan. Namun, biaya hidupnya mahal.",
+      "err": "Biasanya di awal kalimat baru, diikuti koma."
+    },
+    {
+      "id": "w298",
+      "en": "therefore",
+      "meaning": "oleh karena itu",
+      "group": "Penghubung",
+      "pack": 3,
+      "pron": "DHEER-foor",
+      "ex": "Prices are high. Therefore, many people save money.",
+      "exId": "Harga-harga tinggi. Oleh karena itu, banyak orang menabung."
+    },
+    {
+      "id": "w299",
+      "en": "although",
+      "meaning": "meskipun",
+      "group": "Penghubung",
+      "pack": 3,
+      "pron": "ool-DHOU",
+      "ex": "Although it was raining, we went out.",
+      "exId": "Meskipun hujan, kami tetap keluar.",
+      "err": "Jangan pakai although dan but sekaligus dalam satu kalimat."
+    },
+    {
+      "id": "w300",
+      "en": "also",
+      "meaning": "juga",
+      "group": "Penghubung",
+      "pack": 3,
+      "pron": "OOL-sou",
+      "ex": "Exercise is also good for the mind.",
+      "exId": "Olahraga juga bagus untuk pikiran.",
+      "err": "Posisi umum: sebelum kata kerja utama atau setelah am/is/are."
     }
   ],
   "missions": [
@@ -6629,5 +9729,22 @@ window.LANGKAH_CONTENT = {
       "written",
       "menulis"
     ]
+  ],
+  "vocabPacks": [
+    {
+      "id": 1,
+      "title": "100 kata pertama",
+      "description": "Kata yang paling sering dipakai sehari-hari. Mulai dari sini."
+    },
+    {
+      "id": 2,
+      "title": "Kata sehari-hari",
+      "description": "150 kata untuk cerita soal rumah, kota, waktu, dan perasaan."
+    },
+    {
+      "id": 3,
+      "title": "Menuju IELTS",
+      "description": "50 kata untuk berpendapat, menjelaskan data, dan membahas masyarakat."
+    }
   ]
 };

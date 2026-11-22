@@ -77,8 +77,12 @@ test('cadangan dibangun ulang; data asing/angka/tanggal tak valid ditolak',()=>{
   bad=copy();bad.active.index=9;assert.throws(()=>K.validated(bad,content));
   bad=copy();bad.settings.remote='yes';assert.throws(()=>K.validated(bad,content));
 });
-test('161 kata, 8 misi, dan rujukan tidak kosong',()=>{
-  assert.equal(content.vocab.length,161);assert.equal(new Set(content.vocab.map(w=>w.en)).size,161);
+test('300 kata dalam 3 paket, 8 misi, dan rujukan tidak kosong',()=>{
+  assert.equal(content.vocab.length,300);assert.equal(new Set(content.vocab.map(w=>w.en.toLowerCase())).size,300);assert.equal(new Set(content.vocab.map(w=>w.id)).size,300);
+  for(let i=1;i<=161;i++)assert.ok(content.vocab.some(w=>w.id==='w'+String(i).padStart(3,'0')),'ID kata lama tetap ada: '+i);
+  const packs=[1,2,3].map(p=>content.vocab.filter(w=>w.pack===p).length);assert.deepEqual(packs,[100,150,50]);
+  for(const w of content.vocab){assert.ok(w.pron&&w.meaning&&w.ex&&w.exId,'Kartu lengkap: '+w.en);const re=new RegExp('(^|[^A-Za-z’\'])'+w.en.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'(?![A-Za-z])','i');assert.ok(re.test(w.ex),'Contoh memuat kata: '+w.en);}
+  for(let i=1;i<content.vocab.length;i++)assert.ok(content.vocab[i].pack>=content.vocab[i-1].pack,'Urutan paket');
   assert.equal(content.missions.length,8);for(const m of content.missions){assert.equal(new Set(m.options).size,3);assert.ok(m.lines.length&&m.model&&m.why);assert.ok(m.units.every(id=>content.lessons.some(l=>l.id===id)));}
   assert.equal(content.irregular.length,40);
 });

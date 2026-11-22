@@ -10,7 +10,7 @@ _Bagian di bawah ini untuk pengelola website._
 
 Satu aplikasi dengan satu `index.html` dan dua modul:
 
-- **Grammar:** 123 pelajaran, 615 latihan inti, kosakata, dan percakapan awal. Memakai pembaruan bahasa sederhana.
+- **Grammar:** 123 pelajaran, 615 latihan inti, 300 kosakata dalam 3 paket berurutan, dan percakapan awal. Memakai pembaruan bahasa sederhana.
 - **IELTS Writing:** Academic Task 1 dan Task 2, 20 pelajaran, 16 tugas menulis, draf, revisi, catatan salah, dan simulasi. Menggunakan IELTS 19 Academic sebagai buku utama.
 
 ## Buka aplikasi
